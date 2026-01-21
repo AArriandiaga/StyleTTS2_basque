@@ -1,5 +1,9 @@
 This is a modified version of the original code for the Basque language.
+
 The main modifications are:
+- Phonemizer for Basque
+- ASR trained for Basque
+- PLBERT trained for Basque
 
 # StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
 
