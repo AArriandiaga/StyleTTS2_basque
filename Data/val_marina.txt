@@ -1,0 +1,47 @@
+marina/NEU_08909_24k.wav|nAiʂ eta ʂuɾE epAɪa duIɲa iʂAn , oɾAjn artE , eʂ tUt arotasuna eʂAɣutu .|0
+marina/NEU_02765_24k.wav|daɣOeneko aCIlotu ɣuʂtIak askE UPi ðitUʂte , karɡUɾik ɡaβE .|0
+marina/NEU_04539_24k.wav|biʂIPa ðomInikara nOlakoa ðEn eʂAɣutu eta kAlean antOlaPen ditUʂten aʂOketam barEna iβIʎiko ðiɾA .|0
+marina/NEU_04059_24k.wav|bakOjPak beɾE papEɾaɾi ʂEr emAn diOla esAnɡo ʂenUke ?|0
+marina/NEU_06386_24k.wav|barnEaldean ʂEjn kostAldean trumOj ekAjPak iʂAteko eta CinɡOra βotAPeko arIskua ðaɣO .|0
+marina/NEU_08906_24k.wav|aðIβiðeʂ , ondAɾeaɾen ɡajncOko ʂerɡA eðo ewskAði osOko ondAsun Andien ʂerɡA ArmoniʂaPea .|0
+marina/NEU_00837_24k.wav|bEti βeʂAla , pIʂtu irAtia !|0
+marina/NEU_11382_24k.wav|Uʂ diPAɣum plantEamolde Oɾiek , moðU Oretan Eʂ baj tAɣo proβlEma Oren irtEmbiðeɾik .|0
+marina/NEU_09437_24k.wav|nOla βIʂi iʂAn ʂenUten sU Eten ɡaɾAj Uɾa ?|0
+marina/NEU_02265_24k.wav|saɾE soʂIalek eɾAɣin Andia iʂAn dutE Oretan .|0
+marina/NEU_06891_24k.wav|baɲA , ʂEr dA anVIetatea ?|0
+marina/NEU_05381_24k.wav|eʂ tUte iɲOr kalEɾatu .|0
+marina/NEU_02250_24k.wav|bErtan ewɾEkin aβEstu naI βaðUʂu eðo ewɾEnPat ɡAldeɾaɾik baðAwkaʂu , iðAP iEʂaɪeʂu !|0
+marina/NEU_04578_24k.wav|Erialdea Oβeto eʂAɣuPeko awkEɾa βikAɲa ðA .|0
+marina/NEU_01782_24k.wav|anPErkiak eɾE lanA emAten du .|0
+marina/NEU_01334_24k.wav|sindIkatuak salAtu ðu tAlde espEʂialiʂatuek eʂ tUtela βalIaβiðe naIkoɾik indArkeɾia maCIstaɾi Awre eɣIteko .|0
+marina/NEU_03009_24k.wav|ipAr ekIaldeko ajʂe aUla iβIʎiko ðA .|0
+marina/NEU_01453_24k.wav|saɾI oɾi eɾE iɾAβaʂi naI βaðUʂu , baðAkiʂu ʂEr eɣIm beAr duʂUn !|0
+marina/NEU_04343_24k.wav|Awʂotarek baðAkite ɣaʂtEak anAj arEβak diɾEla etA , ondOɾioʂ , Aremanaɾen awrkA aɣErtuko ðiɾA .|0
+marina/NEU_07262_24k.wav|biʂIpem perVOnalak eʂAɣutuko ðitUɣu ɣawrkO tartEan .|0
+marina/NEU_04543_24k.wav|Iɾu astEɾem buɾUan ɡaɪAɾen inɡUɾuan aðOstasuna lorPEaɾen aldE aɣErtu ða minIstroa .|0
+marina/NEU_05248_24k.wav|finAla iɣAndean iʂAnɡo ða .|0
+marina/NEU_09253_24k.wav|eIʂa polItikoa amAjPea eʂImbestekoa ðA , bAke proʂEsua aβIan ɟarPEko .|0
+marina/NEU_04047_24k.wav|musIkaɾi ikUspeɣitik eɾE , ʂElako βiʎAkaeɾa iʂAn du ɣitAraɾekin duʂUn Aremana ?|0
+marina/NEU_06203_24k.wav|erEskate ʂerbIPuak desAɣertutako ɣaɲEɾako maɣrEbtarem biʎA aɾI ðiɾA .|0
+marina/NEU_04323_24k.wav|ajpAtutako iðAʂleek ajmbat litEɾatur pasArte iɾAkuri ondOɾen , ɡAj eʂbErdiɲak propOsatuko ðiʂkIete βErVolaɾiej .|0
+marina/NEU_05391_24k.wav|OPa iʂAnɡo ða naɣUsi leIa Onetan .|0
+marina/NEU_01651_24k.wav|ospItaleek ɟasAten dutEm presIoak ɡoɾA eɣIten ɟarAjPen dU .|0
+marina/NEU_10702_24k.wav|oɾAjn delA ʂorPI Urte , UPi ʂenIom berVOlaɾiPako plAʂaɾi .|0
+marina/NEU_08627_24k.wav|lEjotik lEjoɾa , Ewskaɾaʂ ukAPen duɣU .|0
+marina/NEU_05292_24k.wav|iɾIVi ða eɣUn Andia .|0
+marina/NEU_09740_24k.wav|reAl maðrIʎek , lAw eta ʂeɾO iɾAβaʂi ʂuEn , baɲa e PEn finAleɾa pasAPeko naIkoa iʂAn .|0
+marina/NEU_10815_24k.wav|lUjs fernAndeʂek , Amalaw ɪokAlaɾi ðeβUtatu aɾAʂi ðitU atlEtiken .|0
+marina/NEU_10390_24k.wav|eʂ tA Aw ðembOɾaldi onA iʂAten aɾI , baɲa atlEtikeko erdIʎaɾiak naIaɣo ðU aʂkEm balOɾaʂioa amAɪeɾaɾa artE aPEɾatu .|0
+marina/NEU_10601_24k.wav|eʂ tAɣokiɣu oɾAjn ɡuɾI , aɾAʂoaɾen aldErdi metAfisiko oɾi aʂtErPea .|0
+marina/NEU_04389_24k.wav|normAlean eʂ tIoɣu eCEaɾen antOlaketaɾi ɣarAnPiɾik emAten , estEtikoki Eʂ baða βeinPat .|0
+marina/NEU_05536_24k.wav|iɲOjʂ baɲo ɪarAjPaʎe ɣEiaɣo ðawʂkAte βaɲa estAtuβatuarej alβIste falVUak baɲo eʂ tIʂkiete emAten .|0
+marina/NEU_01786_24k.wav|baða , anImatu ʂajtEʂ ʂEw eɾE eɣIten !|0
+marina/NEU_07302_24k.wav|aβEsti βat eskAɲi ðiO .|0
+marina/NEU_11860_24k.wav|ɡU eʂ kAwðe konfOrme , ɡuɾE iðEɪa βikAɲak erEalitate βiUrPeaɾekim bakArik .|0
+marina/NEU_00337_24k.wav|bIʂia ðA , alAɪa .|0
+marina/NEU_00880_24k.wav|eCEkoen awkEɾaɾik arɡIenak iʂAn diɾA .|0
+marina/NEU_01526_24k.wav|lEku aldAketaʂ ɡaɲEɾa , ustEkaβe ɣEiaɣo iʂAnɡo ða eðIʂio Onetan .|0
+marina/NEU_01276_24k.wav|ʂerɡAtik baβEs ʂentrOetako aðInɡaβeak konVUmo eta oldArkortasun aɾAʂo Andiaɣoekin irtEten diɾA ?|0
+marina/NEU_10224_24k.wav|eUnka miʎA urtEtik Ona , anImalia espEʂie βakOjPak , moðU ðesbErdiɲean antOlatu ðu famIlia .|0
+marina/NEU_01158_24k.wav|elUr fAlta eskI ðembOɾaldiaɾen Asieɾa aPEɾaPen aɾI ðA .|0
+marina/NEU_08910_24k.wav|kE ʂuɾIʃkak , kE βElPaɾi UPi ðiO lEkua , ajnɡEɾuek ʂitAlej nOla .|0
