@@ -1,499 +1,499 @@
-female/sonora/marina/NEU_01550_24k.wav|sektOɾeko itUriek aʂAldu ðutEneʂ , preʂIoak biɣAreneʂ ɟarAɪan eɣIn du ɣoɾA .|0
-male/sonora/alex/NEU_03502_24k.wav|ekImenak iʂAndako arAkasta ikUsita , berVIo βerIen ʂAjn ɡeɾAPen ɡaɾA !|1
-female/sonora/marina/NEU_05953_24k.wav|aplIkaʂioa apAl βatEn iCUɾa ðU eta ðendAɾa sarbIðea eɾE ðA .|0
-male/sonora/alex/NEU_04257_24k.wav|Ala eɾE , irlA ɪOPen aɾI ðEn sutEko frontEetako βat kontrOlaPea lortU ðutE .|1
-female/sonora/marina/NEU_07621_24k.wav|Iɾu ðIsko iʂAnaɣatik , lAn osO βat eɣIn duʂUe , eʂ tA Ala ?|0
-male/sonora/alex/NEU_07025_24k.wav|sEkula eʂ tUt eɣIn Orembeste iʂErdi !|1
-female/sonora/marina/NEU_11562_24k.wav|etA , bukAPeko , arɡI UPi naI ðiʂUt bEste kOntuco βAt .|0
-male/sonora/alex/NEU_03149_24k.wav|Eɣia esAteko , Eʂ .|1
-female/sonora/marina/NEU_10219_24k.wav|kartEl iɾAβaʂlea , Iɾuɾeun eta Oɣejta βI Awtaɣajɾen artEtik awkEɾatu ʂutEn epAjmaajkiðeek .|0
-male/sonora/alex/NEU_03542_24k.wav|iɣAndean eɣOeɾak OβePeɾa eɣInɡo ðu .|1
-female/sonora/marina/NEU_11974_24k.wav|Umeak ɡajtAsunak baðItu , naIaɣo ðU futbOla atlEtismoa βaɲO .|0
-male/sonora/alex/NEU_05666_24k.wav|awkEɾaketa eɣIteko ðatAk Awreɾaɣo ɪakIɲaɾaʂiko ðiɾA .|1
-female/sonora/marina/NEU_06429_24k.wav|ɡAwʂa Asko ikAsi βeAr ditUɣu oɾAjndik .|0
-male/sonora/alex/NEU_02031_24k.wav|marAʂki βIʂiðunetako filmE franPIar Onetam bI iʂAkiek elkAri nOla laɣUnPen diOten kontAPen da .|1
-female/sonora/marina/NEU_03862_24k.wav|denEtaɾik eɣOnɡo ða , iʎEak pUntan ɟarPEko eta ðAnPa eta saltOka iβIlPeko eɾE !|0
-male/sonora/alex/NEU_06619_24k.wav|Emendik Awreɾako ðolUan eɾE , laɣUnPa eskAɲi ðiE .|1
-female/sonora/marina/NEU_06776_24k.wav|astEaɾi ɣIɾo eɣOnkoraɾekin eta ɣoʃOaɾekin emAnɡo ðiOɣu Asieɾa .|0
-male/sonora/alex/NEU_00171_24k.wav|ɡoʂOɣinPa eta artIsawPa aʂOkan klawsUɾako komEntuetan eɣIten diɾEm proðUktuak sAlduko ðiɾA .|1
-female/sonora/marina/NEU_08276_24k.wav|bI Urte ɣeɾOaɣo , bEste lAw istrIpu iʂAn ʂiɾEn uðAn ʂeAr .|0
-male/sonora/alex/NEU_11721_24k.wav|boʂkEtan , eUn eta Amaiɾu βOto iʂAn ʂiɾEn abstEnPioaɾen aldE , bAt kOntra eta Amaβost abstEnPio βatU ʂiɾEn .|1
-female/sonora/marina/NEU_03394_24k.wav|lAw ɣaɾAjpen eta βerdInketa βAt eskUɾatu ðitUʂte armAɣiɲek aʂkEm bOs ɟardUnaldietan .|0
-male/sonora/alex/NEU_08549_24k.wav|awr CikIej kontAPea , awr Andiej eðo elduej kontAPeaɾen desbErdiɲa otE ðA ?|1
-female/sonora/marina/NEU_04137_24k.wav|marCOa βitArtekoak baɲo eʂ tItuʂte iɾAɣarita .|0
-male/sonora/alex/NEU_06773_24k.wav|oɾAjnɡoʂ , ikErketako itUriek eʂ tUte ɪakIteɾa emAn aCIlotutakoen inɡUɾuko ðatUɾik .|1
-female/sonora/marina/NEU_02867_24k.wav|ɡuCIeneko ʂerbIPuak eʂArPeɾa βeArPen duEn aɣInduaɾen kOntra Eleɣitea awrkEʂtuko ðutEla aðIeɾaʂi ðutE sindIkatuek .|0
-male/sonora/alex/NEU_04022_24k.wav|Ildo Oretatik , ɡAwr eɣUn indArean dawðEn seɣUrtasun distAnPiak ʂajnPEko eskAtu ðiEte Eritarej .|1
-female/sonora/marina/NEU_00708_24k.wav|ɡaɲEɾa , eʂEʂaɣum batEm biðEoak ɡertAkaɾia larItu eɣIn ʂuEn .|0
-male/sonora/alex/NEU_05733_24k.wav|eʂAwɣariak betEPen ditUena ðA perfEktua .|1
-female/sonora/marina/NEU_10968_24k.wav|baðAwðe , noskI , bEs seʎEr iðAʂleak apArte UPita .|0
-male/sonora/alex/NEU_03800_24k.wav|bEste osAɣaj βAPuk , kamEɾak eta proʂEsaðoɾeak esAteɾako , sakOnki aʂtErtu ðitUʂte .|1
-female/sonora/marina/NEU_06870_24k.wav|saɾEkaðetan , leɣEʂ kampOko softUaɾeak biʎAPen ditUʂte ordEnaɣaʎuetan .|0
-male/sonora/alex/NEU_11753_24k.wav|awrEko Urteetan , marCOɾa artE eɾE , iɾAwn omEn dU paɣOCak .|1
-female/sonora/marina/NEU_04678_24k.wav|ʂEr nOlako eɾAɣiɲa ðutE ɣuɾE inɡUɾukoek eɣIten ditUʂten ekInPek ɡuɣAn ?|0
-male/sonora/alex/NEU_00002_24k.wav|emprEsa awek ɡiʂArtean dutEn ɡarAnPiaʂ eta krisIalditik irtEteko onɡIʂateaɾen estAtuaɾem biðEɣaritasunaʂ aɾItuko ða .|1
-female/sonora/marina/NEU_08344_24k.wav|ewskAl awtOnomia erkIðeɣoa , formUla oɾi awkEɾatu ʂuEn leEnenɡo awtOnomia erkIðeɣoa iʂAn ʂen .|0
-male/sonora/alex/NEU_05033_24k.wav|partIkulen fisIkako eɾEðu estAndarak awrEjkusitako eta oɾAjndik aPEman ɡaβE ʂeɣOen aʂkEm partIkula ðA .|1
-female/sonora/marina/NEU_00174_24k.wav|eɾAβilPaʎeek meACuak eʂAβaPen saɪAPen diɾEnean aplIkaʂioaɾem bitArteʂ , liʂEnPia βat eɾOstea eskAPen diEte .|0
-male/sonora/alex/NEU_04008_24k.wav|ʂerɡAtik iʂAnɡo ðiɾA monArkikoak iɲOrk eʂ pAðie Ori βuɾUʂ eʂEr aʂAldu ?|1
-female/sonora/marina/NEU_01432_24k.wav|miʎA eskEr ɡuɾE leIaketam pArte Artu ðuʂUen ɡuʂtIoj !|0
-male/sonora/alex/NEU_07280_24k.wav|norbAjtek penVAPen Al dU Awteskundeak normAltasuneʂ eɣIteko awkEɾa ðaɣOela ?|1
-female/sonora/marina/NEU_05750_24k.wav|Ona Emen Eritarek arɡItuko ðitUʂten ʂalAnPetako βAPuk .|0
-male/sonora/alex/NEU_01742_24k.wav|mEʂulaɾiPa ʂerbIPuaɾen nortAsuna ordEʂkaPen du iɾUʂureʂko ʂerbIPu Orek eɾAβilPaʎeen ʂembAjt datU perVOnal lorPEko asmOʂ .|1
-female/sonora/marina/NEU_10087_24k.wav|ɡaɾAj eðErak Al diɾA awek poEsiaɾenPat ?|0
-male/sonora/alex/NEU_01970_24k.wav|nOla βIʂi iʂAn ʂenUen ɟaɪAlditik eɣIndako βiðEa ?|1
-female/sonora/marina/NEU_04942_24k.wav|Ortik Awreɾa , eʂ tAɣo eʂEr eɾAβakita .|0
-male/sonora/alex/NEU_07892_24k.wav|bI awek iʂAnɡo ðiɾA faβOɾito naɣUsiak .|1
-female/sonora/marina/NEU_00175_24k.wav|salnEwrien aʂkEm beEɾakaðak petrOlio ɣordIɲak naʂIoarteko merkAtuetan iʂAndako βalIo ɣalEɾaɾekim batEɾa ɣertAtu ðiɾA .|0
-male/sonora/alex/NEU_03187_24k.wav|nIk nEwk eʂIn iʂAn nuEn ewskAl eskOlan ikAsi , deβEkatuta ʂeɣOelako .|1
-female/sonora/marina/NEU_02535_24k.wav|ondOɾioʂ , taʃI ɣeltOkia lEku βeɾEan iʂAnɡo ða ɪaɪAldian ʂeAr .|0
-male/sonora/alex/NEU_06716_24k.wav|bloɣEtan eta eɣUɾaldi nAiʂ trafIkoaɾen inɡUɾuko alβIsteetan eɾE βisItaɾi kopUɾua naβArmen Aʂi ða .|1
-female/sonora/marina/NEU_11261_24k.wav|Oreɣatik dA posIβle , awrEko sinEsmenak osO βeɾAndu artE iɾAwtea .|0
-male/sonora/alex/NEU_11921_24k.wav|eʃEkutiβoak , santIaɣo osAsun sajlβUɾu oIa propOsatu βaʂUen eɾE , konVEʎu polItikoak e PUen onArtu .|1
-female/sonora/marina/NEU_10065_24k.wav|aɣIre oɪArPuara , ewɾOpako CapElketetan iʂAnɡo ða βiAr .|0
-male/sonora/alex/NEU_03711_24k.wav|ekOloɣismoaɾen aldEko ɪarEɾa sendOa aɣErPen Eʂ tutEm perVOnak leEraɾaʂi eɣIten ditUʂte iɾAɣarkietan .|1
-female/sonora/marina/NEU_06686_24k.wav|elkAri βesArkaða βatE ðO βEste emAn diOte aʂkEnean .|0
-male/sonora/alex/NEU_08023_24k.wav|biʂIPa osOan eʂ tUt amEVetan sinEVi , baɲa amEV Artam bAj , sinEVi eɣIn naI iʂAn nuEn .|1
-female/sonora/marina/NEU_03951_24k.wav|ɟardUeɾa fisIkoan eta kiɾOl ʂiEnPietan liʂEnPiatua ðA βaɲa aðmInistraʂioan daβIl lanEan .|0
-male/sonora/alex/NEU_07998_24k.wav|ondAsum perVOnal uɣAɾi eta βalIo sentImental Andiko ʂembAjt ɡAj ðesAɣertu ʂiPAjʂkion .|1
-female/sonora/marina/NEU_11548_24k.wav|ʂe akOrdio eðo propOsamen lortU aAl dA komUnean ?|0
-male/sonora/alex/NEU_00499_24k.wav|bitartean , normAltasuneɾa iPUlPen aɾI ðiɾA kaltEtutako lEku ɣeIenetan .|1
-female/sonora/marina/NEU_08186_24k.wav|sutE βatEk eUn Ektaɾea βAso , landA , eta sasI kiskAli ðitU nafAroan .|0
-male/sonora/alex/NEU_08719_24k.wav|awtOaɾen konfIɣuɾaʂioa eɣOkia ʂEn , eta osO erEɣulara iʂAn da sAɪo ɣuʂtIan ʂeAr .|1
-female/sonora/marina/NEU_05435_24k.wav|uðAko opOrak amAjtu ðiɾA .|0
-male/sonora/alex/NEU_02252_24k.wav|pasEalekua eɾOrPeaɣatik ospItaleɾatuta ðawðEn ʂAʂpi perVOnetatik bat ʂajnPA βeɾEʂien unItatean daɣO .|1
-female/sonora/marina/NEU_10887_24k.wav|nOla lortU ʂuEn kolOɾe oɾi , nOla marɡOtu otE ʂuEn Ajm miIse Andia , eta nOla lortU otE ʂuEn Ajmbesteko ʂeAʂtasuna ʃeEtasunetan .|0
-male/sonora/alex/NEU_02382_24k.wav|oɾEka βiʎAtu βeAr dA .|1
-female/sonora/marina/NEU_06285_24k.wav|aplIkaʂioaɾen Elβuɾua ɣiʂArtea OβePea ðA , EʂkunPa sistEmak sostEnɡatuʂ Umeen ɡaɾApeneɾako .|0
-male/sonora/alex/NEU_01869_24k.wav|Ar eʂAʂu pArte Urenɡo sAɪoko leIaketan !|1
-female/sonora/marina/NEU_01538_24k.wav|ɡeldIaɾaʂi ostEan , aɣEnteek maɾIuana usAjn Andia aPEman ʂutEn iβIlɣaʎuan .|0
-male/sonora/alex/NEU_01261_24k.wav|eʂ tUɣu amOɾe emAnɡo .|1
-female/sonora/marina/NEU_02854_24k.wav|iɣOeɾa Onen ondOɾioʂ Ipoteken kuOtak ɡaɾEstitu eɣInɡo ðiɾA .|0
-male/sonora/alex/NEU_04915_24k.wav|bIʂi ɣuʂtIɾako ðiɾA eta Orek eɾAβakiPeko askAtasun Andia emAten diEla ðiɾUði .|1
-female/sonora/marina/NEU_10674_24k.wav|ʂEr supOsatu ðiʂU Orek iPUlpena eɣItean ?|0
-male/sonora/alex/NEU_02497_24k.wav|ondOɾem prenVAwrekoan aʂAldu ðu osO poʂIk daɣOela βiʎEɾaɾen emAjPaɾekin .|1
-female/sonora/marina/NEU_02958_24k.wav|bildUma awsArta atEɾa ðu ðisEɲaPaʎe Onek eta Oretaɾako ʂinEma mundUko klAsikoetan inspIɾatu ða .|0
-male/sonora/alex/NEU_04801_24k.wav|ɡakOa ðefEnVako eta eɾAsoko ɪokOaɾen artEko oɾEkan daɣO .|1
-female/sonora/marina/NEU_06226_24k.wav|bErtan onlAjn erEputaʂioaɾen etOrkiʂunaɾi βuɾUʂ eta profEsional βerIen lAm mundUɾaPeaɾi βuɾUʂ eʂtAβajðatuko ða .|0
-male/sonora/alex/NEU_00357_24k.wav|eʂ tAkit , baða .|1
-female/sonora/marina/NEU_00887_24k.wav|kaʂEtaɾi awstrAliar bat ospItaleɾa eɾAmam beAr iʂAn dutE .|0
-male/sonora/alex/NEU_00497_24k.wav|desEɣitea ewskAl ɣiʂArteaɾi eta ɣiʂAteɾiaɾi ʂOr ʂiEla Uste ðu aɣIntaɾiak .|1
-female/sonora/marina/NEU_09123_24k.wav|eʂ tA ikUsi , Amarkaðak aIPean , ewskAl pUnk oI βAPuk baɲo krItiko ʂorOP eta urIkiɣaβeaɣoɾik .|0
-male/sonora/alex/NEU_01317_24k.wav|Oreʂ ɡAjn , suβstAnPia ʂuɾIðum polVAk eɾE awrkItu ðitUʂte .|1
-female/sonora/marina/NEU_08533_24k.wav|naI ta naI Eʂ , teEɾaneɾako βiðEa iCIta ðaɣO , iβIlɣaʎu ɣuʂtIenPat .|0
-male/sonora/alex/NEU_05517_24k.wav|eɣUn Oretan , litrOko piCAr bakOjPeko βikInɡoen kaskO βat opAɾituko ðutE antOlaPaʎeek .|1
-female/sonora/marina/NEU_07692_24k.wav|oɾi uðAʂken Onetam bErtan iʂAn litEkeela kontAtu ðu βatEɾia ɪoPAʎeak .|0
-male/sonora/alex/NEU_04666_24k.wav|ʂeAʂki , lAw milIoj ewɾO βanAtu ðiɾA βI Eriotan .|1
-female/sonora/marina/NEU_10367_24k.wav|perVOnak , bekAtutik Irten eɣIm beAr du , eta urAV oɾi oɾAjn emAm beAr dU , eʂ tU βalIo ɣeɾOko uʂtEak , aPEɾaPeak eʂ pAjtu iɲOjʂ onIk ekArPen .|0
-male/sonora/alex/NEU_04235_24k.wav|Ordu erdIɾo alCAPen dutE βlokEoa .|1
-female/sonora/marina/NEU_08112_24k.wav|aðmInistraʂioak eʂ tU seɾIo ArPen ɡAj Aw oɾAjndik .|0
-male/sonora/alex/NEU_01200_24k.wav|traðIʂioa mantEndu ala Awreɾa eɣIm beArko ɣenUke kasU Awetan ?|1
-female/sonora/marina/NEU_07517_24k.wav|bI βiʎEɾa eɣInɡo ðiɾA ɣAwr .|0
-male/sonora/alex/NEU_00570_24k.wav|Ajn ʂuʂEn eɾE , Iɾuɣarem biðEo ikUsiena ðA Aw .|1
-female/sonora/marina/NEU_10571_24k.wav|iCUɾa eɾAkarɡaria , ʂapOɾe aɾIɲa , eta ukItu Eʂ osO trinkOa .|0
-male/sonora/alex/NEU_06813_24k.wav|ɡeɾO , ʂuʂEnean eʂIɲeʂkoa eɣIten ʂajt awkEɾak emAten Eʂ tiʂkIðatelako .|1
-female/sonora/marina/NEU_05840_24k.wav|bEste erElatoa βeldUraɾena ðA .|0
-male/sonora/alex/NEU_01190_24k.wav|ʂerɡAtik betIkotu naI iʂAn duʂU ðAnPa lAm batEn sormEn lanA ?|1
-female/sonora/marina/NEU_03650_24k.wav|ʂundAketetan aPEman dutEm petrOlioaɾen kalItate eta βolUmen eskAsaɣatik UPi ðitUʂte βErtam beEɾa βiʎAketa lanAk .|0
-male/sonora/alex/NEU_03543_24k.wav|nOjʂ eɾAβaki ʂenUten liβUɾua eɣItea ?|1
-female/sonora/marina/NEU_11899_24k.wav|ojU eɣIn ʂuEn , eta awtOa βat batEan aPEɾa Irten ʂen kolpEan .|0
-male/sonora/alex/NEU_02029_24k.wav|kiɾOlaɾi feðEɾatu βAt leIatu ðajtEke ?|1
-female/sonora/marina/NEU_03893_24k.wav|eɾA βeɾEan , awʂIpetuaɾi βeIm beIɲeko askAtasuna eʂAri ðiO epAʎeak .|0
-male/sonora/alex/NEU_03927_24k.wav|bEsteak bEste , osAsun eta ɪustIʂia ʂerbIPuen koOrdajnketa propOsatu ðutE emprEsaβuɾuek .|1
-female/sonora/marina/NEU_06986_24k.wav|indArak nondIk atEɾaPen ditU awrkAɾiak , lesIoak eta eVIpenak ɡajndIPeko ?|0
-male/sonora/alex/NEU_04548_24k.wav|ʂAʂpi seɣUndu iʂAm beAr ditU , ɡuCIeneʂ .|1
-female/sonora/marina/NEU_09006_24k.wav|aβUʂtuan ɡaldUtakoa βerEskuɾatu ðu Eɣo ewskAl Ericoko lancO merkAtuak .|0
-male/sonora/alex/NEU_05858_24k.wav|eɾA βeɾEan , ewskAl eɣIʎe klAsikoej eɣInɡo ðiE omEnaldia eðIʂio Onek .|1
-female/sonora/marina/NEU_05627_24k.wav|ɟendArmeek kolpEka eɣIn diE Awre .|0
-male/sonora/alex/NEU_08226_24k.wav|ɟOsu ɪOn imAʂ , ɟelPAleem presIðenteak , arɡI UPi ðiO olAnoɾi .|1
-female/sonora/marina/NEU_07974_24k.wav|misIo βatEan anka sartU ðuEneʂ , aðmInistraʂioko lanEtan daβIl oɾAjn .|0
-male/sonora/alex/NEU_05864_24k.wav|ɡOjʂaldeko βoʂkEta ɣarAnPiVua iʂAn da osO , erEpuβlikanoek erEforma βlokEaPea ekIðin dutElako ðemOkratek .|1
-female/sonora/marina/NEU_06467_24k.wav|erlEak ɟAten ditU , eta erlEʂaɲak eVIta ðawðE aɾAʂoaɾekin .|0
-male/sonora/alex/NEU_07245_24k.wav|iβIlɣaʎuaɾem malEtateɣian awrkItu ðutE ðroɣA aɣEnteek , UVean onPIɾatutako βeðEɾaPi polVAtan .|1
-female/sonora/marina/NEU_08497_24k.wav|biAr arAValdeko seɪEtan asiko ðiɾA fEstak , kampAɪen eta CaplIɣuen OVaɾekin .|0
-male/sonora/alex/NEU_04077_24k.wav|Ondo ðawkAla Onek buɾUa !|1
-female/sonora/marina/NEU_08960_24k.wav|dEna ðEn , Orek e lUke ʂertAn ondOɾioɾik iʂAm beAr ewskAl prEsoen awʂIan .|0
-male/sonora/alex/NEU_04688_24k.wav|kaʂEtaɾiaɾen iβIlβiðe profEsionala eta βeɾE aldEɾik perVOnalena eʂAɣutuko ðutE .|1
-female/sonora/marina/NEU_04776_24k.wav|baða ordUβete βeɣIɾik kEnPen Eʂ tiðAʂula !|0
-male/sonora/alex/NEU_03863_24k.wav|Ajmbeste iʂEmbuɾu emAn ditUen lEɣeak eɾAβilPaɪeenɡan ʂEjn eɾAɣin iʂAnɡo ðuEn aʂtErtu ðutE .|1
-female/sonora/marina/NEU_10298_24k.wav|ɡiʂArteaɾen kontrOleɾako CoCOnɡiʎo UVak , Askoɾen ustEʂ .|0
-male/sonora/alex/NEU_00915_24k.wav|epAjketa ɣAwr amAjtuko ða aðItuen CostEnaɾekin eta aldEem beIm betIko ondOɾioekin .|1
-female/sonora/marina/NEU_06920_24k.wav|ɡaɲEɾa , betAwrekoak tolEsɡariak iʂAnɡo ðiɾA , eðOʂejn fundAtan sartU aAl iʂAteko .|0
-male/sonora/alex/NEU_01652_24k.wav|oɾietako βIk kaltE Andiak iʂAn ditUʂte , baɲa ɣarEk eʂ tUte iɲOr ʂawɾItu .|1
-female/sonora/marina/NEU_06508_24k.wav|proβA Oɾiek beIm beIɲean ɡeldIaɾaʂi ʂitUʂten , ajmbat espEʂialitatetan irEɣulartasunak aPEman ʂitUʂtelako .|0
-male/sonora/alex/NEU_07697_24k.wav|baɲa eʂ tA Orela .|1
-female/sonora/marina/NEU_06953_24k.wav|mundUa ikUsten aɾI ðA .|0
-male/sonora/alex/NEU_06865_24k.wav|enPUn , ɡUk Emen lanA ðuɣU eɣIteko !|1
-female/sonora/marina/NEU_07331_24k.wav|alaβer , ɡOjʂaldean asi ðiɾA ɣasOlina βAnaPen .|0
-male/sonora/alex/NEU_07455_24k.wav|eɣUneko βerIaɾen lEkutik ʂuʂEneam bAt eɣIten saɪAtuko ðiɾA .|1
-female/sonora/marina/NEU_06235_24k.wav|aðIɲekoen kasUan , ɡomEndaɣaria ðA konfIanPaʂko norbAjt bErtan iʂAtea .|0
-male/sonora/alex/NEU_02181_24k.wav|beɾaʂ , beInɡoaɣatik baða eɾE , iʂEβa poʂIk ikUsiko ðuɣU !|1
-female/sonora/marina/NEU_07122_24k.wav|bestalde , seɣUrtasun kamEɾen iɾUðiak aʂtErtuko ðitUʂte , aʂtArna βerIem biʎA .|0
-male/sonora/alex/NEU_01605_24k.wav|balIaβiðeak muɣAtuak diɾA βEti .|1
-female/sonora/marina/NEU_01311_24k.wav|ɡaɲEɾa , bOs ɡOl eɣIn ditU .|0
-male/sonora/alex/NEU_04552_24k.wav|anPA ðenEʂ , bAseria UVik ʂeɣOen eta emAkumea ɣawA iɣAɾoPen aɾI ʂEm bErtan .|1
-female/sonora/marina/NEU_07969_24k.wav|baɲa ʂErk bulPAPen diE ɣAwr eɣUnɡo ɣaʂtEej tAlde βatEko eðo βEsteko kIðe iʂAten ?|0
-male/sonora/alex/NEU_08443_24k.wav|ospItaleko aðmInistraʂio konVEʎuak , nEwri oɾi eʂ tU oɾAjndik boʂkAtu .|1
-female/sonora/marina/NEU_03441_24k.wav|Amar kasUtatik ʂAʂpi emAkumeak diɾA .|0
-male/sonora/alex/NEU_01826_24k.wav|berIkunPen artEan , delItu oɾienɡatik kondEnatutako perVOnen ʂiɣOrak betEPeko βaldInPak ɡoɣOrtuko ðitU aɾAwðiak .|1
-female/sonora/marina/NEU_02436_24k.wav|eɣUɾaldi arɡIa iʂAnɡo ða naɣUsi .|0
-male/sonora/alex/NEU_09338_24k.wav|mAʎa perVOnalean eɾE , konkIstaPaʎePat Al duʂU ʂewɾE βuɾUa ?|1
-female/sonora/marina/NEU_08911_24k.wav|emAkumeak , Iɾi oɾi imAxinaPeɾa eldu βeAr dU , posIβle ðEna polIki polIki eta βulPAðaʂ bulPAðaʂ ʂaβAlduʂ .|0
-male/sonora/alex/NEU_04267_24k.wav|Aɾaɣia βEste proðUktu βaPUekin ʂuʂEneko kontAktuan ʂeɣOen , iɲOlako βaβEsik ɡaβE .|1
-female/sonora/marina/NEU_08481_24k.wav|ikUsi eɾE , ikUsi nitUem bI ofIʂial potOlo ɣOnak alCAtu , eta iʎE βat eɾAwʂten ɡiʂOnaɾi emAteko .|0
-male/sonora/alex/NEU_05717_24k.wav|eʂ tUɣu maɣIa eɣIten .|1
-female/sonora/marina/NEU_06612_24k.wav|keCUp eðo tomAte salVEtan ?|0
-male/sonora/alex/NEU_09818_24k.wav|esnAtu eɣIn nAw oEɾa sarPEan , biʎUʂtu eta laʂtAneʂ bustI ðit ɡOrpuP osOa .|1
-female/sonora/marina/NEU_08590_24k.wav|aðIβiðeʂ , APekoʂ Awreɾa ikUs dajtEʂke liβUɾucoɾa Eɣan iPUlPen lurEɾa eɾOɾitako orIak .|0
-male/sonora/alex/NEU_09348_24k.wav|fernAndo moɾIʎo aʂpEjtiko Eri aldIʂkaɾian kolAβoɾaPaʎe ðA .|1
-female/sonora/marina/NEU_00147_24k.wav|sEj eɣUneʂ aɣEraldi puβlIkoɾik eɣIn ɡaβE eɣOn ondOɾen iɾAɣari ðu eɾAβakia .|0
-male/sonora/alex/NEU_00254_24k.wav|bEsteak bEste , ɟustIʂiaɾen eta memOɾia Istoɾikoaɾen aldEko aldAriak ojUkatu ðitUʂte .|1
-female/sonora/marina/NEU_11704_24k.wav|dIskoa βaɲo leEn , leEnenɡo sinɡEla ɪarIko ðutE salɣAj , Il Onen Amaʂaʂpian .|0
-male/sonora/alex/NEU_09523_24k.wav|frujtU CAr Uɾa ʂuAjʂ ɡajʂtO βatEk baɲo eʂIn ʂeʂAkeen emAn .|1
-female/sonora/marina/NEU_06710_24k.wav|baɲa nOla eɾAɣiten du aɾAʂo Orek perVOna Orem biʂImoðuan ?|0
-male/sonora/alex/NEU_06898_24k.wav|bEste βiAk onIk dawðE .|1
-female/sonora/marina/NEU_01850_24k.wav|partIða ɣuʂtIetako Elβuɾua ɪokOan daɣOen ɡuʂtIa eskUɾaPea iʂAm beAr dA .|0
-male/sonora/alex/NEU_11937_24k.wav|alAjn , ewɾOðiputatuak , baɪOna , anɡElu eta miAriPe Eri erkIðeɣoaɾen leEndakaɾi karɡUa uʂtEko asmOa aʂAldu ðu .|1
-female/sonora/marina/NEU_02809_24k.wav|anIma ʂajtEʂ bErtan eɣInɡo ðen ɟajɾA etOrPen !|0
-male/sonora/alex/NEU_11003_24k.wav|Ur OPetam bustItako komprEsak , iʂOʂ polVA eðo iʂOʂ koskOrak ipInPea komEni iʂAten da .|1
-female/sonora/marina/NEU_05884_24k.wav|defEnVa portUɣaldarak e PUen ɟOaneko partIða ɪokAtu ʂiɣOrtuta eɣOn ʂElako .|0
-male/sonora/alex/NEU_01610_24k.wav|aʂAlekoa ðA mimbIʂia ɣuʂtIen artEan oIkoena .|1
-female/sonora/marina/NEU_01239_24k.wav|telEfonia muɣIkoreko lIneak kontrAtatu eta finAnPa eɾAkundeetan kOntuak iɾEkiPen ʂitUʂten dokUmentu falVUekin .|0
-male/sonora/alex/NEU_03702_24k.wav|OndarPan eðo iɣEɾilekuan soɾOslea topAPen Eʂ paðUʂu , ʂawðE lasAj !|1
-female/sonora/marina/NEU_00826_24k.wav|eCEam bEti ʂerbAjt eɣIteko βaʂEn , ordea !|0
-male/sonora/alex/NEU_07446_24k.wav|bajta ɣolEɣiʎe naɣUsia eɾE .|1
-female/sonora/marina/NEU_01584_24k.wav|beɾaʂ , datOʂen Iɾu eɣUnotam musIkaʂ ɡoʂAPea βEsteɾik eʂ tA fAlta !|0
-male/sonora/alex/NEU_04346_24k.wav|Aw βAj e nUela ʂuɣAndik espEɾo !|1
-female/sonora/marina/NEU_03773_24k.wav|iʂUɣari aVEɣin ditUt awrak eta sEme alAβa ɣEiaɣo iʂAn naI ðitUt .|0
-male/sonora/alex/NEU_01228_24k.wav|Islandiarek bertAko βAnkuek aPEriko Eritarej iɾUʂuraɾem bitArteʂ kendUtako ðIɾua iPUlPea βaʂtErtu ðutE erEfeɾendumean .|1
-female/sonora/marina/NEU_02772_24k.wav|aʂtErketaɾiek betE βeArko ðitUʂte antOlaPaʎeek ʂeAʂtutako preβEnPio ɪarAjβiðeak eta norbEɾaɾen Iɣieneɾako nEwriak .|0
-male/sonora/alex/NEU_01019_24k.wav|ArPekoðunek propOsatutako nEwriak onArPen ditUʂten ala Eʂ eɾAβaki βeAr dutE ɣreʂIarek iɣAndeko erEfeɾendumean .|1
-female/sonora/marina/NEU_09417_24k.wav|ɟAjnkoak , lAw ɣaʂtE aɪej ɪakInduɾia eta aðImena emAn ʂiʂkIen iðAʂki eta ɪakInPa oɾO ulErPeko .|0
-male/sonora/alex/NEU_00031_24k.wav|ɡorpUʂkiak ɡiʂAkienak diɾEla Ia seɣUɾuPat ɟO ðutE .|1
-female/sonora/marina/NEU_10194_24k.wav|komUnikaβiðe uɣAɾi , ʂAleak Armaʎetan , eta βerI usAɲa oɾAjndik kanCAn ʂEn .|0
-male/sonora/alex/NEU_03873_24k.wav|moðU Oretan aβIatu ðitU ɣuCIeneʂ bEste astEβeteʂ luʂAtuko ðiɾEm moβIliʂaʂioak .|1
-female/sonora/marina/NEU_11163_24k.wav|arɡI UPi βeAr dA koOrdiɲatuɾa ðiArdutela eɣUnco eɾE lancOan , baɲa βecI Oβetu ðajtEke .|0
-male/sonora/alex/NEU_07694_24k.wav|biðEoklipa eɾE , ostEɣunean iɾIViko ða .|1
-female/sonora/marina/NEU_03598_24k.wav|fiðAɣaritasuna osO Andia ðA , ɡeɾO eta Andiaɣoa , baɲa eʂ tA eɾAβatekoa .|0
-male/sonora/alex/NEU_06423_24k.wav|sU Arma βatEkin ɡiʂOneʂko βat ʂawɾItu ðutE .|1
-female/sonora/marina/NEU_08114_24k.wav|britAɲia Andiak , benɡAlako eUnɡinPa eðota eɣIptoko alPAjɾuɣinPa indUstria sunVItu ʂitUen .|0
-male/sonora/alex/NEU_02536_24k.wav|Eʂ , Eɣia esAn , Eʂ .|1
-female/sonora/marina/NEU_06956_24k.wav|memOɾia ɣalPEa ɣajʃOtasunem batEn Astapena iʂAn dajtEke .|0
-male/sonora/alex/NEU_03899_24k.wav|mundU osOan ʂeAr iʂAn diɾA Onelako monEta altErnatiβoʂko espEɾienPiak ekOnomiaɾen deslOkaliʂaʂioaɾen kOntra .|1
-female/sonora/marina/NEU_01314_24k.wav|bEstetik , merkAtaɾiPa emprEsek kontrAtuak , faktUɾak eta erEklamaʂioen kuðEaketak eɣInɡo ðitUʂte .|0
-male/sonora/alex/NEU_04633_24k.wav|oɾAjn Amar Urte sortUa .|1
-female/sonora/marina/NEU_09053_24k.wav|OðeɪerPeɾa sO , bAsoko sutEa ðA mendIaɾem meACu naɣUsia .|0
-male/sonora/alex/NEU_08393_24k.wav|baðAkiɣu , IkerPaʎe mamU oɾien lanA , ɡU itOPean daPAla .|1
-female/sonora/marina/NEU_05379_24k.wav|leEnenɡo eðIʂiotik berEskuɾatuko ðiɾA ʂiɲE mundUko profEsionalek emAndako mintEɣi eta taʎErak .|0
-male/sonora/alex/NEU_05149_24k.wav|enPUn eta Artu erEʂeta !|1
-female/sonora/marina/NEU_10756_24k.wav|Askoco ðA , baɲa oɾi βEsteɾik eʂ tA .|0
-male/sonora/alex/NEU_02863_24k.wav|ɟuβIʎatuta βIʂi ða eɣUnak Ordu ɣeIʃeaɣo βalItu , musIkaɾi βerIak eʂAɣuPeko βalIatuko litUʂkeelakoan .|1
-female/sonora/marina/NEU_03486_24k.wav|ɡUk askAtu βeArko ɣenUke ?|0
-male/sonora/alex/NEU_04188_24k.wav|aldErdi lasAjtu eɣIm beAr da Awretik .|1
-female/sonora/marina/NEU_01717_24k.wav|altA , Eɣia ðA Ajmbeste otOjPean aɾIPen ɡiɲEla !|0
-male/sonora/alex/NEU_05814_24k.wav|iðAʂleen , iPUlPaʎeen eta ilUstraPaleen sorkUnPa lanA sustAPea ðutE saɾI awek Elβuɾu .|1
-female/sonora/marina/NEU_02227_24k.wav|patUak ʂinEma aɾEto βatEɾa eɾAmanɡo ðitU .|0
-male/sonora/alex/NEU_04236_24k.wav|enPUn eta eɣIaʂtatu Ala ðEn eðo Eʂ !|1
-female/sonora/marina/NEU_02213_24k.wav|oɾi ðA , ʂerbAjt soʎA βiʎAtu ðuɣU .|0
-male/sonora/alex/NEU_09288_24k.wav|Ewskaɾa eskAPem protEstan aɾI ʂiɾEn Iɾuɾoɣejta βat laɣUn aCIlotu ðitUʂte .|1
-female/sonora/marina/NEU_08972_24k.wav|alfErik etOri Al nAjʂ ojAn eta mendI Awetaɾa ?|0
-male/sonora/alex/NEU_00976_24k.wav|astEleenean ɡIɾo aVEɣiɲa iʂAnɡo ðuɣU βuEltan .|1
-female/sonora/marina/NEU_06784_24k.wav|Aw ðA , ʂorA eɾOsteko prEs daɣOela iɾAðoki ðu .|0
-male/sonora/alex/NEU_03861_24k.wav|emAkumeak ʂawɾIak ditU awrpEɣian eta eskU βatEan .|1
-female/sonora/marina/NEU_02898_24k.wav|eʂ tA iɲOr ʂawɾItu , baɲa kaltE matEɾialak iʂAn diɾA .|0
-male/sonora/alex/NEU_09002_24k.wav|Andik Elmuɣaɾako βiðEa moðU βeɾEan eɣIn du , eta etApa iɾAβaʂi ðu .|1
-female/sonora/marina/NEU_06135_24k.wav|ɡeʂUra nOla ðEn , ondOɾio absUrdoak dakArPa !|0
-male/sonora/alex/NEU_02017_24k.wav|Oɾiʃe ðA , Ajn ʂuʂEn eɾE , filmAɾi tenVIoa emAten diOna .|1
-female/sonora/marina/NEU_05247_24k.wav|lAn eɣIteko , luʃUa .|0
-male/sonora/alex/NEU_11627_24k.wav|soɲEko βerdEa ɪanPI ðut Ajn ɟuʃtU , eta eʂ tAwkat makIʎaxeɾik , osO ʂurbIl naɣO .|1
-female/sonora/marina/NEU_00107_24k.wav|osOko βilkUɾan onArtuʂ ɡeɾO , aɾAw Orek datA Oretatik Awreɾako ʂerɡAldiej eɾAɣinɡo ðiE .|0
-male/sonora/alex/NEU_04333_24k.wav|ʂapAtak aɣEraldia eɣIn du aʂkEn eɣUnotan ɡertAtutakoaɾen eta Artutako eɾAβakiaɾen inɡUɾuan aʂAlpenak emAteko .|1
-female/sonora/marina/NEU_00047_24k.wav|ɡeɾO kendU eɣIn ʂuEn .|0
-male/sonora/alex/NEU_03551_24k.wav|saɾIa emAten diʂUtenean leEnaɣo ðejtUko ðiʂUtela penVAPen duʂU , eta Arituta ɣeldItu ninPEn .|1
-female/sonora/marina/NEU_01750_24k.wav|bAseri mundUa ðesAɣerPear daɣOela ðiOte Askok .|0
-male/sonora/alex/NEU_06176_24k.wav|e PAjɣu planIk fAltako !|1
-female/sonora/marina/NEU_11765_24k.wav|ɟUlen lawAʃeta eta lawAʃeta ɪulEnaɾen awrkAkoak diɾA .|0
-male/sonora/alex/NEU_06129_24k.wav|leEn lawrdEna paɾEkatua iʂAn da , bI tAldeek Ondo Artu βajtIote nEwria elkAri .|1
-female/sonora/marina/NEU_02745_24k.wav|Onako ʂuβIak iʂAn ditUʂte Iʂpiðe , bEsteak bEste , enPUn !|0
-male/sonora/alex/NEU_00541_24k.wav|IkerPaʎe eta iɾAkasleak diAspoɾan eɾE enPUnɡaj ðiɾEn doɲUʂ betEko otE ðiɣU ordUβetea ?|1
-female/sonora/marina/NEU_00522_24k.wav|aɣIan , iðAʂle ondArutaraɾen estrAɲeko IPak diɾA Oɾiek .|0
-male/sonora/alex/NEU_02336_24k.wav|bEste awkEɾa βat , aβEslaɾi iʂAtea ðA .|1
-female/sonora/marina/NEU_08961_24k.wav|eʂ tUt iɲOjʂ iVAsoa uʂtEko asmOɾik , portU Aw βEti iʂAnɡo ða niɾE eCEa .|0
-male/sonora/alex/NEU_02796_24k.wav|eʂkOnduta ðaɣO eta βI sEme alAβa ðitU .|1
-female/sonora/marina/NEU_03972_24k.wav|infOrmaʂioʂ eta ʂirAɾaʂ betEɾiko proɣrAma !|0
-male/sonora/alex/NEU_06222_24k.wav|ɡeIeneʂ eɾE sEj perVOna elkArPeko nEwria mantEnPen da .|1
-female/sonora/marina/NEU_06060_24k.wav|Orela , iɾAɣan iɣAndean eɣIndako Awteskundeetako ɣaɾAʎePat ɟo ðU βaPOrdeak .|0
-male/sonora/alex/NEU_01076_24k.wav|lanAɾen estrEɲaldia ɪustIkaPea naIkoa ðutE ðIɾu laɣUnPak koβrAPeko , ʂuʂEndaɾiak aʂAldu ðuEneʂ .|1
-female/sonora/marina/NEU_01845_24k.wav|nIk eɣIten duðAn sukAldaɾiPa ɪEnde ɣuʂtIak dU ɣustUko .|0
-male/sonora/alex/NEU_07858_24k.wav|biʂImoðu sajEsteʂiɲa iʂAn da , erEmeðioɾik ɡaβEkoa .|1
-female/sonora/marina/NEU_03098_24k.wav|Eɣo ajʂe Orem poðEɾioʂ , tempEɾatuɾek ɡoɾA eɣInɡo ðutE ostIɾalean .|0
-male/sonora/alex/NEU_06650_24k.wav|enPUn eʂAʂu erlAʂionatutako awðIoa !|1
-female/sonora/marina/NEU_11237_24k.wav|defIniʂio soʂIala , ɟokAβiðeʂko ðefIniʂioa eta eʂAɣuPaʂko ðefIniʂioa termInoak eɾAβili oI ðiɾA soʂIoloɣiaɾen eta filOsofiaɾen alOrean , perVOna eðo entItate βatEn iʂAeɾa eðo nortAsuna ðeskrIβaPeko moðU ðesbErdiɲak aðIeɾaʂteko .|0
-male/sonora/alex/NEU_05401_24k.wav|estrEɲaldiaɾen Eʂurduɾa laɣUn tAldeenPako menUak eskAjnPen ditUʂten lAw ɪatECe ɣipUʂkoarek osAtuko ðutE .|1
-female/sonora/marina/NEU_02349_24k.wav|dEmboɾa atEɾaPem baðUʂu , awrtEnɡo kartEleko ʂEr tAlde ikUsi naIko ʂenItuʂke ?|0
-male/sonora/alex/NEU_11498_24k.wav|infOrmaʂio obɪEktiβoa ɪAso ðutEn aldI oɾO , ajmbat iɾIPi iʂAn diɾA aðIeɾaʂi iʂAn diɾEnak .|1
-female/sonora/marina/NEU_00818_24k.wav|tempEɾatuɾa ɣUCi ɪajVIko ða .|0
-male/sonora/alex/NEU_11461_24k.wav|desEroPe fisIko oɾi pajɾAtu ðuɣUn iðAʂleon artEan , osO oIkoa ðA AwrPaɾoɾa iPUlPeko lAn oɾi .|1
-female/sonora/marina/NEU_00381_24k.wav|Iɾu eɣUn ɡeɾOaɣo , ɡajʃOa ospItaleɾa βuEltatu ʂen eta eβOla ʂewkAla eɣIaʂtatu ʂutEn .|0
-male/sonora/alex/NEU_07730_24k.wav|ɡustUɾa eɾAnPunɡo nukE , liβUɾuek eta ðIskoek dutEla Alako eɾAkarɡaritasuna Eri CikI Onetan .|1
-female/sonora/marina/NEU_06525_24k.wav|CapElketaɾen inɡUɾuan laβUrmetraɪa leIaketa , fEsta , eta βEste ʂembAjt ekInPa antOlatu ðiɾA .|0
-male/sonora/alex/NEU_03096_24k.wav|urtEɣietan , eðo iβAɪetan , osO fenOmeno oIkoa iʂAten da .|1
-female/sonora/marina/NEU_05471_24k.wav|ʂEjn espArutan ɟarI βeAr diɾA oɾAjn indArak ?|0
-male/sonora/alex/NEU_02229_24k.wav|ʂU eɾE , ɡaʂtEa ʂaɾElako !|1
-female/sonora/marina/NEU_04952_24k.wav|eʂ tA istIʎuɾik ɟaʂO .|0
-male/sonora/alex/NEU_06783_24k.wav|ʂUnP Awstuɾa Uste βaɲo leEnaɣo ɣajndItuta , ɟokAPeko prEst aʂAldu ða Awrelaɾi uɾUɣuajtara .|1
-female/sonora/marina/NEU_08938_24k.wav|ikUsi Al ʂenUen eskUjɲeʂ nOlako kolpEa ʂuEm mIn Artu Awretik ?|0
-male/sonora/alex/NEU_08703_24k.wav|metAleʂko eskU βatEk ostU naI Al ʂiOn Aɾima ?|1
-female/sonora/marina/NEU_02548_24k.wav|Aw ðA βeɾE sorkUnPa βAkara , dakIɣuneʂ .|0
-male/sonora/alex/NEU_06289_24k.wav|ɟajVI eɣIn diɾA , aldIʂ , uAla eðo kaskOa Eʂ ɟarPEaɣatik ɟAsotakoak .|1
-female/sonora/marina/NEU_07195_24k.wav|emprEsa βaPOrdeaɾen eta ʂuʂEndaɾiPaɾen artEko akOrdioak lanɡIʎeen aldArikapen naɣUsiak ɟasOPen ditU .|0
-male/sonora/alex/NEU_11263_24k.wav|unE eɾAβakiɣarian ɡawðE , eta awkEɾa Aw aprOβeCatu βeAr duɣU , eʂIn duɣU βeɾAw ɣaldU .|1
-female/sonora/marina/NEU_03863_24k.wav|Ajmbeste iʂEmbuɾu emAn ditUen lEɣeak eɾAβilPaɪeenɡan ʂEjn eɾAɣin iʂAnɡo ðuEn aʂtErtu ðutE .|0
-male/sonora/alex/NEU_03618_24k.wav|oɾAjn , damUtua naɣO .|1
-female/sonora/marina/NEU_02601_24k.wav|pilOta awkEɾaketa ostEɣunean iʂAnɡo ða .|0
-male/sonora/alex/NEU_00578_24k.wav|anImatu eta kombIɲatu osAɣariak ʂuɾE uðAko ɪanPIekin !|1
-female/sonora/marina/NEU_08539_24k.wav|poEsia Eʂ ʂaɣOk sojlIk liβUɾuetan , diO erAɾia .|0
-male/sonora/alex/NEU_03535_24k.wav|osO eβOluʂio posItiβoa iʂAn da .|1
-female/sonora/marina/NEU_07038_24k.wav|bI pistA emAnɡo ðiʂkIʂuɣu eɣUneɾo !|0
-male/sonora/alex/NEU_04572_24k.wav|oɾOjPapenak bilPEko elkAriʂketa ɣraβAtuak eɾE βaðItu , baɲa eʂ tA elkAriʂketa liβUɾua .|1
-female/sonora/marina/NEU_02520_24k.wav|kompAɲia Aɾen ordEʂkoa βiʎAPen Asi ðA ɪaðA .|0
-male/sonora/alex/NEU_09194_24k.wav|imbErVio simplE eta Eʂ simplEej , erEal posItiβo βAkara ðutEn imbErVioak deɾIPe .|1
-female/sonora/marina/NEU_06002_24k.wav|filmE Oretam bI Aremam motAk dawðE .|0
-male/sonora/alex/NEU_08097_24k.wav|kapItaɲa eta Iɾu ofIʂialeʂ ɡAjn , berOɣejta sEj etOrkin , eta ʂorPI maɾIɲel ʂewðEn onPIan .|1
-female/sonora/marina/NEU_10630_24k.wav|bikOte ɣaʂtE Askok , beɾEn sEme alAβekin Ewskaɾaʂ IP eɣIten dutE , iɣAnde arAValdeko Ordu famIliarak aprOβeCatuʂ .|0
-male/sonora/alex/NEU_00939_24k.wav|ʂuʂEnean eskAɲitako βerVIoeʂ ɡAjn kAntu βerIak eɾE eɣOnɡo ðiɾA .|1
-female/sonora/marina/NEU_09898_24k.wav|lawAʃeta ʂEla esAn arEn , eʂIɲeɣom bat pIʂtu ʂuEn niɾE βajtAn , ɡiʂOn arAɾo Aɾem bisItak .|0
-male/sonora/alex/NEU_06764_24k.wav|baɲa konʂIente Al diɾA eðo ʂaɾEte ɣuɾAsoak awrej estrEsak eɾAɣin diEʂaɪeken kaltEeʂ ?|1
-female/sonora/marina/NEU_08325_24k.wav|naAs maAs eta Us biUrtuko ðu ɪawnAk .|0
-male/sonora/alex/NEU_04220_24k.wav|ɟEnde ʂaArak bakArik ala ɣaʂtEek enPUten dutE ?|1
-female/sonora/marina/NEU_07052_24k.wav|memOɾia βerEskuɾaPea eta ðiβUlɣaʂio lanA suspErPea ðutE Elβuɾu uEbɡune eta ðokUmentaʂio ʂentrO βerIek .|0
-male/sonora/alex/NEU_09757_24k.wav|eɾAɣiʎeej ɣaldEtu ðiE , eA prEs dawðEn feðE onEʂ proʂEsu βat aβIaPeko , oɲAri sendOetan oɲAritutako akOrdioak lorPEko .|1
-female/sonora/marina/NEU_06740_24k.wav|biEn iɾIPiʂ , ɡertAtuɾiko eʂErk eʂ tAwka xustIfikaʂioɾik eta oɾAjn elkArbiʂiPaɾen ɡaɾAɪa .|0
-male/sonora/alex/NEU_04131_24k.wav|kronOβioloɣia , ɡajʃOtasunaɾen aɣErpen aðIɲa eta ɣajʃOtasunaɾen dEmboɾa ɣaɾApena eɾE osO ðesbErdiɲak diɾA .|1
-female/sonora/marina/NEU_07668_24k.wav|bajta lorPEtik ɡertU eɣOn eɾE .|0
-male/sonora/alex/NEU_01796_24k.wav|piʃkAnaka piʃkAnaka urtEko eʂkOnPa esAnɡuɾaVuenetako βat iʂAnɡo ðenAɾi βuɾUʂko infOrmaʂio ɣEiaɣo eʂAɣuPen aɾI ɣaɾA .|1
-female/sonora/marina/NEU_04525_24k.wav|ʂEr supOsatu ðu tAldeaɾenPat iβIlβiðe profEsional naβArmenaɾi emAndako ɣolArdoa lorPEa ?|0
-male/sonora/alex/NEU_01487_24k.wav|sartU eta ikUsi ʂEw ʂaɾEn iɾAβaʂleetako βat .|1
-female/sonora/marina/NEU_07764_24k.wav|benEʂuelaren emIɣraʂio xendEVua ʂonAlde osOko aɾAʂo βiʎAkatu ða ɪaðA .|0
-male/sonora/alex/NEU_01336_24k.wav|orembesteʂ , eɾAβat deβEkatuta ðaɣO eCEβiʂiPa tuɾIstikoak eʂArPea eðo ɣElak eɾAβiʎeɾa tuɾIstikoɾako alOkaPea .|1
-female/sonora/marina/NEU_01976_24k.wav|laɾUmbat Onetan , berIʂ , CakOliɲa iʂAnɡo ða erEɣiɲa !|0
-male/sonora/alex/NEU_07086_24k.wav|ɡaɲEɾa , baɾEmaʂioak eɣIteko awkEɾa eɣOnɡo ða .|1
-female/sonora/marina/NEU_09491_24k.wav|Iɾu famIliek ɟasAten dutE ðolUa eta ɣUk aɪekim pArte ArPen duɣU .|0
-male/sonora/alex/NEU_04361_24k.wav|mArketin estrAteɣietan arIskatua iʂAteak eɣIten du eʂbErdin lOw kOst emprEsa Aw .|1
-female/sonora/marina/NEU_11521_24k.wav|etA , esAm beʂAla , ɡujɲEs liβUɾucoan ɡajɾEm bat sarPEkotan , Oɾiʃe sartUko liPAteke .|0
-male/sonora/alex/NEU_02108_24k.wav|unA Istoɾia βaskA lanAɾekin .|1
-female/sonora/marina/NEU_01009_24k.wav|biɣAren lawrdEnean naɣUsi iʂAn ʂen tAlde βiʂkAjtara .|0
-male/sonora/alex/NEU_03281_24k.wav|baɲa aʂkEnean eʂ tA βoʂkAtu eɾE eɣIn .|1
-female/sonora/marina/NEU_01245_24k.wav|bIʂiak iʂAn diɾA ostEɣuna eta ostIɾala , eta laɾUmbateko awrEjkuspenak eɾE Alakoʃeak diɾA .|0
-male/sonora/alex/NEU_09751_24k.wav|Andik aldI βatEɾa , ɟuðUen ɟAj naɣUsi βat ospAPen ʂen , eta xesUs xeɾUsalemeɾa iPUli ʂen .|1
-female/sonora/marina/NEU_06671_24k.wav|sarEɾak eɾOsitako kanAlaɾem bitArteʂ iPUliko ðiEte ðIɾua kaltEtuej .|0
-male/sonora/alex/NEU_01048_24k.wav|ʂoɾIonak eta eskErik Asko !|1
-female/sonora/marina/NEU_02562_24k.wav|oɾAjm baðAkiʂue nOr dEn ?|0
-male/sonora/alex/NEU_02373_24k.wav|arAʂoj ðuEla emAten du .|1
-female/sonora/marina/NEU_00303_24k.wav|nOla lortUko ðitUʂte βalIo Oɾiek ?|0
-male/sonora/alex/NEU_06874_24k.wav|nIk Uste , Alako βatEan , kAle ɣorIɾa βOtako ɣajtUʂtela eskAleak beʂAla !|1
-female/sonora/marina/NEU_01011_24k.wav|elkAriʂketan , biʂIPan ɟarItako Elβuɾuak eta ɣoɣOβetePe emOʂionala lOrPen laɣUnPeko ɣomEndioak emAnɡo ðitU .|0
-male/sonora/alex/NEU_04372_24k.wav|aCIlotutako lAw perVOnak askE ɣeɾAtu ðiɾA ɣAwr ɡOjʂaldean .|1
-female/sonora/marina/NEU_05913_24k.wav|unE Oretan naʂIoarteko aCIʎoPeko eta espECeɾaPeko aɣIndua ʂuEla βaɪEʂtatu ʂutEn fOɾuʂaɲek .|0
-male/sonora/alex/NEU_08110_24k.wav|beɾEjʂmenaɾi ðaɣOkioneʂ , dojPE apAl , ertAjn eta altUak eskAjnPen ditUʂte .|1
-female/sonora/marina/NEU_00613_24k.wav|eʂ tA iɲOr ʂawɾItu .|0
-male/sonora/alex/NEU_05204_24k.wav|sistEma βerIaɾekin , arɡIndara konVUmiPen den unEan duEn kotIʂaʂioaɾen aɾAβeɾa ordAjnduko ðutE eɾAβilPaʎeek .|1
-female/sonora/marina/NEU_08571_24k.wav|baɾAwaldiaɣatik aUl , baɲa askE iPUli ða eCeβerIa , irIβarea βeɾE awrpEɣiam marAʂtuta ʂuEla .|0
-male/sonora/alex/NEU_03654_24k.wav|konkrEtuki , aʂkEn lAw minUtuetan .|1
-female/sonora/marina/NEU_11048_24k.wav|aβElPajn eta trAtulaɾien liskArak , eta βEste ɣAwʂa βAPuk ʂewðEn An .|0
-male/sonora/alex/NEU_04397_24k.wav|ʂElan awrkItu ʂenItuʂtem perVOnaɪetaɾako aktOɾe eɣOkiak ?|1
-female/sonora/marina/NEU_05042_24k.wav|estAtua mimbIʂi βat dA .|0
-male/sonora/alex/NEU_04708_24k.wav|Iɾu milIoj Eritar baɲo ɣEiaɣoɾi eɾAɣinɡo liEke propOsamenak .|1
-female/sonora/marina/NEU_07100_24k.wav|ikErkunPaɾa ʂuʂEnduko ðutE βEste βeIn dIɾu ɣuʂtIa .|0
-male/sonora/alex/NEU_06793_24k.wav|konfIɲamenduaʂ aɾI ɣaɾA , baɲa nOla konfIɲatu kAleam bIʂi βaʂAɾa ?|1
-female/sonora/marina/NEU_09757_24k.wav|eɾAɣiʎeej ɣaldEtu ðiE , eA prEs dawðEn feðE onEʂ proʂEsu βat aβIaPeko , oɲAri sendOetan oɲAritutako akOrdioak lorPEko .|0
-male/sonora/alex/NEU_06730_24k.wav|biɣAren ʂAtia erItmo motElaɣoaɾekin asi ða eta ajpAPeko ekInPa ɣUCiɾekin .|1
-female/sonora/marina/NEU_04187_24k.wav|kAleetam bandEɾaCoak ɟarI ðitUʂte erUɣbi finAlak ɡoɣOɾaPeko .|0
-male/sonora/alex/NEU_09621_24k.wav|suEtena apUrtu ʂenEtik daɣO Oʂkaʎuan .|1
-female/sonora/marina/NEU_10953_24k.wav|suβstAnPia Oɾiek arɡI ultrAmoɾea ʃurɡAtu etA , Oren ordEʂ , arɡI urdIɲa iɣOrPen dutE .|0
-male/sonora/alex/NEU_00809_24k.wav|orduan , balIteke ɣAwr ɡustUkoa ðuʂUn arɡAʂkia Amar Urte βarU iVUsia iɾUðiPea ?|1
-female/sonora/marina/NEU_09453_24k.wav|ɡuɾE Eri Aw eʂ tA noskI , baɲa nojʂEam beIn amAɪeɾa ʂoɾIonVua iʂAten dutE ipUɲek Emen eɾE .|0
-male/sonora/alex/NEU_04800_24k.wav|oɣIaɾekim berdIn ɡertAtu ða eta apUrPen Asi ðA .|1
-female/sonora/marina/NEU_03615_24k.wav|moðU Oretan , beʂEɾoak eʂ tU salPAʎeaɾen eðota ispIʎuaɾem beArik .|0
-male/sonora/alex/NEU_04615_24k.wav|ɡAwr partIða kaʃkAra iʂAn da .|1
-female/sonora/marina/NEU_07099_24k.wav|ɡaʂtEa βeɾE salVAn daβIl !|0
-male/sonora/alex/NEU_08067_24k.wav|ʂisxOrdanian , oIkoak biUrtu ðiɾA isrAelɣo armAðaɾen opEɾaʂioak eta saɾEkaðak .|1
-female/sonora/marina/NEU_01529_24k.wav|Oretan , ewskAl eɾAkundeen lanA CalOtu ðu .|0
-male/sonora/alex/NEU_08190_24k.wav|planOa Ondo uʂtArPen da awrEko eta Urenɡo planOekin ?|1
-female/sonora/marina/NEU_08196_24k.wav|bOs kilOβatekoa βaɲo Andiaɣoa βaða , Oɣejta Amasej peʂEta ordAjnduko ða kilOβateko .|0
-male/sonora/alex/NEU_01858_24k.wav|astEarte ɣOjʂaldean eɾAman ʂutEn , Aɾen ʂiEɣakiðeak ɡajʂkI ʂeɣOela oArtaɾaʂi eta ɣeɾO .|1
-female/sonora/marina/NEU_10621_24k.wav|kompAɲiako anImalia onArPeko eʃIɪi ðeʂAket ?|0
-male/sonora/alex/NEU_05091_24k.wav|Uɾa ʂEn Uɾa , biOʂ ʂimIkoa !|1
-female/sonora/marina/NEU_05020_24k.wav|etOrkiʂunean Orelako ekIðiteko aldErdi βarUko estAtutuak aldAPeaɾen aldE IP eɣIn du ɪelPAleem buɾUak .|0
-male/sonora/alex/NEU_01479_24k.wav|arPAjn eβAnɟeliko βAPuk eɾE iʂAn diɾA βErtan , senIðeak artAPen .|1
-female/sonora/marina/NEU_07043_24k.wav|Orek esAn naI ðU mAkiɲa βaðAβiʎela !|0
-male/sonora/alex/NEU_01399_24k.wav|Ala , ɟEnde andAna elkArtu ða feɾIan , ɡOjʂ ɡOjʂetik .|1
-female/sonora/marina/NEU_00493_24k.wav|diɾUðieneʂ , aβEslaɾiak amEs ɟAkim bat iʂAten du nojʂEam beIn .|0
-male/sonora/alex/NEU_03757_24k.wav|Iɾuɣaren lawrdEnean ɡawʂEk e PUten Oβeɾa eɣIn .|1
-female/sonora/marina/NEU_05254_24k.wav|miʎA miʎA eskEr denEj !|0
-male/sonora/alex/NEU_05185_24k.wav|ɡAwʂak Orela , baɣEnekien ʂEr ɡertAtu βeAr ʂuEn .|1
-female/sonora/marina/NEU_00586_24k.wav|bEsteak bEste , ikErketa ʂiEntifikoaɾen alOrean eɣIndako lAn Andia Artu ðutE ajnPAt .|0
-male/sonora/alex/NEU_02539_24k.wav|Ewskaɾaʂ eɾE , anPEɾako .|1
-female/sonora/marina/NEU_01038_24k.wav|Ala eta ɣuʂtIʂ eɾE , implAnteen urAðuɾa eta leErketa indIʂea osO altUa ðA .|0
-male/sonora/alex/NEU_02301_24k.wav|eɾAkuV iEʂaɣuʂu ikErlaɾi salVEɾo βikAɲa ʂaɾEla !|1
-female/sonora/marina/NEU_06794_24k.wav|moðA ðisEɲaPaʎeek kAlean ajmbat ekInPa eɣIn ʂitUʂten , moðA ðesfIleetako kombEnPionalismotik urUn .|0
-male/sonora/alex/NEU_01942_24k.wav|ʂEr ɡertAPen da ɣuɾAsoak ʂaArPen diɾEnean eta ewɾEn ordEʂ eɾAβakiak Artu βeAr ditUɣunean ?|1
-female/sonora/marina/NEU_07602_24k.wav|aʂkEn Urteetan iʂAndako iɾAβaʂleen iʂEnak ajpAPea naIkoa liPAteke lastErketa Onen ɡarAnPiaʂ kontUɾaPeko .|0
-male/sonora/alex/NEU_03513_24k.wav|kopUɾu CikIa merkAtuɾatuko ðutE , awrtEn tonA erdI inɡUɾu olIβa βIldu βajtUte .|1
-female/sonora/marina/NEU_04205_24k.wav|ʂiɲEʂ , Aɾekin ɡoʂAPen da !|0
-male/sonora/alex/NEU_07376_24k.wav|awrtEn asi ða leIaPen eta ɣaɾAjpen Onek sekUlako βulPAða emAnɡo ðiO .|1
-female/sonora/marina/NEU_07198_24k.wav|dikEaɾen kaɾEla apUrtu ða .|0
-male/sonora/alex/NEU_11928_24k.wav|iɲOr Eʂ ʂaβIʎek nI Il naIan , enɡAɲueʂ balIatuɾik .|1
-female/sonora/marina/NEU_08609_24k.wav|Ildo βeɾEtik , espECeak kuðEaPeko eskUmena , leEmbajleen ewskO ɪawrlAɾiPaɾen eskU ɪarPEko eskAtu ðiO .|0
-male/sonora/alex/NEU_08568_24k.wav|nIk naI nuEneʂ , eta βeɾAk naI Eʂ ʂuEneʂ Eɲean .|1
-female/sonora/marina/NEU_10605_24k.wav|ɡonθAleθek eskUko miɲA ðU , eta e PEn aɾItu ʂeɣAman APo ɣawEan .|0
-male/sonora/alex/NEU_06820_24k.wav|bIʂiak beɾAk markAtuko ðiʂkIʂu eɣIm beAreko urAs desbErdiɲak .|1
-female/sonora/marina/NEU_11090_24k.wav|poEsia otE orduan , beɲAt saɾAsolaɾen kaʃA Us bat liβUɾua ?|0
-male/sonora/alex/NEU_00054_24k.wav|ardIak larEan ʂeβIlPan eta salβAtu ʂiɾEn , baɲa kasUalitateʂ arkUmeak barUan ʂewðEn .|1
-female/sonora/marina/NEU_11296_24k.wav|ʂertAn daPA lEjotik lEjoɾako βErVo sAɪoa ?|0
-male/sonora/alex/NEU_02685_24k.wav|alaβer , pOʂtu eɣIten nAw artIsta eʂAɣun Oɾiek niɾE ðIskoam pArte Artu iʂAnak .|1
-female/sonora/marina/NEU_02162_24k.wav|biðEo ɪOko onEna iʂEndaPeaʂ ɡAjn , katEɣoɾia eʂbErdiɲetako saɾIak eɾE βanAtuko ðiɾA .|0
-male/sonora/alex/NEU_01250_24k.wav|ʂuɾI ɣorIak eʂ tIɾa APean sartU , eta βiɣAren ɡolAɾem biʎA ɪarAjtu ðutE .|1
-female/sonora/marina/NEU_02650_24k.wav|ɡEiaɣo , ɡEiaɣoɾekin , ɡeIaɣotan lelOa ðuEn awrtEnɡo eðIʂioaɾen inɡUɾuko ɣakOak emAnɡo ðitU .|0
-male/sonora/alex/NEU_04939_24k.wav|oɾAjndik eʂ tUte ʂeAʂtu aldErdi βakOjPak ʂembAt sAjl ʂuʂEnduko ðitUen .|1
-female/sonora/marina/NEU_05700_24k.wav|orembesteʂ , aʂkEnean eʂ tIɾa aldAtuko iɣAndeko Awteskunde oɾOkoren emAjPak .|0
-male/sonora/alex/NEU_06233_24k.wav|Otel oɾietako ɣarbIketaʂ ardUɾaPen diɾA , aʂpIkontratatuta .|1
-female/sonora/marina/NEU_07105_24k.wav|alaβer , eskErak emAn diʂkIe ospItaleko lanɡIʎeej , ʂentrOa normAltasuneʂ iβIlPeko eɣIndako aAleɣiɲaɣatik .|0
-male/sonora/alex/NEU_05907_24k.wav|ɡaɲEɾa , emprEsak lanAldia murIʂtea onArtu omEn dU akOrdio mArkoa indArean daɣOem bitartean .|1
-female/sonora/marina/NEU_06074_24k.wav|Ondo pasA alkOolik ɡaβE !|0
-male/sonora/alex/NEU_05303_24k.wav|astEaʂkenean ʂEɾua Oðej ɣUCiɾekim mantEnduko ða .|1
-female/sonora/marina/NEU_09918_24k.wav|ʂapOɾe sakOm bIʂia ɣustAtu ʂaɪE maAjkiðeej , baɲa kolOɾe iʎUna eta ɣoɣOrtasuna e PAɪe ɣustAtu .|0
-male/sonora/alex/NEU_05383_24k.wav|eʂ tUte eʂEr aʂAlduko ?|1
-female/sonora/marina/NEU_01520_24k.wav|Orela βakArik lortUko ðiɾElako Eri βoɾOndateaɾen erEspetuan , askAtasunean eta ðemOkraʂian oɲAritutako kompOmbiðeak .|0
-male/sonora/alex/NEU_05271_24k.wav|ɡaɲEɾa , eɣUnaɾen leEm pArtean Ewɾia etEnɡaβe eɣIn deʂAke ipAr isUɾialdean .|1
-female/sonora/marina/NEU_05064_24k.wav|orembesteʂ , ewskAl ʂAleek awrEko ðembOɾaldietan eskAPen ʂutEn akOrdioa ofIʂial eɣIn da .|0
-male/sonora/alex/NEU_06021_24k.wav|eʂ tAɣo ʂertAm balIP eta βaʂAnik ajpAtu βeAr buɾUketa arUnta βajta .|1
-female/sonora/marina/NEU_01523_24k.wav|Oretaɾako , eskAPaʎeen eta finAnPa eɾAkundeen artEam bitArtekaɾi aɾIPen diɾA , ʂorA βerIʂ neɣOʂiaPeko .|0
-male/sonora/alex/NEU_07440_24k.wav|ʂerɡAtik eɣIn tratAmendu βat , arIskuan ɟAr baʂAjPake ?|1
-female/sonora/marina/NEU_11753_24k.wav|awrEko Urteetan , marCOɾa artE eɾE , iɾAwn omEn dU paɣOCak .|0
-male/sonora/alex/NEU_09977_24k.wav|ɟAj oɾi , uðAko solstIʂioaɾekim bAt etOrPea , eʂ tA kasUalitate UVa .|1
-female/sonora/marina/NEU_08815_24k.wav|Orembesteko UVa otE ʂEn , ɟonsOn ɟawnA nOr ʂEn Eʂ ɟakItea ?|0
-male/sonora/alex/NEU_02398_24k.wav|merkEaɣoak , baɲa osAsunɡariak eʂ tIɾen elIkaɣaɪak eɾOsten ditUʂte ɪaβEek krIsia ðelA etA .|1
-female/sonora/marina/NEU_03185_24k.wav|bertAtik ewskAl tAlde Asko pasAtuko ðiɾA .|0
-male/sonora/alex/NEU_00610_24k.wav|aβEntuɾak kontAPeam baɲo ɣEiaɣo , kontAPeko aβEntuɾan daPA , beɾaʂ , litEɾatuɾa ʂuɾEPat ?|1
-female/sonora/marina/NEU_00594_24k.wav|etOri naI Al duʂU ?|0
-male/sonora/alex/NEU_08797_24k.wav|bI miʎA eta Amalawɣaren urtEan , Ia βOs milIoj βiðAɪaɾi iɣAɾo ʂiɾEn ɡuɾE βOst ajɾEportuetatik .|1
-female/sonora/marina/NEU_06505_24k.wav|lurEan , fosfOɾo ʂAti βat .|0
-male/sonora/alex/NEU_01719_24k.wav|aɣIam platEr oɾi eɣIteko βenEtako arAʂoɪa iʂAn dajtEke βenEtan eɣIten dakIem bakAnetakoa ðelA ?|1
-female/sonora/marina/NEU_06715_24k.wav|lawɣArem bat iʂEndatu eðo Iɾuɾen artEko kOntua iʂAnɡo ʂen dEna ?|0
-male/sonora/alex/NEU_06401_24k.wav|Ewskaɾak ʂEjm pIsu ðU ʂiEnPian ?|1
-female/sonora/marina/NEU_07799_24k.wav|ikErketan aɣEɾian ɡeɾAtu ða kostU oɾi CikIaɣoa iʂAn ʂitEkeela βestElako piʂɡAri sistEma βat eɾAβilita .|0
-male/sonora/alex/NEU_06546_24k.wav|Eɣia ðA ðIsko βat ɡraβAPea penVAPen duʂUneam baðAɣoela momEntuɾem bat komErPialiʂaʂioam penVAPen duʂUna .|1
-female/sonora/marina/NEU_11591_24k.wav|elCO motA oɾi , Ur ɡeldI eðo puPUetam bIʂi ða , eta Eʂ erEkako Ur bIʂietan .|0
-male/sonora/alex/NEU_11341_24k.wav|memEntoan , iɲOrk eʂ tU Ewskaɾaʂ iðAʂten , oItuɾaɾik eʂ tUelako .|1
-female/sonora/marina/NEU_06151_24k.wav|indUstriak denOn eskUɾa ɪarI ðu .|0
-male/sonora/alex/NEU_02283_24k.wav|denEk sinEVi eɣIn naI ðutE .|1
-female/sonora/marina/NEU_09429_24k.wav|Ajn ʂuʂEn eɾE , ɟosEβa eɣIβar , rafA larEɲa eta ancOm morθIʎo leɣEβilParkiðeej eɾE keɾEʎa eʂAri ðiE .|0
-male/sonora/alex/NEU_11462_24k.wav|APoko Ilketak Eʂ Al dU ʂuɾE IP erdI βat meɾEʂi ?|1
-female/sonora/marina/NEU_03319_24k.wav|ʂatOʂ ʂU eɾE ekImem beɾEʂi Onetam pArte ArPeɾa !|0
-male/sonora/alex/NEU_04761_24k.wav|bustI ʂajtEʂ eta ɣoʂA eʂAʂu !|1
-female/sonora/marina/NEU_09208_24k.wav|britAɲia Andiko polIʂiak beldUr dA perVOna Oɾiek bEste atEntatu oldE βat prestAPen aɾI otE ðiɾEn .|0
-male/sonora/alex/NEU_08274_24k.wav|anxEl lerCUndik ʂiOem beʂAla , penVAmenduaɾen kaOsa antOlaPeko moðU βat .|1
-female/sonora/marina/NEU_09872_24k.wav|aAɪuneko maCInaðak ondOɾio onIk ekAriko ðu ?|0
-male/sonora/alex/NEU_09759_24k.wav|ʂiʎEɣi Al ʂajɣU ʂesAri ʂerɡA ordAjnPea , bAj ala Eʂ ?|1
-female/sonora/marina/NEU_08579_24k.wav|niɾE βiʂIlaɣunaɾem biʎOβaɾekin nenɡOen , Awʂo βajkIɲen , eta βiOk elkArekin iβIlPem bajkIɲen ɟolAsean .|0
-male/sonora/alex/NEU_03114_24k.wav|oɾAjndik eʂ tA ɣertAtu .|1
-female/sonora/marina/NEU_05550_24k.wav|perVOna Askok penVAPen eðo sentIPen dutEna orI ʂuɾI βatEtan ɟarPEa eɾAβakiPen dutE .|0
-male/sonora/alex/NEU_03544_24k.wav|iEs eɣIteko awkEɾak aɣOrPen aɾI ʂajʂkIo .|1
-female/sonora/marina/NEU_01801_24k.wav|ɟatECean , maAɪek pantAʎa ukIɣari βat dawkAte , eta Oretam platErak AwtaPen diɾA .|0
-male/sonora/alex/NEU_02070_24k.wav|dembOɾaldiko emAjPaɾik onEna iʂAn da .|1
-female/sonora/marina/NEU_03494_24k.wav|uðA ElPeko ʂoɾIan daɣO !|0
-male/sonora/alex/NEU_01643_24k.wav|awrEjkuspenen aɾAβeɾa , astEarte Onetan amAjtuko ða erEplikaɾako tartEa .|1
-female/sonora/marina/NEU_06679_24k.wav|eɾAsoak ɡertAtu ðiɾEm bI eskUaldeetan ʃiItek dutE ɣeIenɡoa .|0
-male/sonora/alex/NEU_05436_24k.wav|Eʂ esAn oArkaβean iʂAn ditUʂula !|1
-female/sonora/marina/NEU_00861_24k.wav|ɡiʂAkiaɾen awsArdia ʂiEntifikoak bulPAtuta , ɡiʂAteɾiaɾem bIʂiɾawpena meACatu ðutE oɾAjn iʂAki awek .|0
-male/sonora/alex/NEU_07780_24k.wav|sastAtu βeAr ʂuEla esAn ʂiOn .|1
-female/sonora/marina/NEU_08096_24k.wav|aðmInistraʂio eskUðunak , beɾE karɡU Artuko ðitU Umeak , ɡuɾAsoen eðo ʂajnPAʎeen eɣOeɾa OβePen dem bitartean .|0
-male/sonora/alex/NEU_11547_24k.wav|naβAɾi ʂEn Umeek , besApeek eta talkO awVak isUɾitako usAɲa .|1
-female/sonora/marina/NEU_04698_24k.wav|ɡastEjʂtarek arAValdeko aʂkEn Orduɾa artE EwViko ðiOte awkEɾatutako ɪokAlaɾiak ʂejnPUk diɾEn iɾAɣarPeko .|0
-male/sonora/alex/NEU_03682_24k.wav|Oj ʂe pEna , pEna .|1
-female/sonora/marina/NEU_11264_24k.wav|oɾi arɡI ikUsi ðut poEsia landU ðuðAn lEkuetan ʂeAr .|0
-male/sonora/alex/NEU_06868_24k.wav|arIskuVua ðA , aðOs .|1
-female/sonora/marina/NEU_09307_24k.wav|enE pArte ArPe soʎAk , aldA Al deʂAke emAkumeaɾen oɲAri iðEoloɣikoa ?|0
-male/sonora/alex/NEU_06993_24k.wav|proɣrAma ekOnomikoa aʂAldu βeAr ʂutEn , baɲa osO ʂeAPak iʂAn ɡaβE .|1
-female/sonora/marina/NEU_02189_24k.wav|ɡoɣOɾatu saɾI potOloak dawðEla ɪokOan !|0
-male/sonora/alex/NEU_01813_24k.wav|Oreɣatik eɣIn ditUt banAm banAko elkAriʂketak eta Eʂ elkAriʂketa koɾAl eðo uOr kafE oɾietaɾiko βat .|1
-female/sonora/marina/NEU_03171_24k.wav|famIlia βakOjPaɾi ðaɣOkion CartEl kopUɾua aldAkora iʂAnɡo ða famIlia unItatea osAPen duEn kIðe kopUɾuaɾen aɾAβeɾa .|0
-male/sonora/alex/NEU_11714_24k.wav|eʂ tU ulErPen ʂerɡAtik ɡAj Orek Ajmbeste UnkiPen duEm mutIko oɾi .|1
-female/sonora/marina/NEU_07328_24k.wav|iɾAkurʂaletasuna βulPAtu eta telEsaʎeko ɪarAjPaʎe eta aktOɾeak awrEʂ Awre eɣOteko ekItaldia iʂAnɡo ða .|0
-male/sonora/alex/NEU_01206_24k.wav|awkEɾaɾik eʂ tA fAlta ðatOʂen eɣUnetaɾako !|1
-female/sonora/marina/NEU_09626_24k.wav|ɡerAk dakAren kruðElkeɾiaʂ eɾE ɣUCi IP eɣIten da , osO eɾA oɾOkorean ɡaɲEɾa .|0
-male/sonora/alex/NEU_01494_24k.wav|beɾAɪekin IP eɣIn duɣU .|1
-female/sonora/marina/NEU_09729_24k.wav|emAjPa koxnItiβo ʂaβAl oɾi , aɣEnte koxnItiβoaɾen eʂAɣuPa ðA , eta βatEʂ eɾE eʂAɣuPa ʂiEntifiko eta teknOloɣikoa .|0
-male/sonora/alex/NEU_07518_24k.wav|tropElak ʂaʎA iʂAnɡo ðu eɾAsoa ɣuʂtIe eɾAnPutea , beɾaʂ , awsArtenPat eɣUna ?|1
-female/sonora/marina/NEU_00350_24k.wav|ekItaldia isIl isIlik eɣIm baðUte eɾE , ajmbat Iɾitarem presIðenteaɾen aldEko lelOak ojUkatu ðitUʂte .|0
-male/sonora/alex/NEU_00897_24k.wav|aʂkEn kilOmetroetan espEɾo ʂiɾEn eɾAsoɾik e PEn eɣOn .|1
-female/sonora/marina/NEU_03012_24k.wav|eɣOeɾa Aw amAjtu ða .|0
-male/sonora/alex/NEU_06302_24k.wav|AwtaɣajPa βAkara βaðAɣo , Awtaɣaɪa presIðente iʂEndatuko ðutE , ʂuʂEn ʂuʂEnean .|1
-female/sonora/marina/NEU_05522_24k.wav|oɾAjndik eʂ tAkite eʂbEara nOla ɣertAtu ðen , Eʂta lanɡIʎea ʂEjn dEn eɾE .|0
-male/sonora/alex/NEU_05111_24k.wav|bEstetik , ikAsleen eɾAnPunetan oɲArituʂ eɣIndako ɣaldEteɣiak eta estAtistikak aðmIɲistraPen ditUen uEb platAforma .|1
-female/sonora/marina/NEU_05280_24k.wav|uðAl βaPOrdeam baβEs Oren ɡaɲEan ɡaldEtuko ðuEn ʂinEɣoPiaɾen aldEko elkAretaɾaPea ðejtU ðutE .|0
-male/sonora/alex/NEU_02213_24k.wav|oɾi ðA , ʂerbAjt soʎA βiʎAtu ðuɣU .|1
-female/sonora/marina/NEU_07333_24k.wav|ɡeɾO , kompOnketa eðo istrUmentaʂio eɣOki βat biʎAPen saɪAPen nAjʂ .|0
-male/sonora/alex/NEU_02451_24k.wav|aʂkEnik , luʂApeneko saskIɾaPeek emAn ʂiOten ɡaɾAjpena .|1
-female/sonora/marina/NEU_00704_24k.wav|alaβer , awrEkontuen lEɣeak eʂ tUela larIaldiej Awre eɣIteko partIðaɾik ɟasOPen aðIeɾaʂi ʂuEn .|0
-male/sonora/alex/NEU_05179_24k.wav|eʂ tAkit ʂe IP eɾAβili .|1
-female/sonora/marina/NEU_04375_24k.wav|ʂEr ɡertAtu ða awrtEm musIkaɾem mundUan ?|0
-male/sonora/alex/NEU_07111_24k.wav|sinIstuta seɣUɾuaski , estUðiaPen laɣUnduko ʂiOla .|1
-female/sonora/marina/NEU_00533_24k.wav|ɡaɲEɾa , indArkeɾia maCIstaɾen awrkA konPIenPiaPeko eta EʂkunPa proɣrAmetan imbErtiPeko ðeɪA eɣIn diE eɾAkundeej .|0
-male/sonora/alex/NEU_05203_24k.wav|pArte ArPaʎeek benEtan sufrIPen dutEn sAɪoak !|1
-female/sonora/marina/NEU_06836_24k.wav|aCIlotuak suʂkO Arma eta munIʂioa ɣerIko polVA βatEan ʂeɾAmaPan .|0
-male/sonora/alex/NEU_00933_24k.wav|Oreʂ ɡAjn , kOntuak Ondo ʂeAʂtu ɣaβE ðawðEla kritIkatu ðu .|1
-female/sonora/marina/NEU_00323_24k.wav|laɣUnPa eskAPen saɪAtu ʂenEan , eɾAsoPaʎeak awrpEɣian ɟO ʂuEla aðIeɾaʂi ʂiEn erPAɲej .|0
-male/sonora/alex/NEU_02448_24k.wav|eβAʂpenaɾen aɾAβeɾa , ɡIsa Oretako aldEβakareko ekInPek naʂIoarteko lEɣeak urAPen ditUʂte .|1
-female/sonora/marina/NEU_08663_24k.wav|estOniaraɾen aðOɾe oɾi , ɡaɲEɾakoej kuVAPea ðA aðmInistraʂio konVEʎuak biʎAPen duEna .|0
-male/sonora/alex/NEU_09921_24k.wav|aCIlotu ʂutEn ɡeɾO naʂIek , eta βI Iʎaβete emAn ʂitUem bArenean .|1
-female/sonora/marina/NEU_02183_24k.wav|aɣEnteek lesIoak eɾAɣin ʂiʂkIotela salAtu ʂuEn aCIlotuak .|0
-male/sonora/alex/NEU_06504_24k.wav|orduan ikUsteko awkEɾaɾik iʂAn Eʂ paʂEnitu , lasAj eɣOn !|1
-female/sonora/marina/NEU_11554_24k.wav|aɣIre ɪawncOa , ʂuɾEa ðA IPa .|0
-male/sonora/alex/NEU_01381_24k.wav|aβEntuɾako aʂkEn kampOɾatuak leIaketan ʂeAr eɾAβilitako estrAteɣiaɾen inɡUɾuko ajmbat kOntu aʂAlduko ðitU .|1
-female/sonora/marina/NEU_00541_24k.wav|IkerPaʎe eta iɾAkasleak diAspoɾan eɾE enPUnɡaj ðiɾEn doɲUʂ betEko otE ðiɣU ordUβetea ?|0
-male/sonora/alex/NEU_05435_24k.wav|uðAko opOrak amAjtu ðiɾA .|1
-female/sonora/marina/NEU_09472_24k.wav|beEɾa kEɲu eɣIn ʂiOn , Eʂ osO urUneɾa .|0
-male/sonora/alex/NEU_06183_24k.wav|ʂeɾEsanik iʂAn Al ʂuEn litEɾatuɾak moβIliʂaʂio Artan ?|1
-female/sonora/marina/NEU_09285_24k.wav|aʂkEn epEaldiko βeɾEʂitasum bAt dU proɪEktuaɾem bEste kuCA fluʃU ɣArbiekiko , eta Orek naβArmenPen du .|0
-male/sonora/alex/NEU_11780_24k.wav|biOlonCelo ɪolEek , bEti ɣoɾAjpaPen ditUʂte βAken sujtEak .|1
-female/sonora/marina/NEU_01480_24k.wav|beɾEʂiki ʂuɾEʂko eskUltuɾa βiUrituetan .|0
-male/sonora/alex/NEU_01957_24k.wav|sarEɾen iɾAβaʂleek baɪEʂtapem mEʂua ɪAsoko ðutE .|1
-female/sonora/marina/NEU_03620_24k.wav|esErleku kopUɾua βetE artE onArtuko ðiɾA eskAeɾak .|0
-male/sonora/alex/NEU_01275_24k.wav|ʂEr esAnɡo ðutE osO ɣUCi ɪokAtu ðutEnek ?|1
-female/sonora/marina/NEU_09224_24k.wav|beAr baɲo seɣUndo βat leEnaɣo aPEɾa iPUli iʂAm banInP , e nUen iɲOjʂ ɡertAtu ʂenA ɣertAtuko .|0
-male/sonora/alex/NEU_08377_24k.wav|faCAða naɣUsian , Iɾu βaO ðawðE atE naɣUsi ʂaβAl βatEn alβO βAnatan .|1
-female/sonora/marina/NEU_00569_24k.wav|konVUlta iPAʂu filmEn ordUteɣiak !|0
-male/sonora/alex/NEU_06568_24k.wav|Alako βatEan , norbAjtek akAVem bat eɣIn eta ɣalAnta iʂAnɡo ða .|1
-female/sonora/marina/NEU_04484_24k.wav|eɣUɾaldiak eɾAɣindako aɾAʂoɾik eʂEan , bIɾa Oɾiek berIʂ iPUliko ðiɾA normAltasuneɾa astEaʂken arAValdean .|0
-female/sonora/marina/NEU_08496_24k.wav|ʃaβIɾoj komIkia sortU ðu ikAstolen konfEðeɾaʂioak , eta ɣaʂtE eta ɣaʂtECoenPat prestAtu ðutE ʃaβIɾoj komIkia , ɡaʂtEen iɾAkurʂaletasuna βulPAPeko Elβuɾuaɾekin .|0
-female/sonora/marina/NEU_05286_24k.wav|enPUn erlAʂionatuɾiko awðIoan elkAriʂketa osOa !|0
-female/sonora/marina/NEU_01112_24k.wav|ʂaʎA iʂAn da kAntuak ɟaʂtEko ɪoEɾaɾi muʂIn eɣIn eta oɲAriʂko soɲU βiʎUʂia ɣordEPea ?|0
-female/sonora/marina/NEU_08471_24k.wav|kuCA ustEʂ borCAtuaɾem barUan , Iɾu erlIkia sajndU , lAw kalIʂa , eta kopOj βI ɣordEPen omEn ʂiɾEn .|0
-female/sonora/marina/NEU_03154_24k.wav|eʂ tA ɣajʃOtasun Aw ɣajndUtu ðuEm perVOnaɾik eʂAɣuPen .|0
-female/sonora/marina/NEU_05165_24k.wav|nIk nEwk eɣIn naI ðUt .|0
-female/sonora/marina/NEU_11617_24k.wav|duCAn sarPEa espEɾienPia espIɾitual βat dA , etnOɣrafoek sinIstu naI Eʂ paðUte eɾE .|0
-female/sonora/marina/NEU_08287_24k.wav|imAnol esnAola , leʂOko ʂinEɣoPia ʂEn , eta miɾEn ɟOsu aɾAmbuɾu , urECuko ʂinEɣoPia .|0
-female/sonora/marina/NEU_09781_24k.wav|ɡU ɣEw , ikUsleok eɾE Ondo Asko oArPen ɡaɾA Oren aldE Oretako eʂbErdintasun Oretaʂ .|0
-female/sonora/marina/NEU_06624_24k.wav|ʂEr eɣIm beArko ɣenUke opOraldia moðU eɣOki βatEtan antOlaPeko ?|0
-female/sonora/marina/NEU_05448_24k.wav|sU etEna , biðE βatEʂ esAnɡo ðuɣU , eʂ tA βetEPen aɾI .|0
-female/sonora/marina/NEU_00799_24k.wav|baɲa ʂEjn iʂAnɡo ða uðAβeriko arOpak eɾOsteɾakoan awkEɾatu βeArko ðuɣUn leEn kolOɾea ?|0
-female/sonora/marina/NEU_03913_24k.wav|ʂapAraða Andieʂ ɡAjn , CinɡOra eɾE eɣIn deʂAke .|0
-female/sonora/marina/NEU_09578_24k.wav|eɣIʂu kOntu , ordea , ʂeɲEn erɡEla ðEn aleɾe , eʂ pAjtu musU βat eɾE lortU .|0
-female/sonora/marina/NEU_01410_24k.wav|beAreʂkoa ðA eskUjɲaɾen altErnatiβa .|0
-female/sonora/marina/NEU_01487_24k.wav|sartU eta ikUsi ʂEw ʂaɾEn iɾAβaʂleetako βat .|0
-female/sonora/marina/NEU_03681_24k.wav|uðAlen osAketaɾen ondOɾen asitako elkAriʂketa aɾO βerIaʂ aɾIko ða .|0
-female/sonora/marina/NEU_08549_24k.wav|awr CikIej kontAPea , awr Andiej eðo elduej kontAPeaɾen desbErdiɲa otE ðA ?|0
-female/sonora/marina/NEU_07300_24k.wav|ɡAwʂa Asko ʂuʂEndu βeAr ditUʂte ɣipUʂkoarek .|0
-female/sonora/marina/NEU_01315_24k.wav|iʂAn eɾE , ɡAwr ɡawErdian amAjtuko ða Awteskunde kampAɲa .|0
-female/sonora/marina/NEU_06062_24k.wav|ʂerɡAtik onArPen ditUʂte nEwriʂ kampOko ɪarEɾa maCIstak ?|0
-female/sonora/marina/NEU_06586_24k.wav|ɡoɣOan iʂAn , astE Onetan atAɾian enPUnɡaj !|0
-female/sonora/marina/NEU_00128_24k.wav|ɡAj oɾi eɾE ɪorAtuko ðutE .|0
-female/sonora/marina/NEU_01905_24k.wav|Eʂ , Eʂ bEti .|0
-female/sonora/marina/NEU_09291_24k.wav|CapEldunak kEɲu eɣIn ʂiEm beɾE APeko CapEldun armAtuej , eta aCIʎoPeko aɣIndu ʂiEn .|0
-female/sonora/marina/NEU_10434_24k.wav|bOto βalIoɣaβea iʂAn ʂen ɡeIenɡoa , Ajn ʂuʂEn eɾE .|0
-female/sonora/marina/NEU_06405_24k.wav|Ona Emen iɾAβaʂle βakOjPaɾen awrkEʂpen laβUra .|0
-female/sonora/marina/NEU_00287_24k.wav|formA βiɾIβiʎak ditUʂte etA , batEʂ eɾE , emAkumeej ʂuʂEnduta ðawðE .|0
-female/sonora/marina/NEU_00172_24k.wav|ɡerA ʂiβIʎa leErPear eɣOn litEke .|0
-female/sonora/marina/NEU_07394_24k.wav|karɡA oɾi iʂUɣaria ðA .|0
+maider/NEU_01550_24k.wav|sektOɾeko itUriek aʂAldu ðutEneʂ , preʂIoak biɣAreneʂ ɟarAɪan eɣIn du ɣoɾA .|0
+antton/NEU_03502_24k.wav|ekImenak iʂAndako arAkasta ikUsita , berVIo βerIen ʂAjn ɡeɾAPen ɡaɾA !|1
+maider/NEU_05953_24k.wav|aplIkaʂioa apAl βatEn iCUɾa ðU eta ðendAɾa sarbIðea eɾE ðA .|0
+antton/NEU_04257_24k.wav|Ala eɾE , irlA ɪOPen aɾI ðEn sutEko frontEetako βat kontrOlaPea lortU ðutE .|1
+maider/NEU_07621_24k.wav|Iɾu ðIsko iʂAnaɣatik , lAn osO βat eɣIn duʂUe , eʂ tA Ala ?|0
+antton/NEU_07025_24k.wav|sEkula eʂ tUt eɣIn Orembeste iʂErdi !|1
+maider/NEU_11562_24k.wav|etA , bukAPeko , arɡI UPi naI ðiʂUt bEste kOntuco βAt .|0
+antton/NEU_03149_24k.wav|Eɣia esAteko , Eʂ .|1
+maider/NEU_10219_24k.wav|kartEl iɾAβaʂlea , Iɾuɾeun eta Oɣejta βI Awtaɣajɾen artEtik awkEɾatu ʂutEn epAjmaajkiðeek .|0
+antton/NEU_03542_24k.wav|iɣAndean eɣOeɾak OβePeɾa eɣInɡo ðu .|1
+maider/NEU_11974_24k.wav|Umeak ɡajtAsunak baðItu , naIaɣo ðU futbOla atlEtismoa βaɲO .|0
+antton/NEU_05666_24k.wav|awkEɾaketa eɣIteko ðatAk Awreɾaɣo ɪakIɲaɾaʂiko ðiɾA .|1
+maider/NEU_06429_24k.wav|ɡAwʂa Asko ikAsi βeAr ditUɣu oɾAjndik .|0
+antton/NEU_02031_24k.wav|marAʂki βIʂiðunetako filmE franPIar Onetam bI iʂAkiek elkAri nOla laɣUnPen diOten kontAPen da .|1
+maider/NEU_03862_24k.wav|denEtaɾik eɣOnɡo ða , iʎEak pUntan ɟarPEko eta ðAnPa eta saltOka iβIlPeko eɾE !|0
+antton/NEU_06619_24k.wav|Emendik Awreɾako ðolUan eɾE , laɣUnPa eskAɲi ðiE .|1
+maider/NEU_06776_24k.wav|astEaɾi ɣIɾo eɣOnkoraɾekin eta ɣoʃOaɾekin emAnɡo ðiOɣu Asieɾa .|0
+antton/NEU_00171_24k.wav|ɡoʂOɣinPa eta artIsawPa aʂOkan klawsUɾako komEntuetan eɣIten diɾEm proðUktuak sAlduko ðiɾA .|1
+maider/NEU_08276_24k.wav|bI Urte ɣeɾOaɣo , bEste lAw istrIpu iʂAn ʂiɾEn uðAn ʂeAr .|0
+antton/NEU_11721_24k.wav|boʂkEtan , eUn eta Amaiɾu βOto iʂAn ʂiɾEn abstEnPioaɾen aldE , bAt kOntra eta Amaβost abstEnPio βatU ʂiɾEn .|1
+maider/NEU_03394_24k.wav|lAw ɣaɾAjpen eta βerdInketa βAt eskUɾatu ðitUʂte armAɣiɲek aʂkEm bOs ɟardUnaldietan .|0
+antton/NEU_08549_24k.wav|awr CikIej kontAPea , awr Andiej eðo elduej kontAPeaɾen desbErdiɲa otE ðA ?|1
+maider/NEU_04137_24k.wav|marCOa βitArtekoak baɲo eʂ tItuʂte iɾAɣarita .|0
+antton/NEU_06773_24k.wav|oɾAjnɡoʂ , ikErketako itUriek eʂ tUte ɪakIteɾa emAn aCIlotutakoen inɡUɾuko ðatUɾik .|1
+maider/NEU_02867_24k.wav|ɡuCIeneko ʂerbIPuak eʂArPeɾa βeArPen duEn aɣInduaɾen kOntra Eleɣitea awrkEʂtuko ðutEla aðIeɾaʂi ðutE sindIkatuek .|0
+antton/NEU_04022_24k.wav|Ildo Oretatik , ɡAwr eɣUn indArean dawðEn seɣUrtasun distAnPiak ʂajnPEko eskAtu ðiEte Eritarej .|1
+maider/NEU_00708_24k.wav|ɡaɲEɾa , eʂEʂaɣum batEm biðEoak ɡertAkaɾia larItu eɣIn ʂuEn .|0
+antton/NEU_05733_24k.wav|eʂAwɣariak betEPen ditUena ðA perfEktua .|1
+maider/NEU_10968_24k.wav|baðAwðe , noskI , bEs seʎEr iðAʂleak apArte UPita .|0
+antton/NEU_03800_24k.wav|bEste osAɣaj βAPuk , kamEɾak eta proʂEsaðoɾeak esAteɾako , sakOnki aʂtErtu ðitUʂte .|1
+maider/NEU_06870_24k.wav|saɾEkaðetan , leɣEʂ kampOko softUaɾeak biʎAPen ditUʂte ordEnaɣaʎuetan .|0
+antton/NEU_11753_24k.wav|awrEko Urteetan , marCOɾa artE eɾE , iɾAwn omEn dU paɣOCak .|1
+maider/NEU_04678_24k.wav|ʂEr nOlako eɾAɣiɲa ðutE ɣuɾE inɡUɾukoek eɣIten ditUʂten ekInPek ɡuɣAn ?|0
+antton/NEU_00002_24k.wav|emprEsa awek ɡiʂArtean dutEn ɡarAnPiaʂ eta krisIalditik irtEteko onɡIʂateaɾen estAtuaɾem biðEɣaritasunaʂ aɾItuko ða .|1
+maider/NEU_08344_24k.wav|ewskAl awtOnomia erkIðeɣoa , formUla oɾi awkEɾatu ʂuEn leEnenɡo awtOnomia erkIðeɣoa iʂAn ʂen .|0
+antton/NEU_05033_24k.wav|partIkulen fisIkako eɾEðu estAndarak awrEjkusitako eta oɾAjndik aPEman ɡaβE ʂeɣOen aʂkEm partIkula ðA .|1
+maider/NEU_00174_24k.wav|eɾAβilPaʎeek meACuak eʂAβaPen saɪAPen diɾEnean aplIkaʂioaɾem bitArteʂ , liʂEnPia βat eɾOstea eskAPen diEte .|0
+antton/NEU_04008_24k.wav|ʂerɡAtik iʂAnɡo ðiɾA monArkikoak iɲOrk eʂ pAðie Ori βuɾUʂ eʂEr aʂAldu ?|1
+maider/NEU_01432_24k.wav|miʎA eskEr ɡuɾE leIaketam pArte Artu ðuʂUen ɡuʂtIoj !|0
+antton/NEU_07280_24k.wav|norbAjtek penVAPen Al dU Awteskundeak normAltasuneʂ eɣIteko awkEɾa ðaɣOela ?|1
+maider/NEU_05750_24k.wav|Ona Emen Eritarek arɡItuko ðitUʂten ʂalAnPetako βAPuk .|0
+antton/NEU_01742_24k.wav|mEʂulaɾiPa ʂerbIPuaɾen nortAsuna ordEʂkaPen du iɾUʂureʂko ʂerbIPu Orek eɾAβilPaʎeen ʂembAjt datU perVOnal lorPEko asmOʂ .|1
+maider/NEU_10087_24k.wav|ɡaɾAj eðErak Al diɾA awek poEsiaɾenPat ?|0
+antton/NEU_01970_24k.wav|nOla βIʂi iʂAn ʂenUen ɟaɪAlditik eɣIndako βiðEa ?|1
+maider/NEU_04942_24k.wav|Ortik Awreɾa , eʂ tAɣo eʂEr eɾAβakita .|0
+antton/NEU_07892_24k.wav|bI awek iʂAnɡo ðiɾA faβOɾito naɣUsiak .|1
+maider/NEU_00175_24k.wav|salnEwrien aʂkEm beEɾakaðak petrOlio ɣordIɲak naʂIoarteko merkAtuetan iʂAndako βalIo ɣalEɾaɾekim batEɾa ɣertAtu ðiɾA .|0
+antton/NEU_03187_24k.wav|nIk nEwk eʂIn iʂAn nuEn ewskAl eskOlan ikAsi , deβEkatuta ʂeɣOelako .|1
+maider/NEU_02535_24k.wav|ondOɾioʂ , taʃI ɣeltOkia lEku βeɾEan iʂAnɡo ða ɪaɪAldian ʂeAr .|0
+antton/NEU_06716_24k.wav|bloɣEtan eta eɣUɾaldi nAiʂ trafIkoaɾen inɡUɾuko alβIsteetan eɾE βisItaɾi kopUɾua naβArmen Aʂi ða .|1
+maider/NEU_11261_24k.wav|Oreɣatik dA posIβle , awrEko sinEsmenak osO βeɾAndu artE iɾAwtea .|0
+antton/NEU_11921_24k.wav|eʃEkutiβoak , santIaɣo osAsun sajlβUɾu oIa propOsatu βaʂUen eɾE , konVEʎu polItikoak e PUen onArtu .|1
+maider/NEU_10065_24k.wav|aɣIre oɪArPuara , ewɾOpako CapElketetan iʂAnɡo ða βiAr .|0
+antton/NEU_03711_24k.wav|ekOloɣismoaɾen aldEko ɪarEɾa sendOa aɣErPen Eʂ tutEm perVOnak leEraɾaʂi eɣIten ditUʂte iɾAɣarkietan .|1
+maider/NEU_06686_24k.wav|elkAri βesArkaða βatE ðO βEste emAn diOte aʂkEnean .|0
+antton/NEU_08023_24k.wav|biʂIPa osOan eʂ tUt amEVetan sinEVi , baɲa amEV Artam bAj , sinEVi eɣIn naI iʂAn nuEn .|1
+maider/NEU_03951_24k.wav|ɟardUeɾa fisIkoan eta kiɾOl ʂiEnPietan liʂEnPiatua ðA βaɲa aðmInistraʂioan daβIl lanEan .|0
+antton/NEU_07998_24k.wav|ondAsum perVOnal uɣAɾi eta βalIo sentImental Andiko ʂembAjt ɡAj ðesAɣertu ʂiPAjʂkion .|1
+maider/NEU_11548_24k.wav|ʂe akOrdio eðo propOsamen lortU aAl dA komUnean ?|0
+antton/NEU_00499_24k.wav|bitartean , normAltasuneɾa iPUlPen aɾI ðiɾA kaltEtutako lEku ɣeIenetan .|1
+maider/NEU_08186_24k.wav|sutE βatEk eUn Ektaɾea βAso , landA , eta sasI kiskAli ðitU nafAroan .|0
+antton/NEU_08719_24k.wav|awtOaɾen konfIɣuɾaʂioa eɣOkia ʂEn , eta osO erEɣulara iʂAn da sAɪo ɣuʂtIan ʂeAr .|1
+maider/NEU_05435_24k.wav|uðAko opOrak amAjtu ðiɾA .|0
+antton/NEU_02252_24k.wav|pasEalekua eɾOrPeaɣatik ospItaleɾatuta ðawðEn ʂAʂpi perVOnetatik bat ʂajnPA βeɾEʂien unItatean daɣO .|1
+maider/NEU_10887_24k.wav|nOla lortU ʂuEn kolOɾe oɾi , nOla marɡOtu otE ʂuEn Ajm miIse Andia , eta nOla lortU otE ʂuEn Ajmbesteko ʂeAʂtasuna ʃeEtasunetan .|0
+antton/NEU_02382_24k.wav|oɾEka βiʎAtu βeAr dA .|1
+maider/NEU_06285_24k.wav|aplIkaʂioaɾen Elβuɾua ɣiʂArtea OβePea ðA , EʂkunPa sistEmak sostEnɡatuʂ Umeen ɡaɾApeneɾako .|0
+antton/NEU_01869_24k.wav|Ar eʂAʂu pArte Urenɡo sAɪoko leIaketan !|1
+maider/NEU_01538_24k.wav|ɡeldIaɾaʂi ostEan , aɣEnteek maɾIuana usAjn Andia aPEman ʂutEn iβIlɣaʎuan .|0
+antton/NEU_01261_24k.wav|eʂ tUɣu amOɾe emAnɡo .|1
+maider/NEU_02854_24k.wav|iɣOeɾa Onen ondOɾioʂ Ipoteken kuOtak ɡaɾEstitu eɣInɡo ðiɾA .|0
+antton/NEU_04915_24k.wav|bIʂi ɣuʂtIɾako ðiɾA eta Orek eɾAβakiPeko askAtasun Andia emAten diEla ðiɾUði .|1
+maider/NEU_10674_24k.wav|ʂEr supOsatu ðiʂU Orek iPUlpena eɣItean ?|0
+antton/NEU_02497_24k.wav|ondOɾem prenVAwrekoan aʂAldu ðu osO poʂIk daɣOela βiʎEɾaɾen emAjPaɾekin .|1
+maider/NEU_02958_24k.wav|bildUma awsArta atEɾa ðu ðisEɲaPaʎe Onek eta Oretaɾako ʂinEma mundUko klAsikoetan inspIɾatu ða .|0
+antton/NEU_04801_24k.wav|ɡakOa ðefEnVako eta eɾAsoko ɪokOaɾen artEko oɾEkan daɣO .|1
+maider/NEU_06226_24k.wav|bErtan onlAjn erEputaʂioaɾen etOrkiʂunaɾi βuɾUʂ eta profEsional βerIen lAm mundUɾaPeaɾi βuɾUʂ eʂtAβajðatuko ða .|0
+antton/NEU_00357_24k.wav|eʂ tAkit , baða .|1
+maider/NEU_00887_24k.wav|kaʂEtaɾi awstrAliar bat ospItaleɾa eɾAmam beAr iʂAn dutE .|0
+antton/NEU_00497_24k.wav|desEɣitea ewskAl ɣiʂArteaɾi eta ɣiʂAteɾiaɾi ʂOr ʂiEla Uste ðu aɣIntaɾiak .|1
+maider/NEU_09123_24k.wav|eʂ tA ikUsi , Amarkaðak aIPean , ewskAl pUnk oI βAPuk baɲo krItiko ʂorOP eta urIkiɣaβeaɣoɾik .|0
+antton/NEU_01317_24k.wav|Oreʂ ɡAjn , suβstAnPia ʂuɾIðum polVAk eɾE awrkItu ðitUʂte .|1
+maider/NEU_08533_24k.wav|naI ta naI Eʂ , teEɾaneɾako βiðEa iCIta ðaɣO , iβIlɣaʎu ɣuʂtIenPat .|0
+antton/NEU_05517_24k.wav|eɣUn Oretan , litrOko piCAr bakOjPeko βikInɡoen kaskO βat opAɾituko ðutE antOlaPaʎeek .|1
+maider/NEU_07692_24k.wav|oɾi uðAʂken Onetam bErtan iʂAn litEkeela kontAtu ðu βatEɾia ɪoPAʎeak .|0
+antton/NEU_04666_24k.wav|ʂeAʂki , lAw milIoj ewɾO βanAtu ðiɾA βI Eriotan .|1
+maider/NEU_10367_24k.wav|perVOnak , bekAtutik Irten eɣIm beAr du , eta urAV oɾi oɾAjn emAm beAr dU , eʂ tU βalIo ɣeɾOko uʂtEak , aPEɾaPeak eʂ pAjtu iɲOjʂ onIk ekArPen .|0
+antton/NEU_04235_24k.wav|Ordu erdIɾo alCAPen dutE βlokEoa .|1
+maider/NEU_08112_24k.wav|aðmInistraʂioak eʂ tU seɾIo ArPen ɡAj Aw oɾAjndik .|0
+antton/NEU_01200_24k.wav|traðIʂioa mantEndu ala Awreɾa eɣIm beArko ɣenUke kasU Awetan ?|1
+maider/NEU_07517_24k.wav|bI βiʎEɾa eɣInɡo ðiɾA ɣAwr .|0
+antton/NEU_00570_24k.wav|Ajn ʂuʂEn eɾE , Iɾuɣarem biðEo ikUsiena ðA Aw .|1
+maider/NEU_10571_24k.wav|iCUɾa eɾAkarɡaria , ʂapOɾe aɾIɲa , eta ukItu Eʂ osO trinkOa .|0
+antton/NEU_06813_24k.wav|ɡeɾO , ʂuʂEnean eʂIɲeʂkoa eɣIten ʂajt awkEɾak emAten Eʂ tiʂkIðatelako .|1
+maider/NEU_05840_24k.wav|bEste erElatoa βeldUraɾena ðA .|0
+antton/NEU_01190_24k.wav|ʂerɡAtik betIkotu naI iʂAn duʂU ðAnPa lAm batEn sormEn lanA ?|1
+maider/NEU_03650_24k.wav|ʂundAketetan aPEman dutEm petrOlioaɾen kalItate eta βolUmen eskAsaɣatik UPi ðitUʂte βErtam beEɾa βiʎAketa lanAk .|0
+antton/NEU_03543_24k.wav|nOjʂ eɾAβaki ʂenUten liβUɾua eɣItea ?|1
+maider/NEU_11899_24k.wav|ojU eɣIn ʂuEn , eta awtOa βat batEan aPEɾa Irten ʂen kolpEan .|0
+antton/NEU_02029_24k.wav|kiɾOlaɾi feðEɾatu βAt leIatu ðajtEke ?|1
+maider/NEU_03893_24k.wav|eɾA βeɾEan , awʂIpetuaɾi βeIm beIɲeko askAtasuna eʂAri ðiO epAʎeak .|0
+antton/NEU_03927_24k.wav|bEsteak bEste , osAsun eta ɪustIʂia ʂerbIPuen koOrdajnketa propOsatu ðutE emprEsaβuɾuek .|1
+maider/NEU_06986_24k.wav|indArak nondIk atEɾaPen ditU awrkAɾiak , lesIoak eta eVIpenak ɡajndIPeko ?|0
+antton/NEU_04548_24k.wav|ʂAʂpi seɣUndu iʂAm beAr ditU , ɡuCIeneʂ .|1
+maider/NEU_09006_24k.wav|aβUʂtuan ɡaldUtakoa βerEskuɾatu ðu Eɣo ewskAl Ericoko lancO merkAtuak .|0
+antton/NEU_05858_24k.wav|eɾA βeɾEan , ewskAl eɣIʎe klAsikoej eɣInɡo ðiE omEnaldia eðIʂio Onek .|1
+maider/NEU_05627_24k.wav|ɟendArmeek kolpEka eɣIn diE Awre .|0
+antton/NEU_08226_24k.wav|ɟOsu ɪOn imAʂ , ɟelPAleem presIðenteak , arɡI UPi ðiO olAnoɾi .|1
+maider/NEU_07974_24k.wav|misIo βatEan anka sartU ðuEneʂ , aðmInistraʂioko lanEtan daβIl oɾAjn .|0
+antton/NEU_05864_24k.wav|ɡOjʂaldeko βoʂkEta ɣarAnPiVua iʂAn da osO , erEpuβlikanoek erEforma βlokEaPea ekIðin dutElako ðemOkratek .|1
+maider/NEU_06467_24k.wav|erlEak ɟAten ditU , eta erlEʂaɲak eVIta ðawðE aɾAʂoaɾekin .|0
+antton/NEU_07245_24k.wav|iβIlɣaʎuaɾem malEtateɣian awrkItu ðutE ðroɣA aɣEnteek , UVean onPIɾatutako βeðEɾaPi polVAtan .|1
+maider/NEU_08497_24k.wav|biAr arAValdeko seɪEtan asiko ðiɾA fEstak , kampAɪen eta CaplIɣuen OVaɾekin .|0
+antton/NEU_04077_24k.wav|Ondo ðawkAla Onek buɾUa !|1
+maider/NEU_08960_24k.wav|dEna ðEn , Orek e lUke ʂertAn ondOɾioɾik iʂAm beAr ewskAl prEsoen awʂIan .|0
+antton/NEU_04688_24k.wav|kaʂEtaɾiaɾen iβIlβiðe profEsionala eta βeɾE aldEɾik perVOnalena eʂAɣutuko ðutE .|1
+maider/NEU_04776_24k.wav|baða ordUβete βeɣIɾik kEnPen Eʂ tiðAʂula !|0
+antton/NEU_03863_24k.wav|Ajmbeste iʂEmbuɾu emAn ditUen lEɣeak eɾAβilPaɪeenɡan ʂEjn eɾAɣin iʂAnɡo ðuEn aʂtErtu ðutE .|1
+maider/NEU_10298_24k.wav|ɡiʂArteaɾen kontrOleɾako CoCOnɡiʎo UVak , Askoɾen ustEʂ .|0
+antton/NEU_00915_24k.wav|epAjketa ɣAwr amAjtuko ða aðItuen CostEnaɾekin eta aldEem beIm betIko ondOɾioekin .|1
+maider/NEU_06920_24k.wav|ɡaɲEɾa , betAwrekoak tolEsɡariak iʂAnɡo ðiɾA , eðOʂejn fundAtan sartU aAl iʂAteko .|0
+antton/NEU_01652_24k.wav|oɾietako βIk kaltE Andiak iʂAn ditUʂte , baɲa ɣarEk eʂ tUte iɲOr ʂawɾItu .|1
+maider/NEU_06508_24k.wav|proβA Oɾiek beIm beIɲean ɡeldIaɾaʂi ʂitUʂten , ajmbat espEʂialitatetan irEɣulartasunak aPEman ʂitUʂtelako .|0
+antton/NEU_07697_24k.wav|baɲa eʂ tA Orela .|1
+maider/NEU_06953_24k.wav|mundUa ikUsten aɾI ðA .|0
+antton/NEU_06865_24k.wav|enPUn , ɡUk Emen lanA ðuɣU eɣIteko !|1
+maider/NEU_07331_24k.wav|alaβer , ɡOjʂaldean asi ðiɾA ɣasOlina βAnaPen .|0
+antton/NEU_07455_24k.wav|eɣUneko βerIaɾen lEkutik ʂuʂEneam bAt eɣIten saɪAtuko ðiɾA .|1
+maider/NEU_06235_24k.wav|aðIɲekoen kasUan , ɡomEndaɣaria ðA konfIanPaʂko norbAjt bErtan iʂAtea .|0
+antton/NEU_02181_24k.wav|beɾaʂ , beInɡoaɣatik baða eɾE , iʂEβa poʂIk ikUsiko ðuɣU !|1
+maider/NEU_07122_24k.wav|bestalde , seɣUrtasun kamEɾen iɾUðiak aʂtErtuko ðitUʂte , aʂtArna βerIem biʎA .|0
+antton/NEU_01605_24k.wav|balIaβiðeak muɣAtuak diɾA βEti .|1
+maider/NEU_01311_24k.wav|ɡaɲEɾa , bOs ɡOl eɣIn ditU .|0
+antton/NEU_04552_24k.wav|anPA ðenEʂ , bAseria UVik ʂeɣOen eta emAkumea ɣawA iɣAɾoPen aɾI ʂEm bErtan .|1
+maider/NEU_07969_24k.wav|baɲa ʂErk bulPAPen diE ɣAwr eɣUnɡo ɣaʂtEej tAlde βatEko eðo βEsteko kIðe iʂAten ?|0
+antton/NEU_08443_24k.wav|ospItaleko aðmInistraʂio konVEʎuak , nEwri oɾi eʂ tU oɾAjndik boʂkAtu .|1
+maider/NEU_03441_24k.wav|Amar kasUtatik ʂAʂpi emAkumeak diɾA .|0
+antton/NEU_01826_24k.wav|berIkunPen artEan , delItu oɾienɡatik kondEnatutako perVOnen ʂiɣOrak betEPeko βaldInPak ɡoɣOrtuko ðitU aɾAwðiak .|1
+maider/NEU_02436_24k.wav|eɣUɾaldi arɡIa iʂAnɡo ða naɣUsi .|0
+antton/NEU_09338_24k.wav|mAʎa perVOnalean eɾE , konkIstaPaʎePat Al duʂU ʂewɾE βuɾUa ?|1
+maider/NEU_08911_24k.wav|emAkumeak , Iɾi oɾi imAxinaPeɾa eldu βeAr dU , posIβle ðEna polIki polIki eta βulPAðaʂ bulPAðaʂ ʂaβAlduʂ .|0
+antton/NEU_04267_24k.wav|Aɾaɣia βEste proðUktu βaPUekin ʂuʂEneko kontAktuan ʂeɣOen , iɲOlako βaβEsik ɡaβE .|1
+maider/NEU_08481_24k.wav|ikUsi eɾE , ikUsi nitUem bI ofIʂial potOlo ɣOnak alCAtu , eta iʎE βat eɾAwʂten ɡiʂOnaɾi emAteko .|0
+antton/NEU_05717_24k.wav|eʂ tUɣu maɣIa eɣIten .|1
+maider/NEU_06612_24k.wav|keCUp eðo tomAte salVEtan ?|0
+antton/NEU_09818_24k.wav|esnAtu eɣIn nAw oEɾa sarPEan , biʎUʂtu eta laʂtAneʂ bustI ðit ɡOrpuP osOa .|1
+maider/NEU_08590_24k.wav|aðIβiðeʂ , APekoʂ Awreɾa ikUs dajtEʂke liβUɾucoɾa Eɣan iPUlPen lurEɾa eɾOɾitako orIak .|0
+antton/NEU_09348_24k.wav|fernAndo moɾIʎo aʂpEjtiko Eri aldIʂkaɾian kolAβoɾaPaʎe ðA .|1
+maider/NEU_00147_24k.wav|sEj eɣUneʂ aɣEraldi puβlIkoɾik eɣIn ɡaβE eɣOn ondOɾen iɾAɣari ðu eɾAβakia .|0
+antton/NEU_00254_24k.wav|bEsteak bEste , ɟustIʂiaɾen eta memOɾia Istoɾikoaɾen aldEko aldAriak ojUkatu ðitUʂte .|1
+maider/NEU_11704_24k.wav|dIskoa βaɲo leEn , leEnenɡo sinɡEla ɪarIko ðutE salɣAj , Il Onen Amaʂaʂpian .|0
+antton/NEU_09523_24k.wav|frujtU CAr Uɾa ʂuAjʂ ɡajʂtO βatEk baɲo eʂIn ʂeʂAkeen emAn .|1
+maider/NEU_06710_24k.wav|baɲa nOla eɾAɣiten du aɾAʂo Orek perVOna Orem biʂImoðuan ?|0
+antton/NEU_06898_24k.wav|bEste βiAk onIk dawðE .|1
+maider/NEU_01850_24k.wav|partIða ɣuʂtIetako Elβuɾua ɪokOan daɣOen ɡuʂtIa eskUɾaPea iʂAm beAr dA .|0
+antton/NEU_11937_24k.wav|alAjn , ewɾOðiputatuak , baɪOna , anɡElu eta miAriPe Eri erkIðeɣoaɾen leEndakaɾi karɡUa uʂtEko asmOa aʂAldu ðu .|1
+maider/NEU_02809_24k.wav|anIma ʂajtEʂ bErtan eɣInɡo ðen ɟajɾA etOrPen !|0
+antton/NEU_11003_24k.wav|Ur OPetam bustItako komprEsak , iʂOʂ polVA eðo iʂOʂ koskOrak ipInPea komEni iʂAten da .|1
+maider/NEU_05884_24k.wav|defEnVa portUɣaldarak e PUen ɟOaneko partIða ɪokAtu ʂiɣOrtuta eɣOn ʂElako .|0
+antton/NEU_01610_24k.wav|aʂAlekoa ðA mimbIʂia ɣuʂtIen artEan oIkoena .|1
+maider/NEU_01239_24k.wav|telEfonia muɣIkoreko lIneak kontrAtatu eta finAnPa eɾAkundeetan kOntuak iɾEkiPen ʂitUʂten dokUmentu falVUekin .|0
+antton/NEU_03702_24k.wav|OndarPan eðo iɣEɾilekuan soɾOslea topAPen Eʂ paðUʂu , ʂawðE lasAj !|1
+maider/NEU_00826_24k.wav|eCEam bEti ʂerbAjt eɣIteko βaʂEn , ordea !|0
+antton/NEU_07446_24k.wav|bajta ɣolEɣiʎe naɣUsia eɾE .|1
+maider/NEU_01584_24k.wav|beɾaʂ , datOʂen Iɾu eɣUnotam musIkaʂ ɡoʂAPea βEsteɾik eʂ tA fAlta !|0
+antton/NEU_04346_24k.wav|Aw βAj e nUela ʂuɣAndik espEɾo !|1
+maider/NEU_03773_24k.wav|iʂUɣari aVEɣin ditUt awrak eta sEme alAβa ɣEiaɣo iʂAn naI ðitUt .|0
+antton/NEU_01228_24k.wav|Islandiarek bertAko βAnkuek aPEriko Eritarej iɾUʂuraɾem bitArteʂ kendUtako ðIɾua iPUlPea βaʂtErtu ðutE erEfeɾendumean .|1
+maider/NEU_02772_24k.wav|aʂtErketaɾiek betE βeArko ðitUʂte antOlaPaʎeek ʂeAʂtutako preβEnPio ɪarAjβiðeak eta norbEɾaɾen Iɣieneɾako nEwriak .|0
+antton/NEU_01019_24k.wav|ArPekoðunek propOsatutako nEwriak onArPen ditUʂten ala Eʂ eɾAβaki βeAr dutE ɣreʂIarek iɣAndeko erEfeɾendumean .|1
+maider/NEU_09417_24k.wav|ɟAjnkoak , lAw ɣaʂtE aɪej ɪakInduɾia eta aðImena emAn ʂiʂkIen iðAʂki eta ɪakInPa oɾO ulErPeko .|0
+antton/NEU_00031_24k.wav|ɡorpUʂkiak ɡiʂAkienak diɾEla Ia seɣUɾuPat ɟO ðutE .|1
+maider/NEU_10194_24k.wav|komUnikaβiðe uɣAɾi , ʂAleak Armaʎetan , eta βerI usAɲa oɾAjndik kanCAn ʂEn .|0
+antton/NEU_03873_24k.wav|moðU Oretan aβIatu ðitU ɣuCIeneʂ bEste astEβeteʂ luʂAtuko ðiɾEm moβIliʂaʂioak .|1
+maider/NEU_11163_24k.wav|arɡI UPi βeAr dA koOrdiɲatuɾa ðiArdutela eɣUnco eɾE lancOan , baɲa βecI Oβetu ðajtEke .|0
+antton/NEU_07694_24k.wav|biðEoklipa eɾE , ostEɣunean iɾIViko ða .|1
+maider/NEU_03598_24k.wav|fiðAɣaritasuna osO Andia ðA , ɡeɾO eta Andiaɣoa , baɲa eʂ tA eɾAβatekoa .|0
+antton/NEU_06423_24k.wav|sU Arma βatEkin ɡiʂOneʂko βat ʂawɾItu ðutE .|1
+maider/NEU_08114_24k.wav|britAɲia Andiak , benɡAlako eUnɡinPa eðota eɣIptoko alPAjɾuɣinPa indUstria sunVItu ʂitUen .|0
+antton/NEU_02536_24k.wav|Eʂ , Eɣia esAn , Eʂ .|1
+maider/NEU_06956_24k.wav|memOɾia ɣalPEa ɣajʃOtasunem batEn Astapena iʂAn dajtEke .|0
+antton/NEU_03899_24k.wav|mundU osOan ʂeAr iʂAn diɾA Onelako monEta altErnatiβoʂko espEɾienPiak ekOnomiaɾen deslOkaliʂaʂioaɾen kOntra .|1
+maider/NEU_01314_24k.wav|bEstetik , merkAtaɾiPa emprEsek kontrAtuak , faktUɾak eta erEklamaʂioen kuðEaketak eɣInɡo ðitUʂte .|0
+antton/NEU_04633_24k.wav|oɾAjn Amar Urte sortUa .|1
+maider/NEU_09053_24k.wav|OðeɪerPeɾa sO , bAsoko sutEa ðA mendIaɾem meACu naɣUsia .|0
+antton/NEU_08393_24k.wav|baðAkiɣu , IkerPaʎe mamU oɾien lanA , ɡU itOPean daPAla .|1
+maider/NEU_05379_24k.wav|leEnenɡo eðIʂiotik berEskuɾatuko ðiɾA ʂiɲE mundUko profEsionalek emAndako mintEɣi eta taʎErak .|0
+antton/NEU_05149_24k.wav|enPUn eta Artu erEʂeta !|1
+maider/NEU_10756_24k.wav|Askoco ðA , baɲa oɾi βEsteɾik eʂ tA .|0
+antton/NEU_02863_24k.wav|ɟuβIʎatuta βIʂi ða eɣUnak Ordu ɣeIʃeaɣo βalItu , musIkaɾi βerIak eʂAɣuPeko βalIatuko litUʂkeelakoan .|1
+maider/NEU_03486_24k.wav|ɡUk askAtu βeArko ɣenUke ?|0
+antton/NEU_04188_24k.wav|aldErdi lasAjtu eɣIm beAr da Awretik .|1
+maider/NEU_01717_24k.wav|altA , Eɣia ðA Ajmbeste otOjPean aɾIPen ɡiɲEla !|0
+antton/NEU_05814_24k.wav|iðAʂleen , iPUlPaʎeen eta ilUstraPaleen sorkUnPa lanA sustAPea ðutE saɾI awek Elβuɾu .|1
+maider/NEU_02227_24k.wav|patUak ʂinEma aɾEto βatEɾa eɾAmanɡo ðitU .|0
+antton/NEU_04236_24k.wav|enPUn eta eɣIaʂtatu Ala ðEn eðo Eʂ !|1
+maider/NEU_02213_24k.wav|oɾi ðA , ʂerbAjt soʎA βiʎAtu ðuɣU .|0
+antton/NEU_09288_24k.wav|Ewskaɾa eskAPem protEstan aɾI ʂiɾEn Iɾuɾoɣejta βat laɣUn aCIlotu ðitUʂte .|1
+maider/NEU_08972_24k.wav|alfErik etOri Al nAjʂ ojAn eta mendI Awetaɾa ?|0
+antton/NEU_00976_24k.wav|astEleenean ɡIɾo aVEɣiɲa iʂAnɡo ðuɣU βuEltan .|1
+maider/NEU_06784_24k.wav|Aw ðA , ʂorA eɾOsteko prEs daɣOela iɾAðoki ðu .|0
+antton/NEU_03861_24k.wav|emAkumeak ʂawɾIak ditU awrpEɣian eta eskU βatEan .|1
+maider/NEU_02898_24k.wav|eʂ tA iɲOr ʂawɾItu , baɲa kaltE matEɾialak iʂAn diɾA .|0
+antton/NEU_09002_24k.wav|Andik Elmuɣaɾako βiðEa moðU βeɾEan eɣIn du , eta etApa iɾAβaʂi ðu .|1
+maider/NEU_06135_24k.wav|ɡeʂUra nOla ðEn , ondOɾio absUrdoak dakArPa !|0
+antton/NEU_02017_24k.wav|Oɾiʃe ðA , Ajn ʂuʂEn eɾE , filmAɾi tenVIoa emAten diOna .|1
+maider/NEU_05247_24k.wav|lAn eɣIteko , luʃUa .|0
+antton/NEU_11627_24k.wav|soɲEko βerdEa ɪanPI ðut Ajn ɟuʃtU , eta eʂ tAwkat makIʎaxeɾik , osO ʂurbIl naɣO .|1
+maider/NEU_00107_24k.wav|osOko βilkUɾan onArtuʂ ɡeɾO , aɾAw Orek datA Oretatik Awreɾako ʂerɡAldiej eɾAɣinɡo ðiE .|0
+antton/NEU_04333_24k.wav|ʂapAtak aɣEraldia eɣIn du aʂkEn eɣUnotan ɡertAtutakoaɾen eta Artutako eɾAβakiaɾen inɡUɾuan aʂAlpenak emAteko .|1
+maider/NEU_00047_24k.wav|ɡeɾO kendU eɣIn ʂuEn .|0
+antton/NEU_03551_24k.wav|saɾIa emAten diʂUtenean leEnaɣo ðejtUko ðiʂUtela penVAPen duʂU , eta Arituta ɣeldItu ninPEn .|1
+maider/NEU_01750_24k.wav|bAseri mundUa ðesAɣerPear daɣOela ðiOte Askok .|0
+antton/NEU_06176_24k.wav|e PAjɣu planIk fAltako !|1
+maider/NEU_11765_24k.wav|ɟUlen lawAʃeta eta lawAʃeta ɪulEnaɾen awrkAkoak diɾA .|0
+antton/NEU_06129_24k.wav|leEn lawrdEna paɾEkatua iʂAn da , bI tAldeek Ondo Artu βajtIote nEwria elkAri .|1
+maider/NEU_02745_24k.wav|Onako ʂuβIak iʂAn ditUʂte Iʂpiðe , bEsteak bEste , enPUn !|0
+antton/NEU_00541_24k.wav|IkerPaʎe eta iɾAkasleak diAspoɾan eɾE enPUnɡaj ðiɾEn doɲUʂ betEko otE ðiɣU ordUβetea ?|1
+maider/NEU_00522_24k.wav|aɣIan , iðAʂle ondArutaraɾen estrAɲeko IPak diɾA Oɾiek .|0
+antton/NEU_02336_24k.wav|bEste awkEɾa βat , aβEslaɾi iʂAtea ðA .|1
+maider/NEU_08961_24k.wav|eʂ tUt iɲOjʂ iVAsoa uʂtEko asmOɾik , portU Aw βEti iʂAnɡo ða niɾE eCEa .|0
+antton/NEU_02796_24k.wav|eʂkOnduta ðaɣO eta βI sEme alAβa ðitU .|1
+maider/NEU_03972_24k.wav|infOrmaʂioʂ eta ʂirAɾaʂ betEɾiko proɣrAma !|0
+antton/NEU_06222_24k.wav|ɡeIeneʂ eɾE sEj perVOna elkArPeko nEwria mantEnPen da .|1
+maider/NEU_06060_24k.wav|Orela , iɾAɣan iɣAndean eɣIndako Awteskundeetako ɣaɾAʎePat ɟo ðU βaPOrdeak .|0
+antton/NEU_01076_24k.wav|lanAɾen estrEɲaldia ɪustIkaPea naIkoa ðutE ðIɾu laɣUnPak koβrAPeko , ʂuʂEndaɾiak aʂAldu ðuEneʂ .|1
+maider/NEU_01845_24k.wav|nIk eɣIten duðAn sukAldaɾiPa ɪEnde ɣuʂtIak dU ɣustUko .|0
+antton/NEU_07858_24k.wav|biʂImoðu sajEsteʂiɲa iʂAn da , erEmeðioɾik ɡaβEkoa .|1
+maider/NEU_03098_24k.wav|Eɣo ajʂe Orem poðEɾioʂ , tempEɾatuɾek ɡoɾA eɣInɡo ðutE ostIɾalean .|0
+antton/NEU_06650_24k.wav|enPUn eʂAʂu erlAʂionatutako awðIoa !|1
+maider/NEU_11237_24k.wav|defIniʂio soʂIala , ɟokAβiðeʂko ðefIniʂioa eta eʂAɣuPaʂko ðefIniʂioa termInoak eɾAβili oI ðiɾA soʂIoloɣiaɾen eta filOsofiaɾen alOrean , perVOna eðo entItate βatEn iʂAeɾa eðo nortAsuna ðeskrIβaPeko moðU ðesbErdiɲak aðIeɾaʂteko .|0
+antton/NEU_05401_24k.wav|estrEɲaldiaɾen Eʂurduɾa laɣUn tAldeenPako menUak eskAjnPen ditUʂten lAw ɪatECe ɣipUʂkoarek osAtuko ðutE .|1
+maider/NEU_02349_24k.wav|dEmboɾa atEɾaPem baðUʂu , awrtEnɡo kartEleko ʂEr tAlde ikUsi naIko ʂenItuʂke ?|0
+antton/NEU_11498_24k.wav|infOrmaʂio obɪEktiβoa ɪAso ðutEn aldI oɾO , ajmbat iɾIPi iʂAn diɾA aðIeɾaʂi iʂAn diɾEnak .|1
+maider/NEU_00818_24k.wav|tempEɾatuɾa ɣUCi ɪajVIko ða .|0
+antton/NEU_11461_24k.wav|desEroPe fisIko oɾi pajɾAtu ðuɣUn iðAʂleon artEan , osO oIkoa ðA AwrPaɾoɾa iPUlPeko lAn oɾi .|1
+maider/NEU_00381_24k.wav|Iɾu eɣUn ɡeɾOaɣo , ɡajʃOa ospItaleɾa βuEltatu ʂen eta eβOla ʂewkAla eɣIaʂtatu ʂutEn .|0
+antton/NEU_07730_24k.wav|ɡustUɾa eɾAnPunɡo nukE , liβUɾuek eta ðIskoek dutEla Alako eɾAkarɡaritasuna Eri CikI Onetan .|1
+maider/NEU_06525_24k.wav|CapElketaɾen inɡUɾuan laβUrmetraɪa leIaketa , fEsta , eta βEste ʂembAjt ekInPa antOlatu ðiɾA .|0
+antton/NEU_03096_24k.wav|urtEɣietan , eðo iβAɪetan , osO fenOmeno oIkoa iʂAten da .|1
+maider/NEU_05471_24k.wav|ʂEjn espArutan ɟarI βeAr diɾA oɾAjn indArak ?|0
+antton/NEU_02229_24k.wav|ʂU eɾE , ɡaʂtEa ʂaɾElako !|1
+maider/NEU_04952_24k.wav|eʂ tA istIʎuɾik ɟaʂO .|0
+antton/NEU_06783_24k.wav|ʂUnP Awstuɾa Uste βaɲo leEnaɣo ɣajndItuta , ɟokAPeko prEst aʂAldu ða Awrelaɾi uɾUɣuajtara .|1
+maider/NEU_08938_24k.wav|ikUsi Al ʂenUen eskUjɲeʂ nOlako kolpEa ʂuEm mIn Artu Awretik ?|0
+antton/NEU_08703_24k.wav|metAleʂko eskU βatEk ostU naI Al ʂiOn Aɾima ?|1
+maider/NEU_02548_24k.wav|Aw ðA βeɾE sorkUnPa βAkara , dakIɣuneʂ .|0
+antton/NEU_06289_24k.wav|ɟajVI eɣIn diɾA , aldIʂ , uAla eðo kaskOa Eʂ ɟarPEaɣatik ɟAsotakoak .|1
+maider/NEU_07195_24k.wav|emprEsa βaPOrdeaɾen eta ʂuʂEndaɾiPaɾen artEko akOrdioak lanɡIʎeen aldArikapen naɣUsiak ɟasOPen ditU .|0
+antton/NEU_11263_24k.wav|unE eɾAβakiɣarian ɡawðE , eta awkEɾa Aw aprOβeCatu βeAr duɣU , eʂIn duɣU βeɾAw ɣaldU .|1
+maider/NEU_03863_24k.wav|Ajmbeste iʂEmbuɾu emAn ditUen lEɣeak eɾAβilPaɪeenɡan ʂEjn eɾAɣin iʂAnɡo ðuEn aʂtErtu ðutE .|0
+antton/NEU_03618_24k.wav|oɾAjn , damUtua naɣO .|1
+maider/NEU_02601_24k.wav|pilOta awkEɾaketa ostEɣunean iʂAnɡo ða .|0
+antton/NEU_00578_24k.wav|anImatu eta kombIɲatu osAɣariak ʂuɾE uðAko ɪanPIekin !|1
+maider/NEU_08539_24k.wav|poEsia Eʂ ʂaɣOk sojlIk liβUɾuetan , diO erAɾia .|0
+antton/NEU_03535_24k.wav|osO eβOluʂio posItiβoa iʂAn da .|1
+maider/NEU_07038_24k.wav|bI pistA emAnɡo ðiʂkIʂuɣu eɣUneɾo !|0
+antton/NEU_04572_24k.wav|oɾOjPapenak bilPEko elkAriʂketa ɣraβAtuak eɾE βaðItu , baɲa eʂ tA elkAriʂketa liβUɾua .|1
+maider/NEU_02520_24k.wav|kompAɲia Aɾen ordEʂkoa βiʎAPen Asi ðA ɪaðA .|0
+antton/NEU_09194_24k.wav|imbErVio simplE eta Eʂ simplEej , erEal posItiβo βAkara ðutEn imbErVioak deɾIPe .|1
+maider/NEU_06002_24k.wav|filmE Oretam bI Aremam motAk dawðE .|0
+antton/NEU_08097_24k.wav|kapItaɲa eta Iɾu ofIʂialeʂ ɡAjn , berOɣejta sEj etOrkin , eta ʂorPI maɾIɲel ʂewðEn onPIan .|1
+maider/NEU_10630_24k.wav|bikOte ɣaʂtE Askok , beɾEn sEme alAβekin Ewskaɾaʂ IP eɣIten dutE , iɣAnde arAValdeko Ordu famIliarak aprOβeCatuʂ .|0
+antton/NEU_00939_24k.wav|ʂuʂEnean eskAɲitako βerVIoeʂ ɡAjn kAntu βerIak eɾE eɣOnɡo ðiɾA .|1
+maider/NEU_09898_24k.wav|lawAʃeta ʂEla esAn arEn , eʂIɲeɣom bat pIʂtu ʂuEn niɾE βajtAn , ɡiʂOn arAɾo Aɾem bisItak .|0
+antton/NEU_06764_24k.wav|baɲa konʂIente Al diɾA eðo ʂaɾEte ɣuɾAsoak awrej estrEsak eɾAɣin diEʂaɪeken kaltEeʂ ?|1
+maider/NEU_08325_24k.wav|naAs maAs eta Us biUrtuko ðu ɪawnAk .|0
+antton/NEU_04220_24k.wav|ɟEnde ʂaArak bakArik ala ɣaʂtEek enPUten dutE ?|1
+maider/NEU_07052_24k.wav|memOɾia βerEskuɾaPea eta ðiβUlɣaʂio lanA suspErPea ðutE Elβuɾu uEbɡune eta ðokUmentaʂio ʂentrO βerIek .|0
+antton/NEU_09757_24k.wav|eɾAɣiʎeej ɣaldEtu ðiE , eA prEs dawðEn feðE onEʂ proʂEsu βat aβIaPeko , oɲAri sendOetan oɲAritutako akOrdioak lorPEko .|1
+maider/NEU_06740_24k.wav|biEn iɾIPiʂ , ɡertAtuɾiko eʂErk eʂ tAwka xustIfikaʂioɾik eta oɾAjn elkArbiʂiPaɾen ɡaɾAɪa .|0
+antton/NEU_04131_24k.wav|kronOβioloɣia , ɡajʃOtasunaɾen aɣErpen aðIɲa eta ɣajʃOtasunaɾen dEmboɾa ɣaɾApena eɾE osO ðesbErdiɲak diɾA .|1
+maider/NEU_07668_24k.wav|bajta lorPEtik ɡertU eɣOn eɾE .|0
+antton/NEU_01796_24k.wav|piʃkAnaka piʃkAnaka urtEko eʂkOnPa esAnɡuɾaVuenetako βat iʂAnɡo ðenAɾi βuɾUʂko infOrmaʂio ɣEiaɣo eʂAɣuPen aɾI ɣaɾA .|1
+maider/NEU_04525_24k.wav|ʂEr supOsatu ðu tAldeaɾenPat iβIlβiðe profEsional naβArmenaɾi emAndako ɣolArdoa lorPEa ?|0
+antton/NEU_01487_24k.wav|sartU eta ikUsi ʂEw ʂaɾEn iɾAβaʂleetako βat .|1
+maider/NEU_07764_24k.wav|benEʂuelaren emIɣraʂio xendEVua ʂonAlde osOko aɾAʂo βiʎAkatu ða ɪaðA .|0
+antton/NEU_01336_24k.wav|orembesteʂ , eɾAβat deβEkatuta ðaɣO eCEβiʂiPa tuɾIstikoak eʂArPea eðo ɣElak eɾAβiʎeɾa tuɾIstikoɾako alOkaPea .|1
+maider/NEU_01976_24k.wav|laɾUmbat Onetan , berIʂ , CakOliɲa iʂAnɡo ða erEɣiɲa !|0
+antton/NEU_07086_24k.wav|ɡaɲEɾa , baɾEmaʂioak eɣIteko awkEɾa eɣOnɡo ða .|1
+maider/NEU_09491_24k.wav|Iɾu famIliek ɟasAten dutE ðolUa eta ɣUk aɪekim pArte ArPen duɣU .|0
+antton/NEU_04361_24k.wav|mArketin estrAteɣietan arIskatua iʂAteak eɣIten du eʂbErdin lOw kOst emprEsa Aw .|1
+maider/NEU_11521_24k.wav|etA , esAm beʂAla , ɡujɲEs liβUɾucoan ɡajɾEm bat sarPEkotan , Oɾiʃe sartUko liPAteke .|0
+antton/NEU_02108_24k.wav|unA Istoɾia βaskA lanAɾekin .|1
+maider/NEU_01009_24k.wav|biɣAren lawrdEnean naɣUsi iʂAn ʂen tAlde βiʂkAjtara .|0
+antton/NEU_03281_24k.wav|baɲa aʂkEnean eʂ tA βoʂkAtu eɾE eɣIn .|1
+maider/NEU_01245_24k.wav|bIʂiak iʂAn diɾA ostEɣuna eta ostIɾala , eta laɾUmbateko awrEjkuspenak eɾE Alakoʃeak diɾA .|0
+antton/NEU_09751_24k.wav|Andik aldI βatEɾa , ɟuðUen ɟAj naɣUsi βat ospAPen ʂen , eta xesUs xeɾUsalemeɾa iPUli ʂen .|1
+maider/NEU_06671_24k.wav|sarEɾak eɾOsitako kanAlaɾem bitArteʂ iPUliko ðiEte ðIɾua kaltEtuej .|0
+antton/NEU_01048_24k.wav|ʂoɾIonak eta eskErik Asko !|1
+maider/NEU_02562_24k.wav|oɾAjm baðAkiʂue nOr dEn ?|0
+antton/NEU_02373_24k.wav|arAʂoj ðuEla emAten du .|1
+maider/NEU_00303_24k.wav|nOla lortUko ðitUʂte βalIo Oɾiek ?|0
+antton/NEU_06874_24k.wav|nIk Uste , Alako βatEan , kAle ɣorIɾa βOtako ɣajtUʂtela eskAleak beʂAla !|1
+maider/NEU_01011_24k.wav|elkAriʂketan , biʂIPan ɟarItako Elβuɾuak eta ɣoɣOβetePe emOʂionala lOrPen laɣUnPeko ɣomEndioak emAnɡo ðitU .|0
+antton/NEU_04372_24k.wav|aCIlotutako lAw perVOnak askE ɣeɾAtu ðiɾA ɣAwr ɡOjʂaldean .|1
+maider/NEU_05913_24k.wav|unE Oretan naʂIoarteko aCIʎoPeko eta espECeɾaPeko aɣIndua ʂuEla βaɪEʂtatu ʂutEn fOɾuʂaɲek .|0
+antton/NEU_08110_24k.wav|beɾEjʂmenaɾi ðaɣOkioneʂ , dojPE apAl , ertAjn eta altUak eskAjnPen ditUʂte .|1
+maider/NEU_00613_24k.wav|eʂ tA iɲOr ʂawɾItu .|0
+antton/NEU_05204_24k.wav|sistEma βerIaɾekin , arɡIndara konVUmiPen den unEan duEn kotIʂaʂioaɾen aɾAβeɾa ordAjnduko ðutE eɾAβilPaʎeek .|1
+maider/NEU_08571_24k.wav|baɾAwaldiaɣatik aUl , baɲa askE iPUli ða eCeβerIa , irIβarea βeɾE awrpEɣiam marAʂtuta ʂuEla .|0
+antton/NEU_03654_24k.wav|konkrEtuki , aʂkEn lAw minUtuetan .|1
+maider/NEU_11048_24k.wav|aβElPajn eta trAtulaɾien liskArak , eta βEste ɣAwʂa βAPuk ʂewðEn An .|0
+antton/NEU_04397_24k.wav|ʂElan awrkItu ʂenItuʂtem perVOnaɪetaɾako aktOɾe eɣOkiak ?|1
+maider/NEU_05042_24k.wav|estAtua mimbIʂi βat dA .|0
+antton/NEU_04708_24k.wav|Iɾu milIoj Eritar baɲo ɣEiaɣoɾi eɾAɣinɡo liEke propOsamenak .|1
+maider/NEU_07100_24k.wav|ikErkunPaɾa ʂuʂEnduko ðutE βEste βeIn dIɾu ɣuʂtIa .|0
+antton/NEU_06793_24k.wav|konfIɲamenduaʂ aɾI ɣaɾA , baɲa nOla konfIɲatu kAleam bIʂi βaʂAɾa ?|1
+maider/NEU_09757_24k.wav|eɾAɣiʎeej ɣaldEtu ðiE , eA prEs dawðEn feðE onEʂ proʂEsu βat aβIaPeko , oɲAri sendOetan oɲAritutako akOrdioak lorPEko .|0
+antton/NEU_06730_24k.wav|biɣAren ʂAtia erItmo motElaɣoaɾekin asi ða eta ajpAPeko ekInPa ɣUCiɾekin .|1
+maider/NEU_04187_24k.wav|kAleetam bandEɾaCoak ɟarI ðitUʂte erUɣbi finAlak ɡoɣOɾaPeko .|0
+antton/NEU_09621_24k.wav|suEtena apUrtu ʂenEtik daɣO Oʂkaʎuan .|1
+maider/NEU_10953_24k.wav|suβstAnPia Oɾiek arɡI ultrAmoɾea ʃurɡAtu etA , Oren ordEʂ , arɡI urdIɲa iɣOrPen dutE .|0
+antton/NEU_00809_24k.wav|orduan , balIteke ɣAwr ɡustUkoa ðuʂUn arɡAʂkia Amar Urte βarU iVUsia iɾUðiPea ?|1
+maider/NEU_09453_24k.wav|ɡuɾE Eri Aw eʂ tA noskI , baɲa nojʂEam beIn amAɪeɾa ʂoɾIonVua iʂAten dutE ipUɲek Emen eɾE .|0
+antton/NEU_04800_24k.wav|oɣIaɾekim berdIn ɡertAtu ða eta apUrPen Asi ðA .|1
+maider/NEU_03615_24k.wav|moðU Oretan , beʂEɾoak eʂ tU salPAʎeaɾen eðota ispIʎuaɾem beArik .|0
+antton/NEU_04615_24k.wav|ɡAwr partIða kaʃkAra iʂAn da .|1
+maider/NEU_07099_24k.wav|ɡaʂtEa βeɾE salVAn daβIl !|0
+antton/NEU_08067_24k.wav|ʂisxOrdanian , oIkoak biUrtu ðiɾA isrAelɣo armAðaɾen opEɾaʂioak eta saɾEkaðak .|1
+maider/NEU_01529_24k.wav|Oretan , ewskAl eɾAkundeen lanA CalOtu ðu .|0
+antton/NEU_08190_24k.wav|planOa Ondo uʂtArPen da awrEko eta Urenɡo planOekin ?|1
+maider/NEU_08196_24k.wav|bOs kilOβatekoa βaɲo Andiaɣoa βaða , Oɣejta Amasej peʂEta ordAjnduko ða kilOβateko .|0
+antton/NEU_01858_24k.wav|astEarte ɣOjʂaldean eɾAman ʂutEn , Aɾen ʂiEɣakiðeak ɡajʂkI ʂeɣOela oArtaɾaʂi eta ɣeɾO .|1
+maider/NEU_10621_24k.wav|kompAɲiako anImalia onArPeko eʃIɪi ðeʂAket ?|0
+antton/NEU_05091_24k.wav|Uɾa ʂEn Uɾa , biOʂ ʂimIkoa !|1
+maider/NEU_05020_24k.wav|etOrkiʂunean Orelako ekIðiteko aldErdi βarUko estAtutuak aldAPeaɾen aldE IP eɣIn du ɪelPAleem buɾUak .|0
+antton/NEU_01479_24k.wav|arPAjn eβAnɟeliko βAPuk eɾE iʂAn diɾA βErtan , senIðeak artAPen .|1
+maider/NEU_07043_24k.wav|Orek esAn naI ðU mAkiɲa βaðAβiʎela !|0
+antton/NEU_01399_24k.wav|Ala , ɟEnde andAna elkArtu ða feɾIan , ɡOjʂ ɡOjʂetik .|1
+maider/NEU_00493_24k.wav|diɾUðieneʂ , aβEslaɾiak amEs ɟAkim bat iʂAten du nojʂEam beIn .|0
+antton/NEU_03757_24k.wav|Iɾuɣaren lawrdEnean ɡawʂEk e PUten Oβeɾa eɣIn .|1
+maider/NEU_05254_24k.wav|miʎA miʎA eskEr denEj !|0
+antton/NEU_05185_24k.wav|ɡAwʂak Orela , baɣEnekien ʂEr ɡertAtu βeAr ʂuEn .|1
+maider/NEU_00586_24k.wav|bEsteak bEste , ikErketa ʂiEntifikoaɾen alOrean eɣIndako lAn Andia Artu ðutE ajnPAt .|0
+antton/NEU_02539_24k.wav|Ewskaɾaʂ eɾE , anPEɾako .|1
+maider/NEU_01038_24k.wav|Ala eta ɣuʂtIʂ eɾE , implAnteen urAðuɾa eta leErketa indIʂea osO altUa ðA .|0
+antton/NEU_02301_24k.wav|eɾAkuV iEʂaɣuʂu ikErlaɾi salVEɾo βikAɲa ʂaɾEla !|1
+maider/NEU_06794_24k.wav|moðA ðisEɲaPaʎeek kAlean ajmbat ekInPa eɣIn ʂitUʂten , moðA ðesfIleetako kombEnPionalismotik urUn .|0
+antton/NEU_01942_24k.wav|ʂEr ɡertAPen da ɣuɾAsoak ʂaArPen diɾEnean eta ewɾEn ordEʂ eɾAβakiak Artu βeAr ditUɣunean ?|1
+maider/NEU_07602_24k.wav|aʂkEn Urteetan iʂAndako iɾAβaʂleen iʂEnak ajpAPea naIkoa liPAteke lastErketa Onen ɡarAnPiaʂ kontUɾaPeko .|0
+antton/NEU_03513_24k.wav|kopUɾu CikIa merkAtuɾatuko ðutE , awrtEn tonA erdI inɡUɾu olIβa βIldu βajtUte .|1
+maider/NEU_04205_24k.wav|ʂiɲEʂ , Aɾekin ɡoʂAPen da !|0
+antton/NEU_07376_24k.wav|awrtEn asi ða leIaPen eta ɣaɾAjpen Onek sekUlako βulPAða emAnɡo ðiO .|1
+maider/NEU_07198_24k.wav|dikEaɾen kaɾEla apUrtu ða .|0
+antton/NEU_11928_24k.wav|iɲOr Eʂ ʂaβIʎek nI Il naIan , enɡAɲueʂ balIatuɾik .|1
+maider/NEU_08609_24k.wav|Ildo βeɾEtik , espECeak kuðEaPeko eskUmena , leEmbajleen ewskO ɪawrlAɾiPaɾen eskU ɪarPEko eskAtu ðiO .|0
+antton/NEU_08568_24k.wav|nIk naI nuEneʂ , eta βeɾAk naI Eʂ ʂuEneʂ Eɲean .|1
+maider/NEU_10605_24k.wav|ɡonθAleθek eskUko miɲA ðU , eta e PEn aɾItu ʂeɣAman APo ɣawEan .|0
+antton/NEU_06820_24k.wav|bIʂiak beɾAk markAtuko ðiʂkIʂu eɣIm beAreko urAs desbErdiɲak .|1
+maider/NEU_11090_24k.wav|poEsia otE orduan , beɲAt saɾAsolaɾen kaʃA Us bat liβUɾua ?|0
+antton/NEU_00054_24k.wav|ardIak larEan ʂeβIlPan eta salβAtu ʂiɾEn , baɲa kasUalitateʂ arkUmeak barUan ʂewðEn .|1
+maider/NEU_11296_24k.wav|ʂertAn daPA lEjotik lEjoɾako βErVo sAɪoa ?|0
+antton/NEU_02685_24k.wav|alaβer , pOʂtu eɣIten nAw artIsta eʂAɣun Oɾiek niɾE ðIskoam pArte Artu iʂAnak .|1
+maider/NEU_02162_24k.wav|biðEo ɪOko onEna iʂEndaPeaʂ ɡAjn , katEɣoɾia eʂbErdiɲetako saɾIak eɾE βanAtuko ðiɾA .|0
+antton/NEU_01250_24k.wav|ʂuɾI ɣorIak eʂ tIɾa APean sartU , eta βiɣAren ɡolAɾem biʎA ɪarAjtu ðutE .|1
+maider/NEU_02650_24k.wav|ɡEiaɣo , ɡEiaɣoɾekin , ɡeIaɣotan lelOa ðuEn awrtEnɡo eðIʂioaɾen inɡUɾuko ɣakOak emAnɡo ðitU .|0
+antton/NEU_04939_24k.wav|oɾAjndik eʂ tUte ʂeAʂtu aldErdi βakOjPak ʂembAt sAjl ʂuʂEnduko ðitUen .|1
+maider/NEU_05700_24k.wav|orembesteʂ , aʂkEnean eʂ tIɾa aldAtuko iɣAndeko Awteskunde oɾOkoren emAjPak .|0
+antton/NEU_06233_24k.wav|Otel oɾietako ɣarbIketaʂ ardUɾaPen diɾA , aʂpIkontratatuta .|1
+maider/NEU_07105_24k.wav|alaβer , eskErak emAn diʂkIe ospItaleko lanɡIʎeej , ʂentrOa normAltasuneʂ iβIlPeko eɣIndako aAleɣiɲaɣatik .|0
+antton/NEU_05907_24k.wav|ɡaɲEɾa , emprEsak lanAldia murIʂtea onArtu omEn dU akOrdio mArkoa indArean daɣOem bitartean .|1
+maider/NEU_06074_24k.wav|Ondo pasA alkOolik ɡaβE !|0
+antton/NEU_05303_24k.wav|astEaʂkenean ʂEɾua Oðej ɣUCiɾekim mantEnduko ða .|1
+maider/NEU_09918_24k.wav|ʂapOɾe sakOm bIʂia ɣustAtu ʂaɪE maAjkiðeej , baɲa kolOɾe iʎUna eta ɣoɣOrtasuna e PAɪe ɣustAtu .|0
+antton/NEU_05383_24k.wav|eʂ tUte eʂEr aʂAlduko ?|1
+maider/NEU_01520_24k.wav|Orela βakArik lortUko ðiɾElako Eri βoɾOndateaɾen erEspetuan , askAtasunean eta ðemOkraʂian oɲAritutako kompOmbiðeak .|0
+antton/NEU_05271_24k.wav|ɡaɲEɾa , eɣUnaɾen leEm pArtean Ewɾia etEnɡaβe eɣIn deʂAke ipAr isUɾialdean .|1
+maider/NEU_05064_24k.wav|orembesteʂ , ewskAl ʂAleek awrEko ðembOɾaldietan eskAPen ʂutEn akOrdioa ofIʂial eɣIn da .|0
+antton/NEU_06021_24k.wav|eʂ tAɣo ʂertAm balIP eta βaʂAnik ajpAtu βeAr buɾUketa arUnta βajta .|1
+maider/NEU_01523_24k.wav|Oretaɾako , eskAPaʎeen eta finAnPa eɾAkundeen artEam bitArtekaɾi aɾIPen diɾA , ʂorA βerIʂ neɣOʂiaPeko .|0
+antton/NEU_07440_24k.wav|ʂerɡAtik eɣIn tratAmendu βat , arIskuan ɟAr baʂAjPake ?|1
+maider/NEU_11753_24k.wav|awrEko Urteetan , marCOɾa artE eɾE , iɾAwn omEn dU paɣOCak .|0
+antton/NEU_09977_24k.wav|ɟAj oɾi , uðAko solstIʂioaɾekim bAt etOrPea , eʂ tA kasUalitate UVa .|1
+maider/NEU_08815_24k.wav|Orembesteko UVa otE ʂEn , ɟonsOn ɟawnA nOr ʂEn Eʂ ɟakItea ?|0
+antton/NEU_02398_24k.wav|merkEaɣoak , baɲa osAsunɡariak eʂ tIɾen elIkaɣaɪak eɾOsten ditUʂte ɪaβEek krIsia ðelA etA .|1
+maider/NEU_03185_24k.wav|bertAtik ewskAl tAlde Asko pasAtuko ðiɾA .|0
+antton/NEU_00610_24k.wav|aβEntuɾak kontAPeam baɲo ɣEiaɣo , kontAPeko aβEntuɾan daPA , beɾaʂ , litEɾatuɾa ʂuɾEPat ?|1
+maider/NEU_00594_24k.wav|etOri naI Al duʂU ?|0
+antton/NEU_08797_24k.wav|bI miʎA eta Amalawɣaren urtEan , Ia βOs milIoj βiðAɪaɾi iɣAɾo ʂiɾEn ɡuɾE βOst ajɾEportuetatik .|1
+maider/NEU_06505_24k.wav|lurEan , fosfOɾo ʂAti βat .|0
+antton/NEU_01719_24k.wav|aɣIam platEr oɾi eɣIteko βenEtako arAʂoɪa iʂAn dajtEke βenEtan eɣIten dakIem bakAnetakoa ðelA ?|1
+maider/NEU_06715_24k.wav|lawɣArem bat iʂEndatu eðo Iɾuɾen artEko kOntua iʂAnɡo ʂen dEna ?|0
+antton/NEU_06401_24k.wav|Ewskaɾak ʂEjm pIsu ðU ʂiEnPian ?|1
+maider/NEU_07799_24k.wav|ikErketan aɣEɾian ɡeɾAtu ða kostU oɾi CikIaɣoa iʂAn ʂitEkeela βestElako piʂɡAri sistEma βat eɾAβilita .|0
+antton/NEU_06546_24k.wav|Eɣia ðA ðIsko βat ɡraβAPea penVAPen duʂUneam baðAɣoela momEntuɾem bat komErPialiʂaʂioam penVAPen duʂUna .|1
+maider/NEU_11591_24k.wav|elCO motA oɾi , Ur ɡeldI eðo puPUetam bIʂi ða , eta Eʂ erEkako Ur bIʂietan .|0
+antton/NEU_11341_24k.wav|memEntoan , iɲOrk eʂ tU Ewskaɾaʂ iðAʂten , oItuɾaɾik eʂ tUelako .|1
+maider/NEU_06151_24k.wav|indUstriak denOn eskUɾa ɪarI ðu .|0
+antton/NEU_02283_24k.wav|denEk sinEVi eɣIn naI ðutE .|1
+maider/NEU_09429_24k.wav|Ajn ʂuʂEn eɾE , ɟosEβa eɣIβar , rafA larEɲa eta ancOm morθIʎo leɣEβilParkiðeej eɾE keɾEʎa eʂAri ðiE .|0
+antton/NEU_11462_24k.wav|APoko Ilketak Eʂ Al dU ʂuɾE IP erdI βat meɾEʂi ?|1
+maider/NEU_03319_24k.wav|ʂatOʂ ʂU eɾE ekImem beɾEʂi Onetam pArte ArPeɾa !|0
+antton/NEU_04761_24k.wav|bustI ʂajtEʂ eta ɣoʂA eʂAʂu !|1
+maider/NEU_09208_24k.wav|britAɲia Andiko polIʂiak beldUr dA perVOna Oɾiek bEste atEntatu oldE βat prestAPen aɾI otE ðiɾEn .|0
+antton/NEU_08274_24k.wav|anxEl lerCUndik ʂiOem beʂAla , penVAmenduaɾen kaOsa antOlaPeko moðU βat .|1
+maider/NEU_09872_24k.wav|aAɪuneko maCInaðak ondOɾio onIk ekAriko ðu ?|0
+antton/NEU_09759_24k.wav|ʂiʎEɣi Al ʂajɣU ʂesAri ʂerɡA ordAjnPea , bAj ala Eʂ ?|1
+maider/NEU_08579_24k.wav|niɾE βiʂIlaɣunaɾem biʎOβaɾekin nenɡOen , Awʂo βajkIɲen , eta βiOk elkArekin iβIlPem bajkIɲen ɟolAsean .|0
+antton/NEU_03114_24k.wav|oɾAjndik eʂ tA ɣertAtu .|1
+maider/NEU_05550_24k.wav|perVOna Askok penVAPen eðo sentIPen dutEna orI ʂuɾI βatEtan ɟarPEa eɾAβakiPen dutE .|0
+antton/NEU_03544_24k.wav|iEs eɣIteko awkEɾak aɣOrPen aɾI ʂajʂkIo .|1
+maider/NEU_01801_24k.wav|ɟatECean , maAɪek pantAʎa ukIɣari βat dawkAte , eta Oretam platErak AwtaPen diɾA .|0
+antton/NEU_02070_24k.wav|dembOɾaldiko emAjPaɾik onEna iʂAn da .|1
+maider/NEU_03494_24k.wav|uðA ElPeko ʂoɾIan daɣO !|0
+antton/NEU_01643_24k.wav|awrEjkuspenen aɾAβeɾa , astEarte Onetan amAjtuko ða erEplikaɾako tartEa .|1
+maider/NEU_06679_24k.wav|eɾAsoak ɡertAtu ðiɾEm bI eskUaldeetan ʃiItek dutE ɣeIenɡoa .|0
+antton/NEU_05436_24k.wav|Eʂ esAn oArkaβean iʂAn ditUʂula !|1
+maider/NEU_00861_24k.wav|ɡiʂAkiaɾen awsArdia ʂiEntifikoak bulPAtuta , ɡiʂAteɾiaɾem bIʂiɾawpena meACatu ðutE oɾAjn iʂAki awek .|0
+antton/NEU_07780_24k.wav|sastAtu βeAr ʂuEla esAn ʂiOn .|1
+maider/NEU_08096_24k.wav|aðmInistraʂio eskUðunak , beɾE karɡU Artuko ðitU Umeak , ɡuɾAsoen eðo ʂajnPAʎeen eɣOeɾa OβePen dem bitartean .|0
+antton/NEU_11547_24k.wav|naβAɾi ʂEn Umeek , besApeek eta talkO awVak isUɾitako usAɲa .|1
+maider/NEU_04698_24k.wav|ɡastEjʂtarek arAValdeko aʂkEn Orduɾa artE EwViko ðiOte awkEɾatutako ɪokAlaɾiak ʂejnPUk diɾEn iɾAɣarPeko .|0
+antton/NEU_03682_24k.wav|Oj ʂe pEna , pEna .|1
+maider/NEU_11264_24k.wav|oɾi arɡI ikUsi ðut poEsia landU ðuðAn lEkuetan ʂeAr .|0
+antton/NEU_06868_24k.wav|arIskuVua ðA , aðOs .|1
+maider/NEU_09307_24k.wav|enE pArte ArPe soʎAk , aldA Al deʂAke emAkumeaɾen oɲAri iðEoloɣikoa ?|0
+antton/NEU_06993_24k.wav|proɣrAma ekOnomikoa aʂAldu βeAr ʂutEn , baɲa osO ʂeAPak iʂAn ɡaβE .|1
+maider/NEU_02189_24k.wav|ɡoɣOɾatu saɾI potOloak dawðEla ɪokOan !|0
+antton/NEU_01813_24k.wav|Oreɣatik eɣIn ditUt banAm banAko elkAriʂketak eta Eʂ elkAriʂketa koɾAl eðo uOr kafE oɾietaɾiko βat .|1
+maider/NEU_03171_24k.wav|famIlia βakOjPaɾi ðaɣOkion CartEl kopUɾua aldAkora iʂAnɡo ða famIlia unItatea osAPen duEn kIðe kopUɾuaɾen aɾAβeɾa .|0
+antton/NEU_11714_24k.wav|eʂ tU ulErPen ʂerɡAtik ɡAj Orek Ajmbeste UnkiPen duEm mutIko oɾi .|1
+maider/NEU_07328_24k.wav|iɾAkurʂaletasuna βulPAtu eta telEsaʎeko ɪarAjPaʎe eta aktOɾeak awrEʂ Awre eɣOteko ekItaldia iʂAnɡo ða .|0
+antton/NEU_01206_24k.wav|awkEɾaɾik eʂ tA fAlta ðatOʂen eɣUnetaɾako !|1
+maider/NEU_09626_24k.wav|ɡerAk dakAren kruðElkeɾiaʂ eɾE ɣUCi IP eɣIten da , osO eɾA oɾOkorean ɡaɲEɾa .|0
+antton/NEU_01494_24k.wav|beɾAɪekin IP eɣIn duɣU .|1
+maider/NEU_09729_24k.wav|emAjPa koxnItiβo ʂaβAl oɾi , aɣEnte koxnItiβoaɾen eʂAɣuPa ðA , eta βatEʂ eɾE eʂAɣuPa ʂiEntifiko eta teknOloɣikoa .|0
+antton/NEU_07518_24k.wav|tropElak ʂaʎA iʂAnɡo ðu eɾAsoa ɣuʂtIe eɾAnPutea , beɾaʂ , awsArtenPat eɣUna ?|1
+maider/NEU_00350_24k.wav|ekItaldia isIl isIlik eɣIm baðUte eɾE , ajmbat Iɾitarem presIðenteaɾen aldEko lelOak ojUkatu ðitUʂte .|0
+antton/NEU_00897_24k.wav|aʂkEn kilOmetroetan espEɾo ʂiɾEn eɾAsoɾik e PEn eɣOn .|1
+maider/NEU_03012_24k.wav|eɣOeɾa Aw amAjtu ða .|0
+antton/NEU_06302_24k.wav|AwtaɣajPa βAkara βaðAɣo , Awtaɣaɪa presIðente iʂEndatuko ðutE , ʂuʂEn ʂuʂEnean .|1
+maider/NEU_05522_24k.wav|oɾAjndik eʂ tAkite eʂbEara nOla ɣertAtu ðen , Eʂta lanɡIʎea ʂEjn dEn eɾE .|0
+antton/NEU_05111_24k.wav|bEstetik , ikAsleen eɾAnPunetan oɲArituʂ eɣIndako ɣaldEteɣiak eta estAtistikak aðmIɲistraPen ditUen uEb platAforma .|1
+maider/NEU_05280_24k.wav|uðAl βaPOrdeam baβEs Oren ɡaɲEan ɡaldEtuko ðuEn ʂinEɣoPiaɾen aldEko elkAretaɾaPea ðejtU ðutE .|0
+antton/NEU_02213_24k.wav|oɾi ðA , ʂerbAjt soʎA βiʎAtu ðuɣU .|1
+maider/NEU_07333_24k.wav|ɡeɾO , kompOnketa eðo istrUmentaʂio eɣOki βat biʎAPen saɪAPen nAjʂ .|0
+antton/NEU_02451_24k.wav|aʂkEnik , luʂApeneko saskIɾaPeek emAn ʂiOten ɡaɾAjpena .|1
+maider/NEU_00704_24k.wav|alaβer , awrEkontuen lEɣeak eʂ tUela larIaldiej Awre eɣIteko partIðaɾik ɟasOPen aðIeɾaʂi ʂuEn .|0
+antton/NEU_05179_24k.wav|eʂ tAkit ʂe IP eɾAβili .|1
+maider/NEU_04375_24k.wav|ʂEr ɡertAtu ða awrtEm musIkaɾem mundUan ?|0
+antton/NEU_07111_24k.wav|sinIstuta seɣUɾuaski , estUðiaPen laɣUnduko ʂiOla .|1
+maider/NEU_00533_24k.wav|ɡaɲEɾa , indArkeɾia maCIstaɾen awrkA konPIenPiaPeko eta EʂkunPa proɣrAmetan imbErtiPeko ðeɪA eɣIn diE eɾAkundeej .|0
+antton/NEU_05203_24k.wav|pArte ArPaʎeek benEtan sufrIPen dutEn sAɪoak !|1
+maider/NEU_06836_24k.wav|aCIlotuak suʂkO Arma eta munIʂioa ɣerIko polVA βatEan ʂeɾAmaPan .|0
+antton/NEU_00933_24k.wav|Oreʂ ɡAjn , kOntuak Ondo ʂeAʂtu ɣaβE ðawðEla kritIkatu ðu .|1
+maider/NEU_00323_24k.wav|laɣUnPa eskAPen saɪAtu ʂenEan , eɾAsoPaʎeak awrpEɣian ɟO ʂuEla aðIeɾaʂi ʂiEn erPAɲej .|0
+antton/NEU_02448_24k.wav|eβAʂpenaɾen aɾAβeɾa , ɡIsa Oretako aldEβakareko ekInPek naʂIoarteko lEɣeak urAPen ditUʂte .|1
+maider/NEU_08663_24k.wav|estOniaraɾen aðOɾe oɾi , ɡaɲEɾakoej kuVAPea ðA aðmInistraʂio konVEʎuak biʎAPen duEna .|0
+antton/NEU_09921_24k.wav|aCIlotu ʂutEn ɡeɾO naʂIek , eta βI Iʎaβete emAn ʂitUem bArenean .|1
+maider/NEU_02183_24k.wav|aɣEnteek lesIoak eɾAɣin ʂiʂkIotela salAtu ʂuEn aCIlotuak .|0
+antton/NEU_06504_24k.wav|orduan ikUsteko awkEɾaɾik iʂAn Eʂ paʂEnitu , lasAj eɣOn !|1
+maider/NEU_11554_24k.wav|aɣIre ɪawncOa , ʂuɾEa ðA IPa .|0
+antton/NEU_01381_24k.wav|aβEntuɾako aʂkEn kampOɾatuak leIaketan ʂeAr eɾAβilitako estrAteɣiaɾen inɡUɾuko ajmbat kOntu aʂAlduko ðitU .|1
+maider/NEU_00541_24k.wav|IkerPaʎe eta iɾAkasleak diAspoɾan eɾE enPUnɡaj ðiɾEn doɲUʂ betEko otE ðiɣU ordUβetea ?|0
+antton/NEU_05435_24k.wav|uðAko opOrak amAjtu ðiɾA .|1
+maider/NEU_09472_24k.wav|beEɾa kEɲu eɣIn ʂiOn , Eʂ osO urUneɾa .|0
+antton/NEU_06183_24k.wav|ʂeɾEsanik iʂAn Al ʂuEn litEɾatuɾak moβIliʂaʂio Artan ?|1
+maider/NEU_09285_24k.wav|aʂkEn epEaldiko βeɾEʂitasum bAt dU proɪEktuaɾem bEste kuCA fluʃU ɣArbiekiko , eta Orek naβArmenPen du .|0
+antton/NEU_11780_24k.wav|biOlonCelo ɪolEek , bEti ɣoɾAjpaPen ditUʂte βAken sujtEak .|1
+maider/NEU_01480_24k.wav|beɾEʂiki ʂuɾEʂko eskUltuɾa βiUrituetan .|0
+antton/NEU_01957_24k.wav|sarEɾen iɾAβaʂleek baɪEʂtapem mEʂua ɪAsoko ðutE .|1
+maider/NEU_03620_24k.wav|esErleku kopUɾua βetE artE onArtuko ðiɾA eskAeɾak .|0
+antton/NEU_01275_24k.wav|ʂEr esAnɡo ðutE osO ɣUCi ɪokAtu ðutEnek ?|1
+maider/NEU_09224_24k.wav|beAr baɲo seɣUndo βat leEnaɣo aPEɾa iPUli iʂAm banInP , e nUen iɲOjʂ ɡertAtu ʂenA ɣertAtuko .|0
+antton/NEU_08377_24k.wav|faCAða naɣUsian , Iɾu βaO ðawðE atE naɣUsi ʂaβAl βatEn alβO βAnatan .|1
+maider/NEU_00569_24k.wav|konVUlta iPAʂu filmEn ordUteɣiak !|0
+antton/NEU_06568_24k.wav|Alako βatEan , norbAjtek akAVem bat eɣIn eta ɣalAnta iʂAnɡo ða .|1
+maider/NEU_04484_24k.wav|eɣUɾaldiak eɾAɣindako aɾAʂoɾik eʂEan , bIɾa Oɾiek berIʂ iPUliko ðiɾA normAltasuneɾa astEaʂken arAValdean .|0
+maider/NEU_08496_24k.wav|ʃaβIɾoj komIkia sortU ðu ikAstolen konfEðeɾaʂioak , eta ɣaʂtE eta ɣaʂtECoenPat prestAtu ðutE ʃaβIɾoj komIkia , ɡaʂtEen iɾAkurʂaletasuna βulPAPeko Elβuɾuaɾekin .|0
+maider/NEU_05286_24k.wav|enPUn erlAʂionatuɾiko awðIoan elkAriʂketa osOa !|0
+maider/NEU_01112_24k.wav|ʂaʎA iʂAn da kAntuak ɟaʂtEko ɪoEɾaɾi muʂIn eɣIn eta oɲAriʂko soɲU βiʎUʂia ɣordEPea ?|0
+maider/NEU_08471_24k.wav|kuCA ustEʂ borCAtuaɾem barUan , Iɾu erlIkia sajndU , lAw kalIʂa , eta kopOj βI ɣordEPen omEn ʂiɾEn .|0
+maider/NEU_03154_24k.wav|eʂ tA ɣajʃOtasun Aw ɣajndUtu ðuEm perVOnaɾik eʂAɣuPen .|0
+maider/NEU_05165_24k.wav|nIk nEwk eɣIn naI ðUt .|0
+maider/NEU_11617_24k.wav|duCAn sarPEa espEɾienPia espIɾitual βat dA , etnOɣrafoek sinIstu naI Eʂ paðUte eɾE .|0
+maider/NEU_08287_24k.wav|imAnol esnAola , leʂOko ʂinEɣoPia ʂEn , eta miɾEn ɟOsu aɾAmbuɾu , urECuko ʂinEɣoPia .|0
+maider/NEU_09781_24k.wav|ɡU ɣEw , ikUsleok eɾE Ondo Asko oArPen ɡaɾA Oren aldE Oretako eʂbErdintasun Oretaʂ .|0
+maider/NEU_06624_24k.wav|ʂEr eɣIm beArko ɣenUke opOraldia moðU eɣOki βatEtan antOlaPeko ?|0
+maider/NEU_05448_24k.wav|sU etEna , biðE βatEʂ esAnɡo ðuɣU , eʂ tA βetEPen aɾI .|0
+maider/NEU_00799_24k.wav|baɲa ʂEjn iʂAnɡo ða uðAβeriko arOpak eɾOsteɾakoan awkEɾatu βeArko ðuɣUn leEn kolOɾea ?|0
+maider/NEU_03913_24k.wav|ʂapAraða Andieʂ ɡAjn , CinɡOra eɾE eɣIn deʂAke .|0
+maider/NEU_09578_24k.wav|eɣIʂu kOntu , ordea , ʂeɲEn erɡEla ðEn aleɾe , eʂ pAjtu musU βat eɾE lortU .|0
+maider/NEU_01410_24k.wav|beAreʂkoa ðA eskUjɲaɾen altErnatiβa .|0
+maider/NEU_01487_24k.wav|sartU eta ikUsi ʂEw ʂaɾEn iɾAβaʂleetako βat .|0
+maider/NEU_03681_24k.wav|uðAlen osAketaɾen ondOɾen asitako elkAriʂketa aɾO βerIaʂ aɾIko ða .|0
+maider/NEU_08549_24k.wav|awr CikIej kontAPea , awr Andiej eðo elduej kontAPeaɾen desbErdiɲa otE ðA ?|0
+maider/NEU_07300_24k.wav|ɡAwʂa Asko ʂuʂEndu βeAr ditUʂte ɣipUʂkoarek .|0
+maider/NEU_01315_24k.wav|iʂAn eɾE , ɡAwr ɡawErdian amAjtuko ða Awteskunde kampAɲa .|0
+maider/NEU_06062_24k.wav|ʂerɡAtik onArPen ditUʂte nEwriʂ kampOko ɪarEɾa maCIstak ?|0
+maider/NEU_06586_24k.wav|ɡoɣOan iʂAn , astE Onetan atAɾian enPUnɡaj !|0
+maider/NEU_00128_24k.wav|ɡAj oɾi eɾE ɪorAtuko ðutE .|0
+maider/NEU_01905_24k.wav|Eʂ , Eʂ bEti .|0
+maider/NEU_09291_24k.wav|CapEldunak kEɲu eɣIn ʂiEm beɾE APeko CapEldun armAtuej , eta aCIʎoPeko aɣIndu ʂiEn .|0
+maider/NEU_10434_24k.wav|bOto βalIoɣaβea iʂAn ʂen ɡeIenɡoa , Ajn ʂuʂEn eɾE .|0
+maider/NEU_06405_24k.wav|Ona Emen iɾAβaʂle βakOjPaɾen awrkEʂpen laβUra .|0
+maider/NEU_00287_24k.wav|formA βiɾIβiʎak ditUʂte etA , batEʂ eɾE , emAkumeej ʂuʂEnduta ðawðE .|0
+maider/NEU_00172_24k.wav|ɡerA ʂiβIʎa leErPear eɣOn litEke .|0
+maider/NEU_07394_24k.wav|karɡA oɾi iʂUɣaria ðA .|0
