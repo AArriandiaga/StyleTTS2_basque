@@ -1,0 +1,36 @@
+log_dir: "Checkpoint_512dim_178tokens"
+save_freq: 10
+device: "cuda"
+epochs: 200
+batch_size: 64
+pretrained_model: ""
+train_data: "Data/train_list_nerea.txt"
+val_data: "Data/val_list_nerea.txt"
+
+preprocess_params:
+  sr: 24000
+  spect_params:
+    n_fft: 2048
+    win_length: 1200
+    hop_length: 300
+  mel_params:
+    n_mels: 80
+
+dataset_params:
+  root_path: "/data/aholab/tts/eu/female/gaitu/nerea/"
+
+model_params:
+    input_dim: 80
+    hidden_dim: 256
+    n_token: 178
+    token_embedding_dim: 512  # Increased from 256 to 512
+
+optimizer_params:
+  lr: 0.0005
+  pct_start: 0.1  # Add warmup for more stable training
+
+wandb:
+  enabled: true
+  project: "ASR-Basque-Text-Aligner"
+  name: "basque-asr-512dim-178tokens"
+  tags: ["basque", "asr", "nerea", "phoneme", "text-aligner", "178", "512dim", "embedding-experiment"]

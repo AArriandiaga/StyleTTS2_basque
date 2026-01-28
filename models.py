@@ -12,7 +12,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.utils import weight_norm, remove_weight_norm, spectral_norm
 
-from Utils.ASR.models import ASRCNN
+from Utils.ASR_basque.models import ASRCNN
 from Utils.JDC.model import JDCNet
 
 from Modules.diffusion.sampler import KDiffusion, LogNormalDistribution

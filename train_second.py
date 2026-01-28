@@ -18,7 +18,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 from meldataset import build_dataloader
 
-from Utils.ASR.models import ASRCNN
+from Utils.ASR_basque.models import ASRCNN
 from Utils.JDC.model import JDCNet
 from Utils.PLBERT.util import load_plbert
 
