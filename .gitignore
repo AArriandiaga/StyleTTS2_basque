@@ -3,3 +3,4 @@ Phonemizer/modulo1y2
 Phonemizer/dict
 Models/
 logs/
+*.t7
