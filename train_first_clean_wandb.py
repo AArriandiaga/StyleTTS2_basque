@@ -52,20 +52,20 @@ logger = get_logger(__name__, log_level="DEBUG")
 # Code part to make it work better in H100 GPUs
 # Centralized: use helper to configure torch backend precision/algorithms for H100
 # COMMENT IF YOU ARE NOT USING H100 OR DO NOT WANT THIS BEHAVIOR
-try:
-    from cuda_precision import configure_torch_for_h100
-    configure_torch_for_h100()
-except Exception:
-    # keep best-effort behavior if helper cannot be imported
-    try:
-        torch.backends.cuda.matmul.allow_tf32 = False
-        torch.backends.cudnn.allow_tf32 = False
-        if hasattr(torch, 'set_float32_matmul_precision'):
-            torch.set_float32_matmul_precision('highest')
-        torch.backends.cudnn.benchmark = False
-        torch.backends.cudnn.deterministic = True
-    except Exception:
-        pass
+# try:
+#     from cuda_precision import configure_torch_for_h100
+#     configure_torch_for_h100()
+# except Exception:
+#     # keep best-effort behavior if helper cannot be imported
+#     try:
+#         torch.backends.cuda.matmul.allow_tf32 = False
+#         torch.backends.cudnn.allow_tf32 = False
+#         if hasattr(torch, 'set_float32_matmul_precision'):
+#             torch.set_float32_matmul_precision('highest')
+#         torch.backends.cudnn.benchmark = False
+#         torch.backends.cudnn.deterministic = True
+#     except Exception:
+#         pass
 
 def safe_wandb_log(wandb_run, data):
     """Safely log data to wandb if wandb_run exists"""
