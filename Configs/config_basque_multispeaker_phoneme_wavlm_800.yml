@@ -26,11 +26,11 @@ wandb:
   notes: "Multispeaker config: AlBERT-phoneme + WavLM + short + max_len=800 (10s)"
 
 data_params:
-  train_data: "Data/train_list_multispeaker.txt"
-  val_data: "Data/val_list_multispeaker.txt"  # use the multispeaker validation split (<=8s recommended)
-  test_data: "Data/test_list_multispeaker.txt"
+  train_data: "Data/train_list_multispeaker.cleaned.txt"
+  val_data: "Data/val_list_multispeaker.cleaned.txt"  # use the multispeaker validation split (<=8s recommended)
+  test_data: "Data/test_list_multispeaker.cleaned.txt"
   root_path: "/scratch/anderarrigandiaga/data/tts/eu/sonora/"
-  OOD_data: "Data/OOD_eu.txt"  # optional OOD set (kept as example)
+  OOD_data: "Data/OOD_eu.cleaned.txt"  # optional OOD set (kept as example)
   min_length: 50 # sample until texts with this size are obtained for OOD texts
 
 preprocess_params:
