@@ -17,8 +17,6 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')  # Use non-interactive backend
 import librosa.display
-import psutil
-import GPUtil
 import soundfile as sf  # Added for WAV saving
 
 warnings.simplefilter('ignore')
@@ -175,7 +173,8 @@ def main(config_path):
         ASR_config = config.get('ASR_config', False)
         ASR_path = config.get('ASR_path', False)
         ASR_module = config.get('ASR_module', None)
-        text_aligner = load_ASR_models(ASR_path, ASR_config, ASR_module)
+        # `load_ASR_models` expects (model_path, model_config). Pass module separately via config if needed.
+        text_aligner = load_ASR_models(ASR_path, ASR_config)
 
         # load pretrained F0 model
         F0_path = config.get('F0_path', False)

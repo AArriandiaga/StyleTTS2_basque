@@ -1,0 +1,7 @@
+maider/NEU_09738_24k.wav|awrtEn ʂaɾAwPen traIneɾiʎen ¦ ¦ ¦ ¦ ¦ .|0
+maider/NEU_11800_24k.wav|ɡuArdia ʂiβIl pIʎoa ðaβIl , uðAleCeko plAʂan , lAw ɟIp ¦_ , eta Oβe ðuʂU trembIðe ondOtik ɟOan .|0
+maider/NEU_08670_24k.wav|marʃIsmoak liʎUɾatu ɣintUen nolAβajt , bajta βeɾE doxmAkeɾia ¦ iVU , iVUan ɡewɾEɣanatu βajkEnuen βajkEnuen .|0
+antton/NEU_11800_24k.wav|ɡuArdia ʂiβIl pIʎoa ðaβIl , uðAleCeko plAʂan , lAw ɟIp ¦_ , eta Oβe ðuʂU trembIðe ondOtik ɟOan .|1
+antton/NEU_09738_24k.wav|awrtEn ʂaɾAwPen traIneɾiʎen ¦ ¦ ¦ ¦ ¦ .|1
+antton/NEU_08670_24k.wav|marʃIsmoak liʎUɾatu ɣintUen nolAβajt , bajta βeɾE doxmAkeɾia ¦ iVU , iVUan ɡewɾEɣanatu βajkEnuen βajkEnuen .|1
+maider/NEU_10292_24k.wav|ambUlanPia βat , eta ɣuArdia ʂiβIʎem bI ɟIp ¦ ¦ .|0

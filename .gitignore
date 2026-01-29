@@ -4,3 +4,4 @@ Phonemizer/dict
 Models/
 logs/
 *.t7
+wandb/
