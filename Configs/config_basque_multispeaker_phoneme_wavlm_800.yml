@@ -1,12 +1,12 @@
 log_dir: "Models/Basque_Multispeaker_Phoneme_wavlm_short"
 first_stage_path: "first_stage.pth"
-save_freq: 5
+save_freq: 1
 log_interval: 10
 device: "cuda"
 epochs_1st: 50 # Standard schedule like original config.yml
 epochs_2nd: 30 # Standard schedule like original config.yml
 batch_size: 2   # MEMORY OPTIMIZATION: Reduced from 4 for max_len=800 (10 seconds)
-max_len: 800    # EXTENDED: 10 seconds (was 400 = 5 seconds)
+max_len: 500    # EXTENDED: 10 seconds (was 400 = 5 seconds)
 gradient_accumulation_steps: 8  # MEMORY OPTIMIZATION: Increased to maintain effective batch_size=16
 pretrained_model: ""
 second_stage_load_pretrained: false
@@ -96,7 +96,7 @@ loss_params:
     
     lambda_mono: 1. # monotonic alignment loss (1st stage, TMA)
     lambda_s2s: 1. # sequence-to-sequence loss (1st stage, TMA)
-    TMA_epoch: 35 # EXTENDED: TMA starting epoch (1st stage) - was 50, now 35 for 100 epochs training
+    TMA_epoch: 5 # TMA starting epoch (1st stage)
 
     lambda_F0: 1. # F0 reconstruction loss (2nd stage)
     lambda_norm: 1. # norm reconstruction loss (2nd stage)
@@ -105,8 +105,8 @@ loss_params:
     lambda_sty: 1. # style reconstruction loss (2nd stage)
     lambda_diff: 1. # score matching loss (2nd stage)
     
-    diff_epoch: 20 # style diffusion starting epoch (2nd stage)
-    joint_epoch: 30 # joint training starting epoch (2nd stage)
+    diff_epoch: 10 # style diffusion starting epoch (2nd stage)
+    joint_epoch: 15 # joint training starting epoch (2nd stage)
 
 optimizer_params:
   lr: 0.0001 # general learning rate
@@ -119,7 +119,7 @@ slmadv_params:
   min_len: 20 # minimum length of samples (frames)
   max_len: 200 # maximum length of samples (frames)
   batch_percentage: 0.75 # use a larger portion of the batch for SLM adversary (shorter clips -> less memory)
-  iter: 10 # update the discriminator every this iterations of generator update
+  iter: 20 # update the discriminator every this iterations of generator update
   thresh: 5 # gradient norm above which the gradient is scaled
   scale: 0.01 # gradient scaling factor for predictors from SLM discriminators
   sig: 1.5 # sigma for differentiable duration modeling
