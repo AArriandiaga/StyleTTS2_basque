@@ -591,22 +591,48 @@ def load_F0_models(path):
     
     return F0_model
 
-def load_ASR_models(ASR_MODEL_PATH, ASR_MODEL_CONFIG):
-    # load ASR model
+def load_ASR_models(ASR_MODEL_PATH, ASR_MODEL_CONFIG, ASR_MODULE=None):
+    # load ASR model with dynamic module import
     def _load_config(path):
         with open(path) as f:
             config = yaml.safe_load(f)
         model_config = config['model_params']
         return model_config
 
-    def _load_model(model_config, model_path):
-        model = ASRCNN(**model_config)
-        params = torch.load(model_path, map_location='cpu')['model']
+    def _load_model(model_config, model_path, asr_module_name):
+        # Dynamically import ASRCNN from the specified ASR module
+        if asr_module_name:
+            import importlib
+            try:
+                asr_module = importlib.import_module(f'Utils.{asr_module_name}.models')
+                ASRCNN_class = asr_module.ASRCNN
+                print(f"✅ Using ASR module: {asr_module_name}")
+                # BEGIN TEMPORARY AUDIT PRINTS - remove after PLBERT/ASR import checks
+                try:
+                    import inspect as _inspect
+                    asr_mod_file = _inspect.getsourcefile(asr_module) or getattr(asr_module, '__file__', None)
+                    if asr_mod_file:
+                        print(f"ASR module file: {asr_mod_file}")
+                except Exception:
+                    pass
+                # END TEMPORARY AUDIT PRINTS
+            except ImportError as e:
+                print(f"❌ Failed to import Utils.{asr_module_name}.models: {e}")
+                print("Available ASR modules: ASR, ASR_basque_178, ASR_basque_60")
+                raise
+        else:
+            # Fallback to default
+            ASRCNN_class = ASRCNN
+            print("⚠️ Using default ASR module")
+            
+        model = ASRCNN_class(**model_config)
+        torch.serialization.add_safe_globals(['getattr'])
+        params = torch.load(model_path, map_location='cpu', weights_only=False)['model']
         model.load_state_dict(params)
         return model
 
     asr_model_config = _load_config(ASR_MODEL_CONFIG)
-    asr_model = _load_model(asr_model_config, ASR_MODEL_PATH)
+    asr_model = _load_model(asr_model_config, ASR_MODEL_PATH, ASR_MODULE)
     _ = asr_model.train()
 
     return asr_model
@@ -693,28 +719,26 @@ def build_model(args, text_aligner, pitch_extractor, bert):
     
     return nets
 
-def load_checkpoint(model, optimizer, path, load_only_params=True, ignore_modules=[]):
+def load_checkpoint(model, optimizer, path, load_only_params=True, ignore_modules=None):
+    if ignore_modules is None:
+        ignore_modules = []
     state = torch.load(path, map_location='cpu')
     params = state['net']
+    # load checkpoint parameters
     for key in model:
         if key in params and key not in ignore_modules:
-            print('%s loaded' % key)
             try:
-                # Prefer strict loading to catch mismatched keys early
                 model[key].load_state_dict(params[key], strict=True)
-            except Exception:
-                # Fallback: remap checkpoint state dict values into the model's state_dict key order
+            except:
+                from collections import OrderedDict
                 state_dict = params[key]
-                model_items = list(model[key].state_dict().items())
-                ckpt_items = list(state_dict.items())
-                print(f"Warning: strict load failed for '{key}'. model keys: {len(model_items)}, ckpt keys: {len(ckpt_items)}. Attempting ordered remap.")
                 new_state_dict = OrderedDict()
-                for (k_m, _), (k_c, v_c) in zip(model_items, ckpt_items):
+                print(f'{key} key length: {len(model[key].state_dict().keys())}, state_dict length: {len(state_dict.keys())}')
+                for (k_m, v_m), (k_c, v_c) in zip(model[key].state_dict().items(), state_dict.items()):
                     new_state_dict[k_m] = v_c
-                # If checkpoint has fewer items than model, keep remaining model params unchanged by not including them
-                model[key].load_state_dict(new_state_dict, strict=False)
+                model[key].load_state_dict(new_state_dict, strict=True)
     _ = [model[key].eval() for key in model]
-    
+
     if not load_only_params:
         epoch = state["epoch"]
         iters = state["iters"]
@@ -722,5 +746,5 @@ def load_checkpoint(model, optimizer, path, load_only_params=True, ignore_module
     else:
         epoch = 0
         iters = 0
-        
+
     return model, optimizer, epoch, iters

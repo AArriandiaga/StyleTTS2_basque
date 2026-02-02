@@ -41,7 +41,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 from losses import *
 from meldataset import build_dataloader
-from models import *
+from models_old import *
 from optimizers import build_optimizer
 from utils import *
 
