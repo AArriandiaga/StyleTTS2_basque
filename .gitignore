@@ -5,3 +5,5 @@ Models/
 logs/
 *.t7
 wandb/
+scripts/
+slurm/

@@ -699,7 +699,20 @@ def load_checkpoint(model, optimizer, path, load_only_params=True, ignore_module
     for key in model:
         if key in params and key not in ignore_modules:
             print('%s loaded' % key)
-            model[key].load_state_dict(params[key], strict=False)
+            try:
+                # Prefer strict loading to catch mismatched keys early
+                model[key].load_state_dict(params[key], strict=True)
+            except Exception:
+                # Fallback: remap checkpoint state dict values into the model's state_dict key order
+                state_dict = params[key]
+                model_items = list(model[key].state_dict().items())
+                ckpt_items = list(state_dict.items())
+                print(f"Warning: strict load failed for '{key}'. model keys: {len(model_items)}, ckpt keys: {len(ckpt_items)}. Attempting ordered remap.")
+                new_state_dict = OrderedDict()
+                for (k_m, _), (k_c, v_c) in zip(model_items, ckpt_items):
+                    new_state_dict[k_m] = v_c
+                # If checkpoint has fewer items than model, keep remaining model params unchanged by not including them
+                model[key].load_state_dict(new_state_dict, strict=False)
     _ = [model[key].eval() for key in model]
     
     if not load_only_params:
