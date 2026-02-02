@@ -209,7 +209,8 @@ def main(config_path):
     ASR_config = config.get('ASR_config', False)
     ASR_path = config.get('ASR_path', False)
     ASR_module = config.get('ASR_module', None)
-    text_aligner = load_ASR_models(ASR_path, ASR_config, ASR_module)
+    # load_ASR_models signature expects (ASR_PATH, ASR_CONFIG)
+    text_aligner = load_ASR_models(ASR_path, ASR_config)
     
     # load pretrained F0 model
     F0_path = config.get('F0_path', False)
