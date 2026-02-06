@@ -24,7 +24,7 @@ from Utils.ASR_basque.models import ASRCNN
 from Utils.JDC.model import JDCNet
 # PLBERT import will be done dynamically based on config
 
-from models_old import *
+from models import *
 from losses import *
 from utils import *
 
