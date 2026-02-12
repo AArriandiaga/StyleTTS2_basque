@@ -1,20 +1,20 @@
 NEU04348_24k.wav|CinAn , berIʂ , pekIɲen sortU ʂen aɣEraldia apAlPea lortU ðutE .|0
-ZEN00565_24k.wav|Amajka kEn ʂorPI ɣeI βI βiðEr EmeɾePi βerdIm berOɣejta βat|0
-NEU04863_24k.wav|baɲa ɣAwr eɣUn eʂ tAɣo iɲOlako formUlaɾio , ɟarAjβiðe eðo protOkolo arɡIɾik eskAeɾa oɾi awrkEʂteko eðO , bEsteak bEste , anAlfaβetismoa eɣIaʂtaPeko .|0
+ZEN00565_24k.wav|Amajka kEn ʂorPʝ ɣeʝ βI βiðEr EmeɾePi βerdIm berOɣejta βat|0
+NEU04863_24k.wav|baɲa ɣAwr eɣUn eʂ tAɣo iɲOlako formUlaɾio , ɟarAjβiðe eðo protOkolo arɡʝɾik eskAeɾa oɾi awrkEʂteko eðO , bEsteak bEste , anAlfaβetismoa eɣIaʂtaPeko .|0
 NEU03357_24k.wav|baCIʎerɡoa emAten Asi ɣiɲEnean , proɣrAma βat eʂAri ʂiɣUten , eta Aɾi seɣItu βeAr iʂAten ɡenIon , naI ala naI Eʂ .|0
 NEU02410_24k.wav|Aβilitaʂio βat daɣO aldEʂ Awretik , eta Eɣia ðA , leɣEʂkoa ðEn Aβilitaʂioa .|0
-NEU02490_24k.wav|ewɾOpako proɪEktuaɾen nortAsuna , ɟatOriʂko βalIoak berEskuɾaPea ðA ɣuɾE naIa .|0
-NEU00715_24k.wav|eta penVAPen duɣU eɣIn eʂIn duɣUna ðelA eɾIʂaɲak baβEsik ɡaβE UPi ; beɾaʂ , eɾIʂaɲej βaβEsa βiʎAtu βeAr diEɣu , baβEsa βiʎAtu βeAr diEɣu aAlik eta fiɣUɾa ɪuɾIðiko Oβeɾenaɾekin .|0
+NEU02490_24k.wav|ewɾOpako proʝEktuaɾen nortAsuna , ɟatOriʂko βalIoak berEskuɾaPea ðA ɣuɾE naIa .|0
+NEU00715_24k.wav|eta penVAPen duɣU eɣIn eʂIn duɣUna ðelA eɾIʂaɲak baβEsik ɡaβE UPʝ ; beɾaʂ , eɾIʂaɲej βaβEsa βiʎAtu βeAr diEʝu , baβEsa βiʎAtu βeAr diEʝu aAlik eta fiɣUɾa ʝuɾʝðiko Oβeɾenaɾekin .|0
 TTF00282_24k.wav|eta ʂewɾE tAldeaɾi eɾE eɣOP iEʂaɪoʂu Oren ardUɾaɾen ʂAtico βAt , ʂAtiCoa βeðEɾen , denOk bajkAɾa eɾAnPule , eɣIteko kapItala βajtAwkaɣu eta eʂ pAjtuɣu eɣIten .|0
 ESP00057_24k.wav|oɾAjndik eʂ pAjta ɣertAtu porOta , ɡonʂAleʂ andrEa .|0
-NEU03358_24k.wav|aɾAlar elkArteak ditU kuðEaPen , altA , eɣ tA iɲOlako ðIɾu laɣUnPaɾik eta eɾAβeriPe oβrA oɾO arPAɲaɾen ɡAjn ɡeldIPen da .|0
-NEU01758_24k.wav|ɡU Ori lOPen ɡaPAjʂkio , eta Oɾiʃe ðA lEɣeaɾen impEɾioa ; kampOɾa βeɣIɾa aʃOla ʂajɣUna .|0
-NEU00398_24k.wav|mEʂu arɡI βat Elaɾaʂi naI ðiʂUet , leEn eɣUnetik eta awrkEʂtu ðuʂUen leEn leɣEʂ bEsteko propOsamenetik : ɡaɾAɪa , ɡaɾAɪak eta eɣOeɾak iɣAɾo eɣIten diɾA , aldAtu eɣIten diɾA . ʂoɾIoneʂ , biʎAkaeɾa ɣertAPen da .|0
+NEU03358_24k.wav|aɾAlar elkArteak ditU kuðEaPen , altA , eɣ tA iɲOlako ðʝɾu laɣUnPaɾik eta eɾAβeriPe oβrA oɾO arPAɲaɾen ɡAjn ɡeldIPen da .|0
+NEU01758_24k.wav|ɡU Ori lOPen ɡaPAʝʂkio , eta Oɾiʃe ðA lEɣeaɾen impEɾioa ; kampOɾa βeɣʝɾa aʃOla ʂajʝUna .|0
+NEU00398_24k.wav|mEʂu arɡʝ βat Elaɾaʂi naI ðiʂUet , leEn eɣUnetik eta awrkEʂtu ðuʂUen leEn leɣEʂ bEsteko propOsamenetik : ɡaɾAɪa , ɡaɾAɪak eta eɣOeɾak iʝAɾo eɣIten diɾA , aldAtu eɣIten diɾA . ʂoɾʝoneʂ , biʎAkaeɾa ɣertAPen da .|0
 NEU04072_24k.wav|sEkula eʂ tA plAʂa βat amOrtiʂatu , sEkula , ʂerbIPu βat kampOɾa atEɾaPeaɣatik .|0
-NEU03244_24k.wav|eɾAnPukiʂum bat duɣU , eɾAnPukiʂum bat duɣU kAleko ɪEndeaɾekiko , eta urEʂko awkEɾa ðuɣU oɾi Emen eta sortUko ðiɾEm bEste foɾO βaPUetan eɣIteko .|0
+NEU03244_24k.wav|eɾAnPukiʂum bat duɣU , eɾAnPukiʂum bat duɣU kAleko ʝEndeaɾekiko , eta urEʂko awkEɾa ðuɣU oɾi Emen eta sortUko ðiɾEm bEste foɾO βaPUetan eɣIteko .|0
 NEU00264_24k.wav|Ora .|0
 GAL00997_24k.wav|aðIm batEtik beEɾakoak bEste tOki βaPUetatik Arapatu βeAr ditUʂue orduan , Eʂta ?|0
 URL00001_24k.wav|elmUndo pUntu eðU βarA sErC|0
-ESP00077_24k.wav|bajta eɾE ðomInɡueʂena ɪawnAɾi , aldErdi popUlaretik esAn ditUen IPenɡatik .|0
+ESP00077_24k.wav|bajta eɾE ðomInɡueʂena ʝawnAɾi , aldErdi popUlaretik esAn ditUen IPenɡatik .|0
 HAR01078_24k.wav|okErena , bErtam pasAtu βeAr iʂAn nitUen Amar eɣUnak iʂAn ʂiɾEn !|0
 GAL00084_24k.wav|nOrk ArPen ditU newmOkokoaɾen CertOa eðo βaɾIʂelaɾen CertOa mArCan ɟarPEaɾen inɡUɾuko eɾAβakiak ?|0
