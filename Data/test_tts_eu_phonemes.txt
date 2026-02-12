@@ -1,0 +1,25 @@
+TST_00001|bAj .
+TST_00002|Eʂ .
+TST_00003|Eʂ , Orek eʂ tU βalIo !
+TST_00004|bAj eta Eʂ .
+TST_00005|taʎAndiaɾa βiðAɪaPea ɣustAtuko liPAjðake , bankOk eʂAɣutu naIko nukE .
+TST_00006|ʂerɡAjtik e PAtoʂ niɾEkin iβAranɡeluɾa ?
+TST_00007|eɣOn aAl ʂaɾA iɲOjʂ ajʂArnaʂaβalen ?
+TST_00008|miʎA ʂAʂpieun eta lawɾOɣejta βeðEɾaPiɣaren urtEan asi ʂen franPIar iɾAwlPa .
+TST_00009|bAj , estrAlurtaretan sinEsten dUt .
+TST_00010|APo CiCIɾioak aʂAɾekim baʂkAldu nitUen .
+TST_00011|iʂUɣari ɣustAPen ʂajt !
+TST_00012|arAValde On , ʂerbEʂa paɾE βat mesEðeʂ ?
+TST_00013|bAj ʂeɾA !
+TST_00014|blAðimir ilIC ulIanof , lenIn , miʎA ʂorPIeun eta Iɾuɾoɣejta Amareko apIɾiʎaɾen Oɣejta βiAn ɟaɪO ʂen .
+TST_00015|timbUktu eʂAɣuPea ɣustAtuko liCAjðake .
+TST_00016|estAm brakAɣe amEɾiketako estAtu βatUetako ʂinEma ʂuʂEndaɾi espEɾimentala ðA .
+TST_00017|nojʂtIk eʂ tA plutOm planEta βat ?
+TST_00018|benEtan Uste ðuʂU ɪokAβiðe Orekin urUneɾa elduko ʂaɾEla ?
+TST_00019|Eʂta penVAtu eɾE , eʂ tUt oɾi eɣInɡo !
+TST_00020|θesAɾe paβEse Oɣejta βatɡArem mendEko iðAʂle itAliar esAnɡuɾaPuenetakoa ðA .
+TST_00021|naIkoa ðA !
+TST_00022|sEj ʂerI ʂaAr ʂuUr ʂOr .
+TST_00023|ʂorI ɣorI βerI Ori .
+TST_00024|Eriko erEkam bakArik korIka .
+TST_00025|akErak aðArak okErak ditU , aðArak okErak akErak ditU , aðArak akErak okErak ditU , okErak aðArak akErak ditU .

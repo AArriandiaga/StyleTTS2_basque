@@ -1,0 +1,25 @@
+TST_00001|Bai.
+TST_00002|Ez.
+TST_00003|Ez, horrek ez du balio!
+TST_00004|Bai eta ez.
+TST_00005|Tailandiara bidaiatzea gustatuko litzaidake, Bangkok ezagutu nahiko nuke.
+TST_00006|Zergaitik ez zatoz nirekin Ibarrangelura?
+TST_00007|Egon ahal zara inoiz Aizarnazabalen?
+TST_00008|1789. urtean hasi zen Frantziar Iraultza.
+TST_00009|Bai, estralurtarretan sinesten dut.
+TST_00010|Atzo txitxirioak azarekin bazkaldu nituen.
+TST_00011|Izugarri gustatzen zait!
+TST_00012|Arratsalde on, zerbeza pare bat mesedez?
+TST_00013|Bai zera!
+TST_00014|Vladimir Ilitx Ulianov, Lenin, 1870eko apirilaren 22an jaio zen.
+TST_00015|Timbuktu ezagutzea gustatuko litxaidake.
+TST_00016|Stan Brakhage Ameriketako Estatu Batuetako zinema zuzendari esperimentala da.
+TST_00017|Noiztik ez da Pluton planeta bat?
+TST_00018|Benetan uste duzu jokabide horrekin urrunera helduko zarela?
+TST_00019|Ezta pentsatu ere, ez dut hori egingo!
+TST_00020|Cesare Pavese XXI. mendeko idazle italiar esanguratzuenetakoa da.
+TST_00021|Nahikoa da!
+TST_00022|Sei zerri zahar zuhur zor.
+TST_00023|Zorri gorri berri horri.
+TST_00024|Herriko errekan bakarrik korrika.
+TST_00025|Akerrak adarrak okerrak ditu, adarrak okerrak akerrak ditu, adarrak akerrak okerrak ditu, okerrak adarrak akerrak ditu.
