@@ -4,14 +4,12 @@ Simple test script adapted from `Colab/StyleTTS2_Demo_LibriTTS.ipynb`.
 
 Features:
 - Loads model and diffusion sampler from a checkpoint (auto-detect latest if not provided).
-- Reads test examples from `Data/test_marina.txt` (phoneme inputs already provided).
-- Uses reference audio files from `/data/aholab/tts/eu/female/sonora/marina/` by default.
-- Writes generated WAVs to `Demo/test_outputs/`.
+- Reads test examples from `Data/test_marina.txt` (phoneme inputs already provided). 
+- Uses reference audio files from `/data/aholab/tts/eu/female/sonora/marina/` by default. 
+- Writes generated WAVs to `output/test_outputs/`. 
+Usage: python Demo/test_from_notebook.py --checkpoint PATH --test_list Data/test_marina.txt \ --ref_dir /data/aholab/tts/eu/female/sonora/marina/ --out_dir output/test_outputs/ """
 
-Usage:
-    python Demo/test_from_notebook.py --checkpoint PATH --test_list Data/test_marina.txt \
-        --ref_dir /data/aholab/tts/eu/female/sonora/marina/ --out_dir Demo/test_outputs/
-"""
+
 import os
 import argparse
 import time
@@ -144,7 +142,7 @@ if __name__ == '__main__':
     parser.add_argument('--plbert_dir', type=str, default=None, help='override PLBERT_dir from config')
     parser.add_argument('--test_list', type=str, default='Data/test_marina.txt', help='test list (phoneme format)')
     parser.add_argument('--ref_dir', type=str, default='/data/aholab/tts/eu/female/sonora/marina/', help='reference audio dir')
-    parser.add_argument('--out_dir', type=str, default='Demo/test_outputs/', help='where to save outputs')
+    parser.add_argument('--out_dir', type=str, default='output/test_outputs/', help='where to save outputs')
     parser.add_argument('--device', type=str, default='cuda' if torch.cuda.is_available() else 'cpu')
     args = parser.parse_args()
 

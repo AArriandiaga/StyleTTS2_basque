@@ -150,7 +150,7 @@ def main():
     parser.add_argument('--plbert_dir', type=str, default=None, help='override PLBERT_dir from config')
     parser.add_argument('--test_list', type=str, default='Data/test_tts_eu.txt', help='test list (ID|text)')
     parser.add_argument('--ref_dir', type=str, default='/data/aholab/tts/eu/female/sonora/marina/', help='reference audio dir')
-    parser.add_argument('--out_dir', type=str, default='Demo/test_outputs/', help='where to save outputs')
+    parser.add_argument('--out_dir', type=str, default='output/test_outputs/', help='where to save outputs')
     parser.add_argument('--device', type=str, default='cuda' if torch.cuda.is_available() else 'cpu')
     parser.add_argument('--phon_modulo', type=str, default=os.path.join(REPO_ROOT, 'modulo1y2', 'modulo1y2'))
     parser.add_argument('--phon_dict', type=str, default=os.path.join(REPO_ROOT, 'dict'))
