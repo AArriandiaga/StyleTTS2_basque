@@ -141,7 +141,7 @@ if __name__ == '__main__':
     parser.add_argument('--config', type=str, default='Models/LibriTTS/config.yml', help='model config yml')
     parser.add_argument('--plbert_dir', type=str, default=None, help='override PLBERT_dir from config')
     parser.add_argument('--test_list', type=str, default='Data/test_marina.txt', help='test list (phoneme format)')
-    parser.add_argument('--ref_dir', type=str, default='/data/aholab/tts/eu/female/sonora/marina/', help='reference audio dir')
+    parser.add_argument('--ref_file', type=str, required=True, help='reference audio file (.wav)')
     parser.add_argument('--out_dir', type=str, default='output/test_outputs/', help='where to save outputs')
     parser.add_argument('--device', type=str, default='cuda' if torch.cuda.is_available() else 'cpu')
     args = parser.parse_args()
@@ -223,17 +223,11 @@ if __name__ == '__main__':
     # ensure out dir
     os.makedirs(args.out_dir, exist_ok=True)
 
-    # gather reference files list
-    ref_files = []
-    if os.path.isdir(args.ref_dir):
-        for root, _, files in os.walk(args.ref_dir):
-            for f in files:
-                if f.lower().endswith('.wav'):
-                    ref_files.append(os.path.join(root, f))
-    ref_files = sorted(ref_files)
-
-    if len(ref_files) == 0:
-        print('Warning: no reference files found in', args.ref_dir)
+    # require a single reference file and validate it
+    if not os.path.isfile(args.ref_file):
+        raise FileNotFoundError(f'--ref_file {args.ref_file} not found or is not a file.')
+    if not args.ref_file.lower().endswith('.wav'):
+        raise ValueError('--ref_file must point to a .wav file')
 
     # import model globals for helper functions
     globals()['model'] = model
@@ -244,6 +238,15 @@ if __name__ == '__main__':
     # read test list
     with open(args.test_list, 'r', encoding='utf-8') as f:
         lines = [l.strip() for l in f if l.strip()]
+
+    # ensure provided reference file is not a test sample (avoid self-reference)
+    test_basenames = set()
+    for l in lines:
+        parts = l.split('|')
+        if len(parts) >= 1 and parts[0].strip():
+            test_basenames.add(os.path.basename(parts[0].strip()))
+    if os.path.basename(args.ref_file) in test_basenames:
+        raise ValueError('Provided --ref_file basename matches one of the test entries; provide a different reference file.')
 
     for idx, line in enumerate(lines):
         # expected: relative_wav_path|phoneme_text|label
@@ -260,19 +263,8 @@ if __name__ == '__main__':
         tokens = textcleaner(phonemes)
         tokens.insert(0, 0)
 
-        # pick reference audio: prefer the file matching relpath basename
-        ref_path = None
-        if relpath:
-            bn = os.path.basename(relpath)
-            candidate = os.path.join(args.ref_dir, bn)
-            if os.path.isfile(candidate):
-                ref_path = candidate
-        if ref_path is None and len(ref_files) > 0:
-            ref_path = ref_files[0]
-
-        if ref_path is None:
-            print('Skipping, no reference audio for entry', idx)
-            continue
+        # use the provided single reference file for all syntheses
+        ref_path = args.ref_file
 
         print(f'[{idx+1}/{len(lines)}] Synthesizing; ref={os.path.basename(ref_path)}')
         ref_s = compute_style(ref_path, device, to_mel_params)
