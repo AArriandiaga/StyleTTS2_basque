@@ -15,6 +15,7 @@ import traceback
 import warnings
 import wandb
 from datetime import datetime
+import os
 warnings.simplefilter('ignore')
 from torch.utils.tensorboard import SummaryWriter
 
@@ -223,7 +224,6 @@ def main(config_path):
     BERT_path = config.get('PLBERT_dir', False)
     if BERT_path:
         import sys
-        import os
         sys.path.append(BERT_path)
         from util import load_plbert
         plbert = load_plbert(BERT_path)
