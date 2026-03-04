@@ -5,7 +5,7 @@ The main modifications are:
 - ASR trained for Basque
 - [PLBERT trained for Basque](https://huggingface.co/HiTZ/PL-BERT-wp-eu)
 - [Wandb](https://wandb.ai/site/) for first and second stage trainings
-- A new Jupyter Notebook file added to synthetize basque speech
+- A new Jupyter Notebook file added to synthetize basque speech [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AArriandiaga/StyleTTS2_basque/blob/main/)
 
 **All credit goes to the authors of StyleTTS2**
 
