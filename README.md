@@ -3,9 +3,11 @@ This is a modified version of the original code for the Basque language.
 The main modifications are:
 - Phonemizer for Basque
 - ASR trained for Basque
-- PLBERT trained for Basque
+- [PLBERT trained for Basque](https://huggingface.co/HiTZ/PL-BERT-wp-eu)
 - [Wandb](https://wandb.ai/site/) for first and second stage trainings
 - A new Jupyter Notebook file added to synthetize basque speech
+
+**All credit goes to the authors of StyleTTS2**
 
 # StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
 
