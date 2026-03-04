@@ -5,6 +5,7 @@ The main modifications are:
 - ASR trained for Basque
 - PLBERT trained for Basque
 - [Wandb](https://wandb.ai/site/) for first and second stage trainings
+- A new Jupyter Notebook file added to synthetize basque speech
 
 # StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
 
