@@ -48,7 +48,7 @@ from text_utils import TextCleaner
 from Modules.diffusion.sampler import DiffusionSampler, ADPM2Sampler, KarrasSchedule
 
 try:
-    from Phonemizer.eu_phonemizer_v2 import Phonemizer as _EuPhonemizer
+    from phonemizer.eu_phonemizer import Phonemizer as _EuPhonemizer
 except Exception:
     _EuPhonemizer = None
 
@@ -174,8 +174,8 @@ class Synthesizer:
         self._textcleaner = TextCleaner()
         self._phon = None
         if _EuPhonemizer is not None:
-            phon_bin  = os.path.join(_REPO_ROOT, 'Phonemizer', 'modulo1y2', 'modulo1y2')
-            phon_dict = os.path.join(_REPO_ROOT, 'Phonemizer', 'dict')
+            phon_bin  = os.path.join(_REPO_ROOT, 'phonemizer', 'modulo1y2', 'modulo1y2')
+            phon_dict = os.path.join(_REPO_ROOT, 'phonemizer', 'dict')
             try:
                 self._phon = _EuPhonemizer(
                     language='eu', symbol='ipa',
