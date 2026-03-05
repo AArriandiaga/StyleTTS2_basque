@@ -1,6 +1,6 @@
 __pycache__
-phonemizer/modulo1y2
-phonemizer/dict
+# phonemizer/modulo1y2
+# phonemizer/dict
 Models/
 logs/
 *.t7
