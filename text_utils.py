@@ -1,7 +1,9 @@
 # IPA Phonemizer: https://github.com/bootphon/phonemizer
 
 _pad = "$"
-_punctuation = ';:,.!?¡¿—…"«»“” '
+## Punctuation changes compared to the original:
+# - Replaced «» with <> for emotions dataset
+_punctuation = ';:,.!?¡¿—…"<>“” '
 _letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 _letters_ipa = "ɑɐɒæɓʙβɔɕçɗɖðʤəɘɚɛɜɝɞɟʄɡɠɢʛɦɧħɥʜɨɪʝɭɬɫɮʟɱɯɰŋɳɲɴøɵɸθœɶʘɹɺɾɻʀʁɽʂʃʈʧʉʊʋⱱʌɣɤʍχʎʏʑʐʒʔʡʕʢǀǁǂǃˈˌːˑʼʴʰʱʲʷˠˤ˞↓↑→↗↘'̩'ᵻ"
 
