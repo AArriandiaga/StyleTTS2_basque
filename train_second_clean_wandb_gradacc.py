@@ -13,14 +13,20 @@ import click
 import shutil
 import traceback
 import warnings
+import wandb
+from datetime import datetime
+import os
 warnings.simplefilter('ignore')
-from torch.utils.tensorboard import SummaryWriter
+try:
+    from torch.utils.tensorboard import SummaryWriter
+except Exception:
+    SummaryWriter = None
 
 from meldataset import build_dataloader
 
 from Utils.ASR_basque.models import ASRCNN
 from Utils.JDC.model import JDCNet
-from Utils.PLBERT.util import load_plbert
+# PLBERT import will be done dynamically based on config
 
 from models import *
 from losses import *
@@ -30,6 +36,7 @@ from Modules.slmadv import SLMAdversarialLoss
 from Modules.diffusion.sampler import DiffusionSampler, ADPM2Sampler, KarrasSchedule
 
 from optimizers import build_optimizer
+import copy  # Add explicit import for copy
 
 # simple fix for dataparallel that allows access to class attributes
 class MyDataParallel(torch.nn.DataParallel):
@@ -47,6 +54,58 @@ handler = StreamHandler()
 handler.setLevel(logging.DEBUG)
 logger.addHandler(handler)
 
+# Ensure consistent CUDA precision/algorithms on H100/A100
+# Centralized: use helper to configure torch backend precision/algorithms for H100
+# COMMENT IF YOU ARE NOT USING H100 OR DO NOT WANT THIS BEHAVIOR
+try:
+    from cuda_precision import configure_torch_for_h100
+    configure_torch_for_h100()
+except Exception:
+    # keep best-effort behavior if helper cannot be imported
+    try:
+        torch.backends.cuda.matmul.allow_tf32 = False
+        torch.backends.cudnn.allow_tf32 = False
+        if hasattr(torch, 'set_float32_matmul_precision'):
+            torch.set_float32_matmul_precision('highest')
+        torch.backends.cudnn.benchmark = False
+        torch.backends.cudnn.deterministic = True
+    except Exception:
+        pass
+
+def safe_wandb_log(wandb_run, data):
+    """Safely log data to wandb if wandb_run exists"""
+    if wandb_run is not None:
+        try:
+            wandb.log(data)
+        except Exception as e:
+            logger.warning(f"Failed to log to wandb: {str(e)}")
+
+def setup_wandb(config):
+    """Initialize wandb for experiment tracking"""
+    wandb_run = None
+    try:
+        wandb_config = config.get('wandb', {})
+        
+        wandb_run = wandb.init(
+            project=wandb_config.get('project', 'StyleTTS2-Basque'),
+            name=wandb_config.get('name', f"second_stage_{datetime.now().strftime('%Y%m%d_%H%M%S')}"),
+            group=wandb_config.get('group', 'basque_second_stage'),
+            job_type="second_stage_training",
+            notes=wandb_config.get('notes', 'Second stage training'),
+            tags=wandb_config.get('tags', ['second_stage', 'basque', 'StyleTTS2']),
+            config=config,
+            id=wandb_config.get('id', None),
+            resume=wandb_config.get('resume', None),
+            entity=wandb_config.get('entity', None)
+        )
+        
+        logger.info(f"Initialized wandb: {wandb_run.name}")
+    except Exception as e:
+        logger.warning(f"Failed to initialize wandb: {str(e)}")
+        wandb_run = None
+    
+    return wandb_run
+
 
 @click.command()
 @click.option('-p', '--config_path', default='Configs/config.yml', type=str)
@@ -56,7 +115,16 @@ def main(config_path):
     log_dir = config['log_dir']
     if not osp.exists(log_dir): os.makedirs(log_dir, exist_ok=True)
     shutil.copy(config_path, osp.join(log_dir, osp.basename(config_path)))
-    writer = SummaryWriter(log_dir + "/tensorboard")
+    use_tensorboard = config.get('use_tensorboard', False)
+    if use_tensorboard and SummaryWriter is None:
+        logger.warning("TensorBoard requested but not available; install 'tensorboard' or disable use_tensorboard.")
+    if use_tensorboard and SummaryWriter is not None:
+        writer = SummaryWriter(log_dir + "/tensorboard")
+    else:
+        writer = None
+    
+    # Initialize wandb
+    wandb_run = setup_wandb(config)
 
     # write logs
     file_handler = logging.FileHandler(osp.join(log_dir, 'train.log'))
@@ -66,6 +134,9 @@ def main(config_path):
 
     
     batch_size = config.get('batch_size', 10)
+    grad_acc_steps = int(config.get('gradient_accumulation_steps', 1))
+    if grad_acc_steps < 1:
+        grad_acc_steps = 1
 
     epochs = config.get('epochs_2nd', 200)
     save_freq = config.get('save_freq', 2)
@@ -89,7 +160,20 @@ def main(config_path):
     optimizer_params = Munch(config['optimizer_params'])
     
     train_list, val_list = get_data_path_list(train_path, val_path)
-    device = 'cuda'
+    # Respect device setting from config (allow CPU dry-runs)
+    device = config.get('device', 'cuda')
+
+    # NOTE: an earlier experimental change forced the legacy TextCleaner
+    # (meldataset.TextCleaner) here to test whether matching the first-stage
+    # embedding size would improve training. That change is dangerous for
+    # regular runs because PL-BERT was trained with TextCleanerEU. We keep
+    # the forced variant only as a commented-out snippet below so it can be
+    # re-enabled manually for a short diagnostic run, but the default here
+    # uses an empty dataset_config (repo/default behavior).
+
+    # To re-enable the experimental forced cleaner for a diagnostic run,
+    # uncomment the `dataset_config` lines below and re-run the script briefly
+    # (1-2 epochs) to inspect behavior. Then revert these changes.
 
     train_dataloader = build_dataloader(train_list,
                                         root_path,
@@ -109,10 +193,32 @@ def main(config_path):
                                       num_workers=0,
                                       device=device,
                                       dataset_config={})
+
+    # --- EXPERIMENTAL (commented) ---
+    # train_dataloader = build_dataloader(train_list,
+    #                                     root_path,
+    #                                     OOD_data=OOD_data,
+    #                                     min_length=min_length,
+    #                                     batch_size=batch_size,
+    #                                     num_workers=2,
+    #                                     dataset_config={'text_cleaner': 'meldataset.TextCleaner'},
+    #                                     device=device)
+    
+    # val_dataloader = build_dataloader(val_list,
+    #                                   root_path,
+    #                                   OOD_data=OOD_data,
+    #                                   min_length=min_length,
+    #                                   batch_size=batch_size,
+    #                                   validation=True,
+    #                                   num_workers=0,
+    #                                   device=device,
+    #                                   dataset_config={'text_cleaner': 'meldataset.TextCleaner'})
     
     # load pretrained ASR model
     ASR_config = config.get('ASR_config', False)
     ASR_path = config.get('ASR_path', False)
+    ASR_module = config.get('ASR_module', None)
+    # load_ASR_models signature expects (ASR_PATH, ASR_CONFIG)
     text_aligner = load_ASR_models(ASR_path, ASR_config)
     
     # load pretrained F0 model
@@ -120,8 +226,49 @@ def main(config_path):
     pitch_extractor = load_F0_models(F0_path)
     
     # load PL-BERT model
+    # NOTE: to run with a stricter import-path check use the test script
+    # `train_second_clean_wandb_plbert_check.py` which verifies the util module
+    # was imported from the configured PLBERT_dir.
     BERT_path = config.get('PLBERT_dir', False)
-    plbert = load_plbert(BERT_path)
+    if BERT_path:
+        import sys
+        sys.path.append(BERT_path)
+        from util import load_plbert
+        plbert = load_plbert(BERT_path)
+    else:
+        from Utils.PLBERT.util import load_plbert
+        plbert = load_plbert('Utils/PLBERT/')
+
+    # Informational prints for audit (config/wandb/ASR/PLBERT) - non-invasive
+    try:
+        print('\n🧪 RUN INFO:')
+        print(f'   • Config file: {config_path}')
+        if wandb_run is not None:
+            try:
+                print(f"   • Experiment: {wandb_run.name}")
+                print(f"   • Wandb project: {wandb_run.project}")
+            except Exception:
+                pass
+        print(f"   • Using ASR module: {ASR_module}")
+        try:
+            import sys as _sys, inspect as _inspect
+            asr_modname = text_aligner.__class__.__module__
+            asr_mod = _sys.modules.get(asr_modname)
+            asr_mod_file = getattr(asr_mod, '__file__', None)
+            if asr_mod_file:
+                print(f"   • ASR module file: {_inspect.getsourcefile(asr_mod) or asr_mod_file}")
+        except Exception:
+            pass
+        print(f"   • PLBERT_dir (config) = {BERT_path}")
+        try:
+            import inspect as _inspect
+            abs_dir = os.path.abspath(BERT_path) if BERT_path else ''
+            print(f"   • PLBERT_dir (abs)    = {abs_dir}")
+        except Exception:
+            pass
+        print('\n')
+    except Exception:
+        pass
     
     # build model
     model_params = recursive_munch(config['model_params'])
@@ -129,34 +276,68 @@ def main(config_path):
     model = build_model(model_params, text_aligner, pitch_extractor, plbert)
     _ = [model[key].to(device) for key in model]
     
-    # DP
-    for key in model:
-        if key != "mpd" and key != "msd" and key != "wd":
-            model[key] = MyDataParallel(model[key])
-            
     start_epoch = 0
     iters = 0
 
     load_pretrained = config.get('pretrained_model', '') != '' and config.get('second_stage_load_pretrained', False)
-    
-    if not load_pretrained:
-        if config.get('first_stage_path', '') != '':
-            first_stage_path = osp.join(log_dir, config.get('first_stage_path', 'first_stage.pth'))
-            print('Loading the first stage model at %s ...' % first_stage_path)
-            model, _, start_epoch, iters = load_checkpoint(model, 
-                None, 
-                first_stage_path,
-                load_only_params=True,
-                ignore_modules=['bert', 'bert_encoder', 'predictor', 'predictor_encoder', 'msd', 'mpd', 'wd', 'diffusion']) # keep starting epoch for tensorboard log
 
-            # these epochs should be counted from the start epoch
+    # ---------------------------------------------------------------
+    # BEGIN ADDED DEBUG BLOCK (2025-10-14)
+    # This block was added to make the first-stage loading decision explicit
+    # and to fail loudly with helpful messages when the resolved
+    # `first_stage_path` does not exist or loading raises an exception.
+    # If you want to revert these changes, remove the lines inside this
+    # block (from the "BEGIN ADDED DEBUG BLOCK" marker to the
+    # "END ADDED DEBUG BLOCK" marker) or restore the file from git.
+    # ---------------------------------------------------------------
+    # Diagnostic output to make load decision explicit in logs
+    print(f"Decision: load_pretrained={load_pretrained}, pretrained_model='{config.get('pretrained_model','')}', second_stage_load_pretrained={config.get('second_stage_load_pretrained', False)}", flush=True)
+
+    if not load_pretrained:
+        # Prefer explicit first_stage_path inside log_dir (safe path that uses ignore_modules in loader)
+        fs_rel = config.get('first_stage_path', '')
+        if fs_rel != '':
+            first_stage_path = osp.join(log_dir, fs_rel)
+            print(f'Loading the first stage model at {first_stage_path} ...', flush=True)
+            # add a separating blank line so subsequent verbose prints (optimizers) don't clutter the log
+            print(flush=True)
+
+            # Check file existence and provide a clear error if missing
+            if not osp.exists(first_stage_path):
+                print(f"ERROR: resolved first_stage_path does not exist: {first_stage_path}", flush=True)
+                if config.get('pretrained_model', '') != '':
+                    print(f"Note: config.pretrained_model is set to '{config.get('pretrained_model')}', but second_stage_load_pretrained is False.\nIf you intended to load that path, set second_stage_load_pretrained: true or set first_stage_path to a file inside log_dir.", flush=True)
+                raise FileNotFoundError(first_stage_path)
+
+            try:
+                model, _, start_epoch, iters = load_checkpoint(model,
+                    None,
+                    first_stage_path,
+                    load_only_params=True,
+                    ignore_modules=['bert', 'bert_encoder', 'predictor', 'predictor_encoder', 'msd', 'mpd', 'wd', 'diffusion'])
+            except Exception as e:
+                print('Exception while loading first_stage checkpoint:', e, flush=True)
+                traceback.print_exc()
+                # Re-raise so the job fails loudly and SLURM logs capture the traceback
+                raise
+
+            # these epochs should be counted from the start epoch (start_epoch is 0 when load_only_params=True)
             diff_epoch += start_epoch
             joint_epoch += start_epoch
             epochs += start_epoch
-            
+
             model.predictor_encoder = copy.deepcopy(model.style_encoder)
         else:
-            raise ValueError('You need to specify the path to the first stage model.') 
+            raise ValueError('You need to specify the path to the first stage model. Set `first_stage_path` in the config to e.g. "first_stage.pth" or set `pretrained_model` and `second_stage_load_pretrained: true`.')
+
+    # ---------------------------------------------------------------
+    # END ADDED DEBUG BLOCK
+    # ---------------------------------------------------------------
+    
+    # Apply MyDataParallel AFTER loading checkpoint
+    for key in model:
+        if key != "mpd" and key != "msd" and key != "wd":
+            model[key] = MyDataParallel(model[key]) 
 
     gl = GeneratorLoss(model.mpd, model.msd).to(device)
     dl = DiscriminatorLoss(model.mpd, model.msd).to(device)
@@ -224,8 +405,7 @@ def main(config_path):
     
     stft_loss = MultiResolutionSTFTLoss().to(device)
     
-    print('BERT', optimizer.optimizers['bert'])
-    print('decoder', optimizer.optimizers['decoder'])
+    # Removed verbose optimizer repr prints to keep logs compact
 
     start_ds = False
     
@@ -244,6 +424,11 @@ def main(config_path):
     for epoch in range(start_epoch, epochs):
         running_loss = 0
         start_time = time.time()
+        # In joint phase this script runs extra SLM adversarial updates with
+        # their own optimizer cycles; keep step-per-batch there for safety.
+        effective_grad_acc_steps = grad_acc_steps if epoch < joint_epoch else 1
+        accum_counter = 0
+        optimizer.zero_grad()
 
         _ = [model[key].eval() for key in model]
 
@@ -297,6 +482,8 @@ def main(config_path):
             for bib in range(len(mel_input_length)):
                 mel_length = int(mel_input_length[bib].item())
                 mel = mels[bib, :, :mel_input_length[bib]]
+                
+                
                 s = model.predictor_encoder(mel.unsqueeze(0).unsqueeze(1))
                 ss.append(s)
                 s = model.style_encoder(mel.unsqueeze(0).unsqueeze(1))
@@ -306,7 +493,9 @@ def main(config_path):
             gs = torch.stack(gs).squeeze() # global acoustic styles
             s_trg = torch.cat([gs, s_dur], dim=-1).detach() # ground truth for denoiser
 
+            
             bert_dur = model.bert(texts, attention_mask=(~text_mask).int())
+            
             d_en = model.bert_encoder(bert_dur).transpose(-1, -2) 
             
             # denoiser training
@@ -337,6 +526,7 @@ def main(config_path):
             else:
                 loss_sty = 0
                 loss_diff = 0
+
 
             d, p = model.predictor(d_en, s_dur, 
                                                     input_lengths, 
@@ -405,17 +595,12 @@ def main(config_path):
             loss_norm_rec = F.smooth_l1_loss(N_real, N_fake)
 
             if start_ds:
-                optimizer.zero_grad()
                 d_loss = dl(wav.detach(), y_rec.detach()).mean()
-                d_loss.backward()
-                optimizer.step('msd')
-                optimizer.step('mpd')
+                (d_loss / effective_grad_acc_steps).backward()
             else:
                 d_loss = 0
 
             # generator loss
-            optimizer.zero_grad()
-
             loss_mel = stft_loss(y_rec, wav)
             if start_ds:
                 loss_gen_all = gl(wav, y_rec).mean()
@@ -451,22 +636,31 @@ def main(config_path):
                      loss_params.lambda_diff * loss_diff
 
             running_loss += loss_mel.item()
-            g_loss.backward()
+            (g_loss / effective_grad_acc_steps).backward()
+            
             if torch.isnan(g_loss):
-                from IPython.core.debugger import set_trace
-                set_trace()
+                print("NaN loss detected! Breaking training...")
+                break
 
-            optimizer.step('bert_encoder')
-            optimizer.step('bert')
-            optimizer.step('predictor')
-            optimizer.step('predictor_encoder')
-            
-            if epoch >= diff_epoch:
-                optimizer.step('diffusion')
-            
-            if epoch >= joint_epoch:
-                optimizer.step('style_encoder')
-                optimizer.step('decoder')
+            accum_counter += 1
+            if accum_counter % effective_grad_acc_steps == 0:
+                if start_ds:
+                    optimizer.step('msd')
+                    optimizer.step('mpd')
+
+                optimizer.step('bert_encoder')
+                optimizer.step('bert')
+                optimizer.step('predictor')
+                optimizer.step('predictor_encoder')
+
+                if epoch >= diff_epoch:
+                    optimizer.step('diffusion')
+
+                if epoch >= joint_epoch:
+                    optimizer.step('style_encoder')
+                    optimizer.step('decoder')
+
+                optimizer.zero_grad()
         
                 # randomly pick whether to use in-distribution text
                 if np.random.rand() < 0.5:
@@ -486,10 +680,28 @@ def main(config_path):
                                  ref_texts, 
                                  ref_lengths, use_ind, s_trg.detach(), ref if multispeaker else None)
 
+                # BEGIN TEMPORARY PATCH: keep training/logging when SLM adversarial is skipped
+                # If the adversarial routine returns None (no valid clips, NaN, etc.),
+                # we set SLM losses to zero and continue the batch so per-batch logging
+                # and optimizer steps still execute. Remove this block once the
+                # underlying SLM selection issue is resolved.
                 if slm_out is None:
-                    continue
-                    
-                d_loss_slm, loss_gen_lm, y_pred = slm_out
+                    # Use 1-based epoch/step numbers in human-facing logs to match other prints
+                    logger.info(f"SLMAdversarialLoss: skipped adversarial step at epoch {epoch+1}, step {i+1}")
+                    # keep d_loss_slm as int 0 so the following `if d_loss_slm != 0` check
+                    # behaves exactly as before. Use a tensor for generator loss so
+                    # `.backward()` is callable (leaf tensor with requires_grad=True).
+                    d_loss_slm = 0
+                    loss_gen_lm = torch.tensor(0.0, device=device, requires_grad=True)
+                    y_pred = None
+                else:
+                    d_loss_slm, loss_gen_lm, y_pred = slm_out
+
+                # ORIGINAL CODE (commented for easy restore):
+                # if slm_out is None:
+                #     continue
+                # d_loss_slm, loss_gen_lm, y_pred = slm_out
+                # END TEMPORARY PATCH
                 
                 # SLM generator loss
                 optimizer.zero_grad()
@@ -541,25 +753,64 @@ def main(config_path):
             iters = iters + 1
             
             if (i+1)%log_interval == 0:
-                logger.info ('Epoch [%d/%d], Step [%d/%d], Loss: %.5f, Disc Loss: %.5f, Dur Loss: %.5f, CE Loss: %.5f, Norm Loss: %.5f, F0 Loss: %.5f, LM Loss: %.5f, Gen Loss: %.5f, Sty Loss: %.5f, Diff Loss: %.5f, DiscLM Loss: %.5f, GenLM Loss: %.5f'
-                    %(epoch+1, epochs, i+1, len(train_list)//batch_size, running_loss / log_interval, d_loss, loss_dur, loss_ce, loss_norm_rec, loss_F0_rec, loss_lm, loss_gen_all, loss_sty, loss_diff, d_loss_slm, loss_gen_lm))
+                log_print ('Epoch [%d/%d], Step [%d/%d], Loss: %.5f, Disc Loss: %.5f, Dur Loss: %.5f, CE Loss: %.5f, Norm Loss: %.5f, F0 Loss: %.5f, LM Loss: %.5f, Gen Loss: %.5f, Sty Loss: %.5f, Diff Loss: %.5f, DiscLM Loss: %.5f, GenLM Loss: %.5f'
+                    %(epoch+1, epochs, i+1, len(train_list)//batch_size, running_loss / log_interval, d_loss, loss_dur, loss_ce, loss_norm_rec, loss_F0_rec, loss_lm, loss_gen_all, loss_sty, loss_diff, d_loss_slm, loss_gen_lm), logger)
                 
-                writer.add_scalar('train/mel_loss', running_loss / log_interval, iters)
-                writer.add_scalar('train/gen_loss', loss_gen_all, iters)
-                writer.add_scalar('train/d_loss', d_loss, iters)
-                writer.add_scalar('train/ce_loss', loss_ce, iters)
-                writer.add_scalar('train/dur_loss', loss_dur, iters)
-                writer.add_scalar('train/slm_loss', loss_lm, iters)
-                writer.add_scalar('train/norm_loss', loss_norm_rec, iters)
-                writer.add_scalar('train/F0_loss', loss_F0_rec, iters)
-                writer.add_scalar('train/sty_loss', loss_sty, iters)
-                writer.add_scalar('train/diff_loss', loss_diff, iters)
-                writer.add_scalar('train/d_loss_slm', d_loss_slm, iters)
-                writer.add_scalar('train/gen_loss_slm', loss_gen_lm, iters)
+                if writer is not None:
+                    writer.add_scalar('train/mel_loss', running_loss / log_interval, iters)
+                    writer.add_scalar('train/gen_loss', loss_gen_all, iters)
+                    writer.add_scalar('train/d_loss', d_loss, iters)
+                    writer.add_scalar('train/ce_loss', loss_ce, iters)
+                    writer.add_scalar('train/dur_loss', loss_dur, iters)
+                    writer.add_scalar('train/slm_loss', loss_lm, iters)
+                    writer.add_scalar('train/norm_loss', loss_norm_rec, iters)
+                    writer.add_scalar('train/F0_loss', loss_F0_rec, iters)
+                    writer.add_scalar('train/sty_loss', loss_sty, iters)
+                    writer.add_scalar('train/diff_loss', loss_diff, iters)
+                    writer.add_scalar('train/d_loss_slm', d_loss_slm, iters)
+                    writer.add_scalar('train/gen_loss_slm', loss_gen_lm, iters)
+                
+                # Log training losses to Wandb
+                loss_data = {
+                    'train/mel_loss': running_loss / log_interval,
+                    'train/gen_loss': float(loss_gen_all) if torch.is_tensor(loss_gen_all) else loss_gen_all,
+                    'train/d_loss': float(d_loss) if torch.is_tensor(d_loss) else d_loss,
+                    'train/ce_loss': float(loss_ce) if torch.is_tensor(loss_ce) else loss_ce,
+                    'train/dur_loss': float(loss_dur) if torch.is_tensor(loss_dur) else loss_dur,
+                    'train/slm_loss': float(loss_lm) if torch.is_tensor(loss_lm) else loss_lm,
+                    'train/norm_loss': float(loss_norm_rec) if torch.is_tensor(loss_norm_rec) else loss_norm_rec,
+                    'train/F0_loss': float(loss_F0_rec) if torch.is_tensor(loss_F0_rec) else loss_F0_rec,
+                    'train/sty_loss': float(loss_sty) if torch.is_tensor(loss_sty) else loss_sty,
+                    'train/diff_loss': float(loss_diff) if torch.is_tensor(loss_diff) else loss_diff,
+                    'train/d_loss_slm': float(d_loss_slm) if torch.is_tensor(d_loss_slm) else d_loss_slm,
+                    'train/gen_loss_slm': float(loss_gen_lm) if torch.is_tensor(loss_gen_lm) else loss_gen_lm,
+                    # log 1-based epoch to wandb so dashboards align with console output
+                    'epoch': epoch + 1,
+                    'step': iters
+                }
+                safe_wandb_log(wandb_run, loss_data)
                 
                 running_loss = 0
                 
-                print('Time elasped:', time.time()-start_time)
+                # Don't print elapsed time to stdout (avoids noisy log files).
+                # Keep as debug so it can be enabled when needed.
+                logger.debug(f"Elapsed time: {time.time() - start_time}")
+
+        # Flush partial accumulation window (only relevant pre-joint phase).
+        if effective_grad_acc_steps > 1 and accum_counter > 0 and accum_counter % effective_grad_acc_steps != 0:
+            if start_ds:
+                optimizer.step('msd')
+                optimizer.step('mpd')
+
+            optimizer.step('bert_encoder')
+            optimizer.step('bert')
+            optimizer.step('predictor')
+            optimizer.step('predictor_encoder')
+
+            if epoch >= diff_epoch:
+                optimizer.step('diffusion')
+
+            optimizer.zero_grad()
                 
         loss_test = 0
         loss_align = 0
@@ -608,12 +859,16 @@ def main(config_path):
                     gs = torch.stack(gs).squeeze()
                     s_trg = torch.cat([s, gs], dim=-1).detach()
 
+                    
                     bert_dur = model.bert(texts, attention_mask=(~text_mask).int())
-                    d_en = model.bert_encoder(bert_dur).transpose(-1, -2) 
+                    
+                    d_en = model.bert_encoder(bert_dur).transpose(-1, -2)
+                    
                     d, p = model.predictor(d_en, s, 
                                                         input_lengths, 
                                                         s2s_attn_mono, 
                                                         text_mask)
+                    
                     # get clips
                     mel_len = int(mel_input_length.min().item() / 2 - 1)
                     en = []
@@ -676,11 +931,22 @@ def main(config_path):
                     continue
 
         print('Epochs:', epoch + 1)
-        logger.info('Validation loss: %.3f, Dur loss: %.3f, F0 loss: %.3f' % (loss_test / iters_test, loss_align / iters_test, loss_f / iters_test) + '\n\n\n')
+        log_print('Validation loss: %.3f, Dur loss: %.3f, F0 loss: %.3f' % (loss_test / iters_test, loss_align / iters_test, loss_f / iters_test) + '\n\n\n', logger)
+        
         print('\n\n\n')
-        writer.add_scalar('eval/mel_loss', loss_test / iters_test, epoch + 1)
-        writer.add_scalar('eval/dur_loss', loss_align / iters_test, epoch + 1)
-        writer.add_scalar('eval/F0_loss', loss_f / iters_test, epoch + 1)
+        if writer is not None:
+            writer.add_scalar('eval/mel_loss', loss_test / iters_test, epoch + 1)
+            writer.add_scalar('eval/dur_loss', loss_align / iters_test, epoch + 1)
+            writer.add_scalar('eval/F0_loss', loss_f / iters_test, epoch + 1)
+        
+        # Log validation losses to Wandb
+        val_data = {
+            'eval/mel_loss': loss_test / iters_test,
+            'eval/dur_loss': loss_align / iters_test,
+            'eval/F0_loss': loss_f / iters_test,
+            'epoch': epoch + 1
+        }
+        safe_wandb_log(wandb_run, val_data)
         
         if epoch < joint_epoch:
             # generating reconstruction examples with GT duration
@@ -692,13 +958,16 @@ def main(config_path):
                     en = asr[bib, :, :mel_length // 2].unsqueeze(0)
 
                     F0_real, _, _ = model.pitch_extractor(gt.unsqueeze(1))
-                    F0_real = F0_real.unsqueeze(0)
+                    # Fix F0 dimension for HiFiGAN decoder
+                    if F0_real.dim() == 1:
+                        F0_real = F0_real.unsqueeze(0)  # [length] -> [1, length]
                     s = model.style_encoder(gt.unsqueeze(1))
                     real_norm = log_norm(gt.unsqueeze(1)).squeeze(1)
 
                     y_rec = model.decoder(en, F0_real, real_norm, s)
 
-                    writer.add_audio('eval/y' + str(bib), y_rec.cpu().numpy().squeeze(), epoch, sample_rate=sr)
+                    if writer is not None:
+                        writer.add_audio('eval/y' + str(bib), y_rec.cpu().numpy().squeeze(), epoch, sample_rate=sr)
 
                     s_dur = model.predictor_encoder(gt.unsqueeze(1))
                     p_en = p[bib, :, :mel_length // 2].unsqueeze(0)
@@ -707,10 +976,25 @@ def main(config_path):
 
                     y_pred = model.decoder(en, F0_fake, N_fake, s)
 
-                    writer.add_audio('pred/y' + str(bib), y_pred.cpu().numpy().squeeze(), epoch, sample_rate=sr)
+                    if writer is not None:
+                        writer.add_audio('pred/y' + str(bib), y_pred.cpu().numpy().squeeze(), epoch, sample_rate=sr)
 
-                    if epoch == 0:
-                        writer.add_audio('gt/y' + str(bib), waves[bib].squeeze(), epoch, sample_rate=sr)
+                        if epoch == 0:
+                            writer.add_audio('gt/y' + str(bib), waves[bib].squeeze(), epoch, sample_rate=sr)
+                    
+                    # Wandb audio logging
+                    if epoch % 10 == 0:  # Log audio every 10 epochs
+                        y_pred_np = y_pred.cpu().numpy().squeeze()
+                        
+                        audio_data = {
+                            f"audio/predicted_{bib}": wandb.Audio(y_pred_np, sample_rate=sr),
+                        }
+                        
+                        if epoch == 0:
+                            gt_audio = waves[bib].squeeze()
+                            audio_data[f"audio/ground_truth_{bib}"] = wandb.Audio(gt_audio, sample_rate=sr)
+                        
+                        safe_wandb_log(wandb_run, audio_data)
 
                     if bib >= 5:
                         break
@@ -759,10 +1043,53 @@ def main(config_path):
                     # encode prosody
                     en = (d.transpose(-1, -2) @ pred_aln_trg.unsqueeze(0).to(texts.device))
                     F0_pred, N_pred = model.predictor.F0Ntrain(en, s)
+                    
                     out = model.decoder((t_en[bib, :, :input_lengths[bib]].unsqueeze(0) @ pred_aln_trg.unsqueeze(0).to(texts.device)), 
                                             F0_pred, N_pred, ref.squeeze().unsqueeze(0))
 
-                    writer.add_audio('pred/y' + str(bib), out.cpu().numpy().squeeze(), epoch, sample_rate=sr)
+                    if writer is not None:
+                        writer.add_audio('pred/y' + str(bib), out.cpu().numpy().squeeze(), epoch, sample_rate=sr)
+
+                    # ---------------------------------------------------------------
+                    # BEGIN TEMPORARY W&B AUDIO PATCH (2025-10-29)
+                    # Purpose: upload sampled audio to Weights & Biases during joint
+                    # training so experiments have audio artifacts for inspection.
+                    # This is a temporary change; remove this block when not needed.
+                    # It is gated by the config flag `wandb.upload_joint_audio` so you
+                    # can enable/disable it without editing code. Default: False.
+                    # Keep cadence at epoch % 10 == 0 to limit bandwidth/storage.
+                    # ---------------------------------------------------------------
+                    upload_flag = config.get('wandb', {}).get('upload_joint_audio', False)
+                    if wandb_run is not None and upload_flag and (epoch % 10 == 0):
+                        try:
+                            out_np = out.cpu().numpy().squeeze()
+                            # waveform stats
+                            try:
+                                w_min = float(np.min(out_np))
+                                w_max = float(np.max(out_np))
+                                w_mean = float(np.mean(out_np))
+                            except Exception:
+                                w_min = w_max = w_mean = None
+                            duration_s = float(out_np.shape[-1]) / float(sr) if (hasattr(out_np, 'shape') and out_np.shape[-1] > 0) else 0.0
+
+                            audio_key = f"audio/sampled_{bib}"
+                            stats = {
+                                f"audio_stats/sampled_{bib}_min": w_min,
+                                f"audio_stats/sampled_{bib}_max": w_max,
+                                f"audio_stats/sampled_{bib}_mean": w_mean,
+                                f"audio_stats/sampled_{bib}_duration_s": duration_s,
+                                'epoch': epoch + 1,
+                                'step': iters
+                            }
+
+                            audio_data = {audio_key: wandb.Audio(out_np, sample_rate=sr)}
+                            audio_data.update(stats)
+                            safe_wandb_log(wandb_run, audio_data)
+                        except Exception as _e:
+                            logger.warning(f"Failed to prepare/send sampled audio to wandb: {_e}")
+                    # ---------------------------------------------------------------
+                    # END TEMPORARY W&B AUDIO PATCH
+                    # ---------------------------------------------------------------
 
                     if bib >= 5:
                         break
@@ -787,6 +1114,36 @@ def main(config_path):
                 
                 with open(osp.join(log_dir, osp.basename(config_path)), 'w') as outfile:
                     yaml.dump(config, outfile, default_flow_style=True)
-        
+        # close tensorboard writer if used
+        if writer is not None:
+            try:
+                writer.close()
+            except Exception:
+                pass
+
+    # ---------------------------------------------------------------
+    # FINAL CHECKPOINT SAVE
+    # Guarantee we save the final state after training (handles the
+    # case where epochs is exactly divisible by save_freq and the
+    # loop-saved filenames used 0-based epoch indices). This writes
+    # a final checkpoint named with the 1-based epoch count (e.g.
+    # epoch_2nd_00100.pth for epochs=100).
+    # ---------------------------------------------------------------
+    try:
+        print('Saving final checkpoint...')
+        final_state = {
+            'net':  {key: model[key].state_dict() for key in model},
+            'optimizer': optimizer.state_dict(),
+            'iters': iters,
+            'val_loss': (loss_test / iters_test) if 'iters_test' in locals() and iters_test>0 else None,
+            'epoch': epochs,
+        }
+        final_save_path = osp.join(log_dir, 'epoch_2nd_%05d.pth' % epochs)
+        torch.save(final_state, final_save_path)
+        print(f'Final checkpoint saved to: {final_save_path}')
+    except Exception as _e:
+        print('WARNING: failed to save final checkpoint:', _e)
+
+
 if __name__=="__main__":
     main()

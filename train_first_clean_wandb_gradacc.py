@@ -37,7 +37,10 @@ from accelerate.logging import get_logger
 from accelerate.utils import LoggerType
 from munch import Munch
 from torch import nn
-from torch.utils.tensorboard import SummaryWriter
+try:
+    from torch.utils.tensorboard import SummaryWriter
+except Exception:
+    SummaryWriter = None
 
 from losses import *
 from meldataset import build_dataloader
@@ -117,7 +120,9 @@ def main(config_path):
     wandb_run = setup_wandb(config, accelerator)
     
     use_tensorboard = config.get('use_tensorboard', False)
-    if use_tensorboard and accelerator.is_main_process:
+    if use_tensorboard and SummaryWriter is None and accelerator.is_main_process:
+        logger.warning("TensorBoard requested but not available; install 'tensorboard' or disable use_tensorboard.")
+    if use_tensorboard and SummaryWriter is not None and accelerator.is_main_process:
         writer = SummaryWriter(log_dir + "/tensorboard")
     else:
         writer = None
@@ -129,6 +134,9 @@ def main(config_path):
     logger.logger.addHandler(file_handler)
     
     batch_size = config.get('batch_size', 10)
+    grad_acc_steps = int(config.get('gradient_accumulation_steps', 1))
+    if grad_acc_steps < 1:
+        grad_acc_steps = 1
     device = accelerator.device
     
     epochs = config.get('epochs_1st', 200)
@@ -288,8 +296,10 @@ def main(config_path):
     for epoch in range(start_epoch, epochs):
         running_loss = 0
         start_time = time.time()
+        accum_counter = 0
 
         _ = [model[key].train() for key in model]
+        optimizer.zero_grad()
 
         for i, batch in enumerate(train_dataloader):
             waves = batch[0]
@@ -371,16 +381,12 @@ def main(config_path):
             # discriminator loss
             
             if epoch >= TMA_epoch:
-                optimizer.zero_grad()
                 d_loss = dl(wav.detach().unsqueeze(1).float(), y_rec.detach()).mean()
-                accelerator.backward(d_loss)
-                optimizer.step('msd')
-                optimizer.step('mpd')
+                accelerator.backward(d_loss / grad_acc_steps)
             else:
                 d_loss = 0
 
             # generator loss
-            optimizer.zero_grad()
             loss_mel = stft_loss(y_rec.squeeze(), wav.detach())
             
             if epoch >= TMA_epoch: # start TMA training
@@ -409,15 +415,23 @@ def main(config_path):
             
             running_loss += accelerator.gather(loss_mel).mean().item()
 
-            accelerator.backward(g_loss)
-            
-            optimizer.step('text_encoder')
-            optimizer.step('style_encoder')
-            optimizer.step('decoder')
-            
-            if epoch >= TMA_epoch: 
-                optimizer.step('text_aligner')
-                optimizer.step('pitch_extractor')
+            accelerator.backward(g_loss / grad_acc_steps)
+
+            accum_counter += 1
+            if accum_counter % grad_acc_steps == 0:
+                if epoch >= TMA_epoch:
+                    optimizer.step('msd')
+                    optimizer.step('mpd')
+
+                optimizer.step('text_encoder')
+                optimizer.step('style_encoder')
+                optimizer.step('decoder')
+
+                if epoch >= TMA_epoch:
+                    optimizer.step('text_aligner')
+                    optimizer.step('pitch_extractor')
+
+                optimizer.zero_grad()
             
             iters = iters + 1
             
@@ -451,6 +465,22 @@ def main(config_path):
                 # Don't print elapsed time to stdout (avoids noisy log files).
                 # Keep as debug so it can be enabled when needed.
                 logger.debug(f"Elapsed time: {time.time() - start_time}")
+
+        # Flush the final partial accumulation window so no gradients are dropped.
+        if accum_counter > 0 and accum_counter % grad_acc_steps != 0:
+            if epoch >= TMA_epoch:
+                optimizer.step('msd')
+                optimizer.step('mpd')
+
+            optimizer.step('text_encoder')
+            optimizer.step('style_encoder')
+            optimizer.step('decoder')
+
+            if epoch >= TMA_epoch:
+                optimizer.step('text_aligner')
+                optimizer.step('pitch_extractor')
+
+            optimizer.zero_grad()
                                 
         loss_test = 0
 

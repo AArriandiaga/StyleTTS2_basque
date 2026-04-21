@@ -21,7 +21,7 @@ import torch.nn.functional as F
 import torchaudio
 import librosa
 
-from models_old import *
+from models import *
 from meldataset import build_dataloader
 from utils import *
 from losses import *

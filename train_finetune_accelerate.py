@@ -21,7 +21,7 @@ from Utils.ASR_basque.models import ASRCNN
 from Utils.JDC.model import JDCNet
 from Utils.PLBERT.util import load_plbert
 
-from models_old import *
+from models import *
 from losses import *
 from utils import *
 
